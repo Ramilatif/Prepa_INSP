@@ -2,9 +2,13 @@
 
 ## État actuel
 
-- Phase en cours : 1 — MVP (squelette backend/frontend)
+- Phase en cours : 1 — MVP (reste à faire : lot de fiches de droit constitutionnel, téléchargement des publications officielles, compléter le catalogue)
 - Dernière mise à jour : 2026-10-30
-- Prochaine action : créer backend/ (Axum, sqlx, migrations), frontend/ (Vite React TS), docker-compose.yml, .env.example
+- Prochaine action : rédiger les fiches suivantes de droit constitutionnel (sources officielles, vérification croisée), puis finaliser la phase 1 et passer à la phase 2
+
+Fait en phase 1 : backend Axum + migrations + SM-2 + import des fiches + signalements, frontend React
+(fiches, flashcards, réglages, signalements), Docker Compose fonctionnel, pipeline d'indexation des
+références, catalogue de la bibliographie INSP (121 ouvrages), 1 fiche.
 
 ## Phases
 
@@ -32,17 +36,17 @@
 
 | Type                     | Attendus | Présents | Extraits et indexés | Remarques |
 | ------------------------ | -------- | -------- | ------------------- | --------- |
-| Publications officielles | —        | 0        | 0                   |           |
-| Ouvrages déposés         | —        | 0        | 0                   |           |
+| Publications officielles | —        | 0        | 0                   | à télécharger (références/officiels vide) |
+| Ouvrages déposés         | —        | 3        | 3                   | 2 PDF + 1 EPUB, tous avec texte (pas de scan) |
 
-Publications officielles introuvables : —
+Publications officielles introuvables : — (téléchargement pas encore lancé)
 Éditions plus récentes trouvées : —
 
 ## Fiches
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 0        | 0                 | 0                    | 0             |
+| Droit public                   | —       | 1        | 0                 | 0                    | 0             |
 | Économie                       | —       | 0        | 0                 | 0                    | 0             |
 | Finances publiques             | —       | 0        | 0                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
@@ -72,6 +76,10 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 
 - Programme détaillé de chaque épreuve : à confirmer sur le texte consolidé de l'arrêté du 21 mars 2023 (Légifrance), non lisible automatiquement.
 - Deux ouvrages déposés portent « z-library » dans leur nom : utilisés en vérification locale uniquement, exclus de git.
+- Catalogue de la bibliographie : 10 notices sur 121 marquées `a_verifier` (édition, éditeur ou année mal analysés) ; les listes « Zoom » des rubriques droit public et économie n'ont pas été capturées ; le champ `depose_id` (rapprochement avec les ouvrages déposés) est à renseigner à la main.
+- Fiche `controle-de-constitutionnalite` : statut « brouillon ». Vérifiés en ligne le 2026-10-30 : texte des art. 61, 61-1, 62 (Légifrance / Conseil constitutionnel, résumé), décisions 71-44 DC et 2010-14/22 QPC. Non vérifié : la loi organique n° 2009-1523 du 10 décembre 2009 (Légifrance illisible automatiquement), volontairement non citée. Aucun ouvrage déposé ne couvre le droit constitutionnel (le Brunet-Hamon-Troper n'est pas déposé) : la concordance avec les ouvrages ne peut pas être vérifiée.
+- Constitution : version consolidée « à jour au 8 mars 2024 » selon le Conseil constitutionnel ; à revérifier si une révision plus récente existe.
+- Le jeton de connexion est l'identifiant utilisateur (UUID) : suffisant sans mot de passe, à remplacer par une vraie session avec mot de passe avant la mise en ligne.
 
 ## Travail en cours (en cas d'interruption)
 
