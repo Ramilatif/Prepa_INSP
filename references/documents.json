@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ouvrages-1",
+    "type": "ouvrages",
+    "fichier": "Droit administratif (Michel Degoffe) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 734,
+    "scan": false,
+    "sha256": "1e080c5c861e7f9f0ecee7d3c8f4584f61ecbc5c34c397d4b0ad32048e0d8d8c"
+  },
+  {
+    "id": "ouvrages-2",
+    "type": "ouvrages",
+    "fichier": "Finances publiques.pdf",
+    "pages": 341,
+    "scan": false,
+    "sha256": "56a958a5f0392ec125d3a93e78105f73b70963c645e84660f02ae134a15a9c95"
+  },
+  {
+    "id": "ouvrages-3",
+    "type": "ouvrages",
+    "fichier": "Les politiques économiques à lépreuve des faits (Xavier Jaravel, Emmanuel Monnet etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "pages": 40,
+    "scan": false,
+    "sha256": "6f33efea9a8cefeb8bc596e037fa241fb83671c62a7461536ad5676747943bf9"
+  }
+]
