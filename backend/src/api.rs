@@ -56,6 +56,8 @@ pub fn router(pool: SqlitePool) -> Router {
         .route("/api/sessions", get(sessions))
         .route("/api/fiches", get(list_fiches))
         .route("/api/fiches/{slug}", get(get_fiche))
+        .route("/api/annales", get(list_annales))
+        .route("/api/grilles/{code}", get(get_grille))
         .route("/api/flashcards/due", get(due_cards))
         .route("/api/flashcards/{id}/review", post(review_card))
         .route(
@@ -214,6 +216,63 @@ async fn get_fiche(
         "sources": serde_json::from_str::<Value>(&r.get::<String, _>("sources_json")).unwrap_or(Value::Null),
         "body_md": r.get::<String, _>("body_md"),
     })))
+}
+
+#[derive(Deserialize)]
+struct AnnaleFilter {
+    format: Option<String>,
+    epreuve: Option<String>,
+    r#type: Option<String>,
+}
+
+/// Annales et rapports du jury. Chaque entrée porte son format (`reforme` ou `ancien`) :
+/// l'ancien format sert de matière thématique, pas de modèle de format.
+async fn list_annales(
+    State(pool): State<SqlitePool>,
+    _u: User,
+    Query(f): Query<AnnaleFilter>,
+) -> ApiResult<Value> {
+    let rows = sqlx::query(
+        "SELECT annee, type, epreuve, epreuve_code, format, url_source FROM annales
+         WHERE (? IS NULL OR format = ?) AND (? IS NULL OR epreuve_code = ?) AND (? IS NULL OR type = ?)
+         ORDER BY annee DESC, epreuve",
+    )
+    .bind(&f.format)
+    .bind(&f.format)
+    .bind(&f.epreuve)
+    .bind(&f.epreuve)
+    .bind(&f.r#type)
+    .bind(&f.r#type)
+    .fetch_all(&pool)
+    .await
+    .map_err(internal)?;
+    let list: Vec<Value> = rows
+        .iter()
+        .map(|r| {
+            json!({
+                "annee": r.get::<Option<i64>, _>("annee"), "type": r.get::<String, _>("type"),
+                "epreuve": r.get::<String, _>("epreuve"), "epreuve_code": r.get::<Option<String>, _>("epreuve_code"),
+                "format": r.get::<String, _>("format"), "url_source": r.get::<String, _>("url_source"),
+            })
+        })
+        .collect();
+    Ok(Json(json!(list)))
+}
+
+async fn get_grille(
+    State(pool): State<SqlitePool>,
+    _u: User,
+    Path(code): Path<String>,
+) -> ApiResult<Value> {
+    let r = sqlx::query("SELECT config_json FROM grilles WHERE epreuve_code = ?")
+        .bind(&code)
+        .fetch_optional(&pool)
+        .await
+        .map_err(internal)?
+        .ok_or((StatusCode::NOT_FOUND, "grille introuvable".to_string()))?;
+    let grille =
+        serde_json::from_str::<Value>(&r.get::<String, _>("config_json")).map_err(internal)?;
+    Ok(Json(grille))
 }
 
 /// Cartes à réviser : celles dont l'échéance est passée, puis les cartes jamais vues.

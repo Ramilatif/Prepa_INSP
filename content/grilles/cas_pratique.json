@@ -1,0 +1,71 @@
+{
+  "epreuve_code": "cas_pratique",
+  "nom": "Cas pratique sur les enjeux des transitions écologique ou numérique",
+  "format": "reforme",
+  "source": {
+    "document": "Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexe « Cas pratique », concours externe",
+    "url": "https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf",
+    "pages": "62 à 66 (lues jusqu'à la rubrique « Sur la forme » ; la suite de l'annexe n'a pas été exploitée)",
+    "moyenne_epreuve_2025": 8.97
+  },
+  "total": 20,
+  "note_sur_les_poids": "Le jury ne publie pas de barème chiffré. Poids indicatifs, choix de l'application, à partir des critères listés dans le rapport.",
+  "criteres": [
+    {
+      "id": "comprehension_situation", "categorie": "fond", "libelle": "Compréhension de la situation et exploitation du dossier",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Comprendre la situation sensible, ses contraintes décisionnelles et la complexité des enjeux",
+        "Exploiter les données plurielles du dossier et articuler les positions opposées des parties prenantes ; distinguer intérêts particuliers, catégoriels ou idéologiques et intérêt général",
+        "Ne pas passer à côté des documents sur les tensions, le lobbying ou les failles de contrôle ; ne pas se contenter de paraphraser"
+      ]
+    },
+    {
+      "id": "analyse_sens_critique", "categorie": "fond", "libelle": "Analyse de l'existant, sens critique et cohérence des politiques publiques",
+      "poids": 4, "poids_officiel": false,
+      "attendus": [
+        "Diagnostic de l'existant et des perspectives d'évolution",
+        "Sens critique ; attention à la cohérence des politiques publiques ; identifier des points de convergence possibles",
+        "Ne pas laisser la dimension juridique l'emporter sur l'appréciation économique, environnementale et sur la rigueur de la décision de l'autorité publique"
+      ]
+    },
+    {
+      "id": "decision_motivee", "categorie": "fond", "libelle": "Décision motivée, assumée et applicable",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Énoncer une décision claire (favorable ou défavorable), étayée, applicable et assumée, nuancée si besoin : les deux étaient légitimes",
+        "Se placer dans la fonction indiquée (cadre supérieur de l'administration) avec autonomie de jugement",
+        "Risques juridiques et financiers pour l'État identifiés (condamnations) pour justifier l'urgence d'agir"
+      ]
+    },
+    {
+      "id": "mise_en_oeuvre", "categorie": "fond", "libelle": "Calibrage dans le temps, moyens et suivi",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "Décision immédiate, gestion de ses effets, évolutions innovantes : étapes, jalons réalistes, mesures transitoires",
+        "Intégration de l'urgence à agir ; ajustement des objectifs aux moyens ; suivi, contrôle et évaluation des résultats"
+      ]
+    },
+    {
+      "id": "forme_annexe", "categorie": "forme", "libelle": "Forme de la note et annexe demandée",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "Introduction concise et raisonnée ; plan apparent et structurant ; titres signifiants ; style neutre et impersonnel",
+        "Annexe demandée (tableau ou schéma des conséquences dans les deux scénarios) : peu discriminante, mais son absence est fortement pénalisante",
+        "Annexe à plusieurs entrées (rôle des acteurs, évaluation des risques, avantages et inconvénients) plutôt qu'un tableau descriptif à deux colonnes"
+      ]
+    }
+  ],
+  "erreurs_frequentes": [
+    "Traitement de forme académique, sans égard pour la mise en situation concrète du libellé",
+    "Dossier exploité superficiellement, documents paraphrasés sans démontrer leur portée",
+    "Documents sur les tensions, le lobbying ou l'insuffisance des contrôles sous-exploités ou éludés ; associations traitées seulement comme contestataires",
+    "Ignorer les difficultés de moyens et d'acceptabilité pour contrôler le respect des normes",
+    "Dimension juridique qui l'emporte sur l'analyse économico-environnementale et sur la rigueur de la décision",
+    "Peu de candidats envisagent un rapport conflictuel de l'autorité publique avec la filière concernée"
+  ],
+  "conseils": [
+    "Produire une aide à la décision : la note est l'ossature de la commande, l'annexe en schématise la réflexion",
+    "Une décision de refus exigeait davantage d'audace et a donné plus de très bonnes copies : argumenter solidement quel que soit le sens retenu"
+  ]
+}

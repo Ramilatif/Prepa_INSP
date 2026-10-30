@@ -1,8 +1,68 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Markdown from "react-markdown";
-import { api, type Card, type FicheSummary, type Me } from "./api";
-import { matiereLabel, statutLevel } from "./labels";
+import { api, type Annale, type Card, type FicheSummary, type Grille, type Me } from "./api";
+import { EPREUVES, TYPE_ANNALE, matiereLabel, statutLevel } from "./labels";
+
+/** Annales : le format réformé est présenté en premier ; l'ancien format sert de matière thématique. */
+export function Annales() {
+  const [list, setList] = useState<Annale[]>([]);
+  const [epreuve, setEpreuve] = useState("");
+  useEffect(() => {
+    const p = new URLSearchParams();
+    if (epreuve) p.set("epreuve", epreuve);
+    api<Annale[]>(`/annales?${p}`).then(setList).catch(() => setList([]));
+  }, [epreuve]);
+  const row = (a: Annale) => (
+    <li key={a.url_source}>
+      <a href={a.url_source} target="_blank" rel="noreferrer">
+        {a.annee ?? "Fictif"} · {TYPE_ANNALE[a.type] ?? a.type} · {a.epreuve.replaceAll("_", " ")}
+      </a>
+    </li>
+  );
+  return (
+    <section>
+      <h1>Annales et rapports du jury</h1>
+      <p className="muted">Source : insp.gouv.fr (concours externe, voie générale).</p>
+      <select value={epreuve} onChange={(e) => setEpreuve(e.target.value)}>
+        <option value="">Toutes les épreuves</option>
+        {EPREUVES.map(([c, l]) => <option key={c} value={c}>{l}</option>)}
+      </select>
+      <h2>Format réformé (2024 et après)</h2>
+      <ul className="list">{list.filter((a) => a.format === "reforme").map(row)}</ul>
+      <h2>Ancien format</h2>
+      <p className="muted">Matière thématique uniquement, pas un modèle de format.</p>
+      <ul className="list">{list.filter((a) => a.format === "ancien").map(row)}</ul>
+      <h2>Grilles d'évaluation</h2>
+      <ul className="list">
+        {EPREUVES.map(([c, l]) => <li key={c}><Link to={`/grilles/${c}`}>{l}</Link></li>)}
+      </ul>
+    </section>
+  );
+}
+
+export function GrillePage() {
+  const { code } = useParams();
+  const [g, setG] = useState<Grille | null>(null);
+  useEffect(() => { api<Grille>(`/grilles/${code}`).then(setG).catch(() => setG(null)); }, [code]);
+  if (!g) return <p className="muted">Chargement…</p>;
+  return (
+    <article>
+      <h1>{g.nom}</h1>
+      <p className="muted">Source : {g.source.document}, p. {g.source.pages}. {g.note_sur_les_poids}</p>
+      {g.criteres.map((c) => (
+        <section key={c.id}>
+          <h2>{c.libelle} <span className="muted">({c.poids}/{g.total}{c.poids_officiel ? ", barème officiel" : ", indicatif"})</span></h2>
+          <ul>{c.attendus.map((a) => <li key={a}>{a}</li>)}</ul>
+        </section>
+      ))}
+      <h2>Erreurs fréquentes</h2>
+      <ul>{g.erreurs_frequentes.map((e) => <li key={e}>{e}</li>)}</ul>
+      <h2>Conseils du jury</h2>
+      <ul>{g.conseils.map((e) => <li key={e}>{e}</li>)}</ul>
+    </article>
+  );
+}
 
 /** Bouton « signaler une erreur » présent sur chaque fiche, flashcard et corrigé. */
 export function SignalButton({ type, id }: { type: string; id: string }) {

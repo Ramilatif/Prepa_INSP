@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter, NavLink, Navigate, Route, Routes } from "react-router-dom";
 import { api, getToken, setToken } from "./api";
-import { Cartes, FichePage, Fiches, Reglages, Signalements } from "./pages";
+import { Annales, Cartes, FichePage, Fiches, GrillePage, Reglages, Signalements } from "./pages";
 
 function Login({ onDone }: { onDone: () => void }) {
   const [pseudo, setPseudo] = useState("");
@@ -37,6 +37,7 @@ export default function App() {
         <nav>
           <NavLink to="/fiches">Fiches</NavLink>
           <NavLink to="/cartes">Flashcards</NavLink>
+          <NavLink to="/annales">Annales</NavLink>
           <NavLink to="/signalements">Signalements</NavLink>
           <NavLink to="/reglages">Réglages</NavLink>
           <button className="link" onClick={() => { setToken(null); setLogged(false); }}>Quitter</button>
@@ -48,6 +49,8 @@ export default function App() {
           <Route path="/fiches" element={<Fiches />} />
           <Route path="/fiches/:slug" element={<FichePage />} />
           <Route path="/cartes" element={<Cartes />} />
+          <Route path="/annales" element={<Annales />} />
+          <Route path="/grilles/:code" element={<GrillePage />} />
           <Route path="/signalements" element={<Signalements />} />
           <Route path="/reglages" element={<Reglages />} />
         </Routes>

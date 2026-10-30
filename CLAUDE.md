@@ -43,7 +43,8 @@ En cas de contradiction : PROMPT.md fait foi, puis ARCHITECTURE.md.
 - Tests frontend : cd frontend && npm test
 - Lint frontend : cd frontend && npm run lint
 - Nouvelle migration : cd backend && sqlx migrate add <nom>
-- Extraction et indexation des références : à documenter dans tools/references/README.md
+- Références (extraction, index, recherche) : voir tools/references/README.md (`refs.py index`, `refs.py search "…"`)
+- Annales et rapports du jury : `python tools/annales/fetch_annales.py` (venv : tools/references/.venv)
 
 ## Règles de travail
 

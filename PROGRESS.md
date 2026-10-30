@@ -2,9 +2,9 @@
 
 ## État actuel
 
-- Phase en cours : 1 — MVP (reste à faire : lot de fiches de droit constitutionnel, téléchargement des publications officielles, compléter le catalogue)
+- Phase en cours : 3 — sujets chronométrés, dépôt PDF, auto-évaluation (phase 1 : MVP fonctionnel mais fiches très incomplètes, voir plus bas ; phase 2 terminée)
 - Dernière mise à jour : 2026-10-30
-- Prochaine action : rédiger les fiches suivantes de droit constitutionnel (sources officielles, vérification croisée), puis finaliser la phase 1 et passer à la phase 2
+- Prochaine action : phase 3 (chronomètre, dépôt de copies en PDF, auto-évaluation avec les grilles) ; compléter les fiches en parallèle
 
 Fait en phase 1 : backend Axum + migrations + SM-2 + import des fiches + signalements, frontend React
 (fiches, flashcards, réglages, signalements), Docker Compose fonctionnel, pipeline d'indexation des
@@ -17,7 +17,7 @@ références, catalogue de la bibliographie INSP (121 ouvrages), 1 fiche.
 - [ ] 1. MVP : pseudo, session, majeure/mineure, fiches avec sources et statut,
      catalogue bibliographie, pipeline des références, premier lot de fiches vérifiées,
      flashcards SM-2, signalement
-- [ ] 2. Annales et rapports du jury, grilles d'évaluation
+- [x] 2. Annales et rapports du jury, grilles d'évaluation (voir « Annales » ci-dessous)
 - [ ] 3. Sujets chronométrés, dépôt PDF, auto-évaluation
 - [ ] 4. Correction IA différée (Batch, deux passes) et budget
 - [ ] 5. Entraînement méthodo et questions à réponses courtes
@@ -58,9 +58,9 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 
 ## Annales
 
-- Sujets importés (format réformé / ancien format) : 0 / 0
-- Rapports du jury importés : 0
-- Grilles d'évaluation construites : 0 / 5 épreuves
+- Sujets importés (format réformé / ancien format) : 52 documents au total (concours externe) : sujets 2024-2026 + sujets fictifs V0 + meilleures copies 2024-2025 + 2 rapports en format réformé ; sujets, copies et rapports 2021-2023 en ancien format (23)
+- Rapports du jury importés : 5 (2021 à 2025) ; seuls 2024 et 2025 sont du format réformé
+- Grilles d'évaluation construites : 5 / 5 épreuves (note de réflexion, économie, droit public, QRC, cas pratique), d'après le rapport 2025
 
 ## Journal des décisions
 
@@ -68,9 +68,14 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - 2026-10-30 — Extraction de références en Python dans un venv local (PyMuPDF, ebooklib), sans OCR — les 3 ouvrages et la bibliographie contiennent du texte ; EPUB accepté.
 - 2026-10-30 — Session 2027 saisie dans content/sessions/2027.json à partir de la page officielle insp.gouv.fr/concours-externe (thèmes 2026-2027 : « Puissance et impuissances publiques » ; « L'apport de la science et des technologies aux politiques publiques ») — le texte Légifrance n'est pas lisible automatiquement.
 
+- 2026-10-30 — Annales : concours externe uniquement, téléchargées par tools/annales/fetch_annales.py (liste relevée sur insp.gouv.fr), PDF dans content/annales/files/ exclus de git (re-téléchargeables), manifeste index.json versionné. Format « réformé » = 2024 et après (d'après la page de l'INSP) ; 2022-2023 = « ancien ».
+- 2026-10-30 — Grilles : seul le barème de la forme de la note de réflexion (5/20) est officiel ; tous les autres poids sont des choix de l'appli (champ `poids_officiel: false`, affiché comme « indicatif »). Le total de chaque grille est vérifié à l'import (somme des poids = 20).
+
 ## Problèmes rencontrés
 
 <!-- Format : date — problème — solution ou statut -->
+- 2026-10-30 — Rapport du jury 2025 : les moyennes de plusieurs épreuves sont identiques d'une épreuve à l'autre (ex. 8,65 pour les trois QRC externes) ; recopiées telles quelles et signalées dans la grille QRC.
+- 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
 

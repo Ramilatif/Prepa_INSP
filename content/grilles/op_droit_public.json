@@ -1,0 +1,62 @@
+{
+  "epreuve_code": "op_droit_public",
+  "nom": "Épreuve opérationnelle de droit public (note opérationnelle)",
+  "format": "reforme",
+  "source": {
+    "document": "Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexe « Droit public », concours externe",
+    "url": "https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf",
+    "pages": "30 à 32",
+    "moyenne_epreuve_2025": 6.9
+  },
+  "total": 20,
+  "note_sur_les_poids": "Le jury ne publie pas de barème chiffré. Les quatre critères de fond sont ceux que cite le rapport ; leurs poids sont un choix indicatif de l'application.",
+  "criteres": [
+    {
+      "id": "notions_juridiques", "categorie": "fond", "libelle": "Compréhension des notions juridiques et des thèmes du sujet",
+      "poids": 4, "poids_officiel": false,
+      "attendus": [
+        "Circonscrire le cadre juridique applicable à partir de ses propres connaissances et du dossier",
+        "Maîtriser les règles de répartition des compétences entre loi et règlement, les régimes de responsabilité administrative, etc., selon le sujet"
+      ]
+    },
+    {
+      "id": "connaissances_juridiques", "categorie": "fond", "libelle": "Précision et pertinence des connaissances juridiques",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Connaissances suffisantes en droit public, pas une simple restitution de « fiches »",
+        "Prendre en compte l'ensemble des règles supérieures utiles, internes et européennes (ex. 2025 : textes européens imposant une responsabilité sans faute, pas seulement la faute lourde)"
+      ]
+    },
+    {
+      "id": "analyse_juridique", "categorie": "fond", "libelle": "Analyse juridique et réflexion personnelle cohérente",
+      "poids": 7, "poids_officiel": false,
+      "attendus": [
+        "Confronter les mesures envisagées aux principes applicables et apprécier leur conformité (syllogisme juridique) : c'est l'élément central de l'exercice",
+        "Dissocier les aspects : compétence de l'autorité normative, régimes de responsabilité, règles spécifiques",
+        "Justifier en droit, éviter les affirmations péremptoires ; prendre de la hauteur"
+      ]
+    },
+    {
+      "id": "propositions", "categorie": "fond", "libelle": "Propositions juridiques opérationnelles",
+      "poids": 4, "poids_officiel": false,
+      "attendus": [
+        "Déduire du résultat de la confrontation au droit en vigueur des propositions concrètes pour améliorer le dispositif et faciliter sa mise en œuvre",
+        "Solutions proprement juridiques, complétées (sans s'y substituer) par les dimensions politique et administrative"
+      ]
+    }
+  ],
+  "erreurs_frequentes": [
+    "Absence de véritable analyse juridique du dispositif envisagé : c'est le premier et le principal écueil",
+    "Simple synthèse du dossier ou restitution de fiches au lieu d'un raisonnement",
+    "Affirmations péremptoires, réponses insuffisamment justifiées en droit",
+    "Déduire la faisabilité d'une réforme d'un seul régime existant sans rechercher les règles qui y feraient obstacle",
+    "Importance excessive donnée aux propositions et à leur déclinaison formelle artificielle, au détriment de l'analyse",
+    "Développements mal structurés de façon excessivement scolaire : méthode de la note administrative appliquée sans en saisir la portée"
+  ],
+  "conseils": [
+    "Épreuve de droit : le contenu et les solutions doivent refléter une maîtrise du droit public",
+    "Prendre le temps d'identifier les éléments du sujet et de construire un raisonnement juridique qui les recouvre",
+    "Se forger et exprimer une opinion argumentée, sans verser dans l'appréciation inappropriée",
+    "Épreuve normée : rigueur de la construction, pertinence de l'argumentation, clarté et qualité de l'expression écrite"
+  ]
+}

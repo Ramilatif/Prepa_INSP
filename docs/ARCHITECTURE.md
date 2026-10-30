@@ -59,6 +59,18 @@ identifiants TEXT UUID, booléens INTEGER 0/1), pas de syntaxe propre à SQLite 
 - Session : JSON dans `content/sessions/` (voir `2027.json`).
 - Grille : JSON dans `content/grilles/` : critères, points, éléments attendus, erreurs fréquentes, source (rapport du jury).
 
+### Annales et grilles (phase 2)
+
+- `content/annales/index.json` (généré par `tools/annales/fetch_annales.py`) : une entrée par document
+  `{annee, concours, type, epreuve, epreuve_code, format, url, fichier, sha256}` ; `format` vaut `reforme` ou
+  `ancien`. Source : https://insp.gouv.fr/concours/ressources-utiles/sujets-meilleures-copies-et-rapports-des-jurys/voie-generale
+  (relevé du 2026-10-30). Les PDF (`content/annales/files/`) ne sont pas versionnés.
+- `content/grilles/<epreuve>.json` : `{epreuve_code, nom, total, criteres[{id, categorie, libelle, poids,
+  poids_officiel, attendus[]}], erreurs_frequentes[], conseils[], source}` ; l'import refuse une grille dont la
+  somme des poids diffère de `total`.
+- Tables `annales` et `grilles` (migration 0002) ; endpoints `GET /api/annales?format=&epreuve=&type=` et
+  `GET /api/grilles/{code}`.
+
 ## 7. Pipeline des références (`tools/references/`)
 
 Python (venv local) : extraction PDF/EPUB page par page (PyMuPDF, ebooklib), écriture dans

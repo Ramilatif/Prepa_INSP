@@ -1,0 +1,77 @@
+{
+  "epreuve_code": "op_economie",
+  "nom": "Épreuve opérationnelle d'économie (note opérationnelle)",
+  "format": "reforme",
+  "source": {
+    "document": "Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexe « Economie », concours externe",
+    "url": "https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf",
+    "pages": "20 à 24",
+    "moyenne_epreuve_2025": 8.11
+  },
+  "total": 20,
+  "note_sur_les_poids": "Le jury ne publie pas de barème chiffré pour cette épreuve. Les poids sont un choix de l'application, à titre indicatif, construit à partir des critères décrits dans le rapport.",
+  "criteres": [
+    {
+      "id": "connaissances_mecanismes", "categorie": "fond", "libelle": "Connaissances personnelles et explicitation des mécanismes économiques",
+      "poids": 6, "poids_officiel": false,
+      "attendus": [
+        "Mobiliser des connaissances personnelles au-delà du dossier : c'est, selon le jury, le principal critère discriminant",
+        "Expliciter les mécanismes (et pas seulement répéter les arguments du dossier) : justifications ET risques, y compris pour la France",
+        "Références théoriques mentionnées seulement lorsqu'elles sont pertinentes (pas de « Keynes (1936) » systématique)",
+        "Actualité récente et données à jour intégrées à l'analyse"
+      ]
+    },
+    {
+      "id": "exploitation_dossier", "categorie": "fond", "libelle": "Exploitation intelligente du dossier",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "Extraire les informations pertinentes sans contresens ni simple paraphrase : le dossier est connu de tous les candidats et n'est pas autosuffisant"
+      ]
+    },
+    {
+      "id": "modalites_contraintes", "categorie": "fond", "libelle": "Modalités de mise en œuvre et contraintes",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "S'appuyer sur les précédents et les documents du dossier",
+        "Contraintes politiques et juridiques identifiées (règle d'unanimité, base juridique, ressources propres…)",
+        "Bonne connaissance des institutions (ex. 2025 : la BCE n'émet pas la dette commune, ne la monétise pas)"
+      ]
+    },
+    {
+      "id": "arbitrage_plan_action", "categorie": "fond", "libelle": "Arbitrage et plan d'action",
+      "poids": 4, "poids_officiel": false,
+      "attendus": [
+        "Prendre position de manière étayée et cohérente avec l'argumentation : proposer un arbitrage, pas une alternative au décideur",
+        "Une analyse de scénarios est possible si elle se conclut par une hiérarchisation des options",
+        "Plan d'action destiné au destinataire de la note (ex. le ministre et son cabinet) : actions qu'il peut réellement mener (stratégie d'influence, étapes de la négociation)"
+      ]
+    },
+    {
+      "id": "format_note_operationnelle", "categorie": "forme", "libelle": "Maîtrise du format de la note opérationnelle et rédaction",
+      "poids": 4, "poids_officiel": false,
+      "attendus": [
+        "Introduction brève qui présente les enjeux et reproduit la commande (annonce de plan) ; ni définitions ni problématique de dissertation",
+        "Plan libre, de préférence calqué sur la commande ; titres signifiants (phrase verbale) mais pas trop longs",
+        "Style synthétique et sobre, rédigé (pas télégraphique : pas de profusion de tirets, flèches, puces)",
+        "Taille : le jury note que les bonnes copies font généralement entre 9 et 12 pages (la longueur n'est pas un critère)",
+        "Neutralité d'un fonctionnaire : pas de jugements personnels sur des gouvernements"
+      ]
+    }
+  ],
+  "erreurs_frequentes": [
+    "Se borner à utiliser le dossier, maladroitement ou avec des contresens : c'est la majorité des copies, qui ne pouvaient pas avoir la moyenne",
+    "Confondre la note opérationnelle avec une dissertation ou une note de synthèse",
+    "Considérer les faiblesses d'un instrument comme des « risques » (mauvaise compréhension de la notion de risque)",
+    "Ne pas traiter les risques pour la France alors que la commande les demandait",
+    "Accorder une place excessive à un sujet périphérique (ex. l'Union des marchés de capitaux) au détriment du sujet",
+    "Présenter une alternative au lieu d'un arbitrage ; plan d'action hors du champ du destinataire (techniques d'émission de la Commission)",
+    "Tout formaliser en recommandations (une vingtaine) ou appliquer une grille d'analyse lourde (acteurs, vecteurs, budget, calendrier…) de façon systématique",
+    "Copies inachevées par mauvaise gestion du temps face à un dossier dense"
+  ],
+  "conseils": [
+    "Ne pas penser que le dossier dispense d'un effort d'apprentissage théorique et de maîtrise des concepts",
+    "Connaître l'actualité économique, budgétaire et internationale des matières évaluées",
+    "S'inspirer des meilleures copies publiées et des rapports du jury pour s'approprier le format",
+    "Reproduire la commande en introduction et en suivre le déroulé dans le plan"
+  ]
+}

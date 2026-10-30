@@ -10,3 +10,4 @@ __pycache__/
 *.db
 *.db-shm
 *.db-wal
+content/annales/files/

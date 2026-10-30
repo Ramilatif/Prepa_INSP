@@ -1,0 +1,70 @@
+{
+  "epreuve_code": "note_reflexion",
+  "nom": "Note de réflexion sur une question contemporaine",
+  "format": "reforme",
+  "source": {
+    "document": "Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexe « Question contemporaine », concours externe",
+    "url": "https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf",
+    "pages": "11 à 15",
+    "moyenne_epreuve_2025": 9.36
+  },
+  "total": 20,
+  "note_sur_les_poids": "Seule la forme est chiffrée par le jury (5 points sur 20). Le découpage du fond (15 points) en trois critères égaux est un choix de l'application, non publié par le jury.",
+  "criteres": [
+    {
+      "id": "connaissances_references", "categorie": "fond", "libelle": "Solidité des connaissances et des références",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Connaissances, références et exemples précis et datés (ouvrages, rapports, films…) qui font percevoir les enjeux et dressent un état des lieux",
+        "Sources exploitées en lien direct avec le propos, pas accumulées : une citation pertinente étaye un argument",
+        "Profondeur historique utile, sans s'attarder sur l'Antiquité ou le Moyen Âge",
+        "Données et exemples actuels, fiables et adaptés au sujet : affirmations générales ou références erronées ou obsolètes sanctionnées"
+      ]
+    },
+    {
+      "id": "argumentation_plan", "categorie": "fond", "libelle": "Qualité de l'argumentation, introduction et plan",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Introduction : accroche pertinente, analyse précise des termes du sujet avec délimitation claire, enjeux, problématique qui articule toutes les dimensions du sujet",
+        "Plan rigoureux et équilibré, chaque partie mettant en évidence un aspect du sujet, avec une progression logique",
+        "Cohérence : respect du fil directeur annoncé, articulation (et non juxtaposition) entre l'état des lieux et les propositions",
+        "Réflexion personnelle au-delà du constat : leviers et freins de l'action publique"
+      ]
+    },
+    {
+      "id": "propositions_action", "categorie": "fond", "libelle": "Pertinence des propositions d'action",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Adéquation entre les propositions et le diagnostic établi dans la copie",
+        "Propositions ancrées dans les réalités des politiques publiques, concrètes, réalistes, avec modalités, champ d'application et faisabilité",
+        "Connaissance des mécanismes de l'action publique (moyens, leviers, freins, niveaux d'action) et des résistances à la volonté politique",
+        "Style administratif maîtrisé : concis, clair, adapté à un lectorat d'acteurs publics"
+      ]
+    },
+    {
+      "id": "forme_redaction", "categorie": "forme", "libelle": "Qualité et rigueur rédactionnelles",
+      "poids": 5, "poids_officiel": true,
+      "attendus": [
+        "Maîtrise de la langue (orthographe, grammaire, noms propres) ; fautes répétées rédhibitoires",
+        "Élégance et précision des formulations, style clair et sans ambiguïté",
+        "Copie visiblement structurée (paragraphes, numérotation des idées), lisible (peu de ratures, écriture lisible)"
+      ]
+    }
+  ],
+  "erreurs_frequentes": [
+    "Copies inachevées ou très brèves (moins de 2 pages) : conclusion absente, deuxième partie sous-développée, donc pas de préconisations",
+    "Trop de temps et de place sur l'introduction, la première partie et le contexte historique, au détriment de la suite",
+    "Introduction qui juxtapose accroche, définitions et problématique sans les relier",
+    "Sujet réduit à un seul aspect (par exemple le seul télétravail, ou seulement l'intelligence artificielle) ou dérive hors sujet",
+    "Propositions générales, déconnectées du diagnostic ou non développées",
+    "Accumulation de références apprises, au détriment de la réflexion personnelle (biais du thème annoncé)",
+    "Récitation de plans-types ou de références classiques sans recul ; s'appuyer sur son seul vécu personnel"
+  ],
+  "conseils": [
+    "S'entraîner dans les conditions de l'épreuve pour gérer le temps : une copie équilibrée avec une vraie conclusion vaut mieux qu'un développement inachevé",
+    "Définir précisément les termes du sujet et borner son périmètre dans l'introduction (ex. 2025 : qualité de vie au travail, pas qualité de vie privée)",
+    "Soigner les recommandations finales, élément essentiel de l'appréciation, en pensant faisabilité",
+    "Mobiliser les références de façon sélective et fonctionnelle : leur pertinence tient moins au nombre qu'à leur apport à l'analyse",
+    "Le jury note que certaines des copies les plus réussies ne dépassaient pas 10 pages"
+  ]
+}

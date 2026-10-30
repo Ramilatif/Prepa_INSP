@@ -46,6 +46,23 @@ export interface Card {
   kind: string;
   source_ref: string;
 }
+export interface Annale {
+  annee: number | null;
+  type: string;
+  epreuve: string;
+  epreuve_code: string | null;
+  format: "reforme" | "ancien";
+  url_source: string;
+}
+export interface Grille {
+  nom: string;
+  total: number;
+  note_sur_les_poids: string;
+  source: { document: string; url: string; pages: string };
+  criteres: { id: string; libelle: string; categorie: string; poids: number; poids_officiel: boolean; attendus: string[] }[];
+  erreurs_frequentes: string[];
+  conseils: string[];
+}
 export interface Me {
   pseudo: string;
   majeure: string | null;

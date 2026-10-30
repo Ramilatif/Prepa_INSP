@@ -1,0 +1,74 @@
+{
+  "epreuve_code": "qrc",
+  "nom": "Questions à réponses courtes (finances publiques, questions sociales, questions européennes et internationales)",
+  "format": "reforme",
+  "source": {
+    "document": "Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexes « Questions à réponses courtes » (finances publiques, questions sociales, questions européennes et internationales), concours externe",
+    "url": "https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf",
+    "pages": "39 à 40, 46 à 48, 54 à 57",
+    "moyenne_epreuve_2025": {"finances_publiques": 8.65, "questions_sociales": 8.65, "europe_international": 8.65}
+  },
+  "total": 20,
+  "note_sur_les_poids": "Le rapport décrit trois sujets distincts (un par domaine) et mentionne pour l'un d'eux des « très bonnes copies » à 4,5-6 points, sans publier de barème complet. Poids indicatifs, choix de l'application. Les 3 moyennes de 8,65 sont recopiées du rapport telles quelles et sont à contrôler.",
+  "criteres": [
+    {
+      "id": "reponse_claire_problematisee", "categorie": "fond", "libelle": "Réponse claire à la question posée, problématisée et hiérarchisée",
+      "poids": 5, "poids_officiel": false,
+      "attendus": [
+        "Répondre directement à la question, par l'affirmative comme par la négative si la démonstration est cohérente",
+        "Définir précisément les termes du sujet pour borner le périmètre (ex. 2025 : ce que « la France » recouvre : État, collectivités, protection sociale…)",
+        "Hiérarchiser avantages et inconvénients ou arguments"
+      ]
+    },
+    {
+      "id": "connaissances_cadre", "categorie": "fond", "libelle": "Connaissances personnelles et compréhension exacte du cadre juridique et institutionnel",
+      "poids": 6, "poids_officiel": false,
+      "attendus": [
+        "Apports personnels et précis, au-delà de la paraphrase des documents",
+        "Cadre juridique, institutionnel et financier exact, sans digression théorique (ex. cadre européen de la défense, PSDC, OTAN, financement)",
+        "Dates et références de textes exactes (traités, Communauté européenne de défense…)",
+        "Faire le lien entre finances publiques, questions sociales et européennes/internationales (approche interdisciplinaire) sans basculer en économie théorique"
+      ]
+    },
+    {
+      "id": "exploitation_documents", "categorie": "fond", "libelle": "Exploitation du document fourni",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "S'appuyer sur le dossier sans le paraphraser",
+        "Gérer le temps pour exploiter le document tout en mobilisant ses propres connaissances"
+      ]
+    },
+    {
+      "id": "propositions", "categorie": "fond", "libelle": "Propositions cohérentes et opératoires",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "Propositions de politique publique cohérentes avec les constats, réalistes et conformes à l'état du droit, qui répondent aux intérêts de la France",
+        "Éviter les propositions qui aggravent les inconvénients relevés ou sont incompatibles avec le droit"
+      ]
+    },
+    {
+      "id": "forme_plan_style", "categorie": "forme", "libelle": "Plan apparent, style administratif et expression",
+      "poids": 3, "poids_officiel": false,
+      "attendus": [
+        "Plan apparent, structuré et problématisé, avec des titres signifiants",
+        "Style concis, neutre et factuel (chiffres précis plutôt qu'appréciations « élevé/non négligeable ») ; pas de jargon « techno »",
+        "Orthographe maîtrisée, vocabulaire repris de la question et des documents"
+      ]
+    }
+  ],
+  "erreurs_frequentes": [
+    "Paraphraser les documents ; connaissances personnelles absentes ou superficielles",
+    "Traiter un sujet voisin (ex. travail détaché au lieu de travail frontalier) faute de définir les termes",
+    "Traitement trop étroit (ex. seule indemnisation chômage des frontaliers) alors qu'il faut croiser plusieurs enjeux",
+    "Sujet de finances publiques détourné vers la dette, le déficit ou l'actualité politique au lieu de répondre à la question",
+    "Réponses schématiques, idées sans fondements, recommandations non justifiées ; absence de propositions",
+    "Dérive en théorie économique (ex. zones monétaires sous-optimales) : l'épreuve n'est pas une épreuve d'économie",
+    "Approximations sur les dates marquantes et les références de textes importants",
+    "Réduction du sujet à sa dimension militaire en omettant l'enjeu stratégique global (sujet 2025 sur la défense européenne)"
+  ],
+  "conseils": [
+    "Traiter l'épreuve comme une note opérationnelle avec propositions, en croisant les disciplines, avec les mêmes qualités formelles que les autres écrits",
+    "Combiner dans la même épreuve des questions portant sur finances publiques, questions sociales et questions européennes et internationales",
+    "Les réponses sont courtes mais peuvent s'articuler autour d'un plan structuré ; elles doivent être à la fois précises et exhaustives"
+  ]
+}
