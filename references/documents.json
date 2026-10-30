@@ -8,6 +8,22 @@
     "sha256": "1e080c5c861e7f9f0ecee7d3c8f4584f61ecbc5c34c397d4b0ad32048e0d8d8c"
   },
   {
+    "id": "ouvrages-6",
+    "type": "ouvrages",
+    "fichier": "Droit constitutionnel 2. La Ve République - 5e édition (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 45,
+    "scan": false,
+    "sha256": "83c8158ec8680cdce8280d592e4d425df2f7517e5c839c878afc41418fad8588"
+  },
+  {
+    "id": "ouvrages-7",
+    "type": "ouvrages",
+    "fichier": "Droit international public (Jean-Claude Zarka) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 237,
+    "scan": false,
+    "sha256": "a6308048f3f1842e54829eb343775550a31a095596c08f27f2de956c07c280d1"
+  },
+  {
     "id": "ouvrages-2",
     "type": "ouvrages",
     "fichier": "Finances publiques.pdf",
