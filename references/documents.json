@@ -22,5 +22,21 @@
     "pages": 40,
     "scan": false,
     "sha256": "6f33efea9a8cefeb8bc596e037fa241fb83671c62a7461536ad5676747943bf9"
+  },
+  {
+    "id": "officiels-4",
+    "type": "officiels",
+    "fichier": "CdC_Budget-Etat-2025_communique_2026-04-22.pdf",
+    "pages": 2,
+    "scan": false,
+    "sha256": "e0ff232db48e7c2aff84a6a06d69b1a5c83b12d9e27c1a8679d050d46e9ff513"
+  },
+  {
+    "id": "officiels-5",
+    "type": "officiels",
+    "fichier": "CdC_Situation-perspectives-finances-publiques_synthese_2026-06.pdf",
+    "pages": 22,
+    "scan": false,
+    "sha256": "b90076b9c92072e592fbeff23640a38b89a8461eace6c63976b262e62c07ca09"
   }
 ]

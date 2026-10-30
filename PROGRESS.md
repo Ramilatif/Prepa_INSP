@@ -36,7 +36,7 @@ références, catalogue de la bibliographie INSP (121 ouvrages), 1 fiche.
 
 | Type                     | Attendus | Présents | Extraits et indexés | Remarques |
 | ------------------------ | -------- | -------- | ------------------- | --------- |
-| Publications officielles | —        | 0        | 0                   | à télécharger (références/officiels vide) |
+| Publications officielles | —        | 2        | 2                   | Cour des comptes : communiqué sur le budget de l'État 2025 (22/04/2026) et synthèse « situation et perspectives des finances publiques » (juin 2026). Rapport complet du budget de l'État 2025 non téléchargé (PDF principal introuvable automatiquement). |
 | Ouvrages déposés         | —        | 3        | 3                   | 2 PDF + 1 EPUB, tous avec texte (pas de scan) |
 
 Publications officielles introuvables : — (téléchargement pas encore lancé)
@@ -46,7 +46,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 1        | 0                 | 0                    | 0             |
+| Droit public                   | —       | 3        | 0                 | 0                    | 0             |
 | Économie                       | —       | 0        | 0                 | 0                    | 0             |
 | Finances publiques             | —       | 0        | 0                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
@@ -78,6 +78,7 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - Deux ouvrages déposés portent « z-library » dans leur nom : utilisés en vérification locale uniquement, exclus de git.
 - Catalogue de la bibliographie : 10 notices sur 121 marquées `a_verifier` (édition, éditeur ou année mal analysés) ; les listes « Zoom » des rubriques droit public et économie n'ont pas été capturées ; le champ `depose_id` (rapprochement avec les ouvrages déposés) est à renseigner à la main.
 - Fiche `controle-de-constitutionnalite` : statut « brouillon ». Vérifiés en ligne le 2026-10-30 : texte des art. 61, 61-1, 62 (Légifrance / Conseil constitutionnel, résumé), décisions 71-44 DC et 2010-14/22 QPC. Non vérifié : la loi organique n° 2009-1523 du 10 décembre 2009 (Légifrance illisible automatiquement), volontairement non citée. Aucun ouvrage déposé ne couvre le droit constitutionnel (le Brunet-Hamon-Troper n'est pas déposé) : la concordance avec les ouvrages ne peut pas être vérifiée.
+- Relecture critique du lot de 3 fiches de droit constitutionnel (faite par moi, dans la même session : ce n'est pas la relecture indépendante demandée par PROMPT.md, à refaire dans une session dédiée) : art. 61 complété (propositions de loi de l'article 11), art. 62 confirmé sur Légifrance. Les sections « Débats et positions » des 3 fiches sont des amorces sans source : elles sont signalées en italique dans les fiches et gardent le statut « brouillon ». Texte intégral des art. 34, 37, 38, 39, 45 lu seulement par extraits/résumé du site du Conseil constitutionnel : à reconfronter au texte complet.
 - Constitution : version consolidée « à jour au 8 mars 2024 » selon le Conseil constitutionnel ; à revérifier si une révision plus récente existe.
 - Le jeton de connexion est l'identifiant utilisateur (UUID) : suffisant sans mot de passe, à remplacer par une vraie session avec mot de passe avant la mise en ligne.
 

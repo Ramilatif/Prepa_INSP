@@ -14,7 +14,7 @@ sources:
 
 ## Notions clés
 
-- **Contrôle a priori (art. 61 de la Constitution)** : exercé avant la promulgation. Les lois organiques et les règlements des assemblées parlementaires lui sont obligatoirement soumis ; les lois ordinaires peuvent être déférées au Conseil constitutionnel avant leur promulgation.
+- **Contrôle a priori (art. 61 de la Constitution)** : exercé avant la promulgation. Doivent obligatoirement être soumis au Conseil constitutionnel, qui se prononce sur leur conformité à la Constitution : les lois organiques (avant leur promulgation), les propositions de loi de l'article 11 (avant leur soumission au référendum) et les règlements des assemblées parlementaires (avant leur mise en application). Les lois ordinaires peuvent être déférées au Conseil constitutionnel avant leur promulgation.
 - **Contrôle a posteriori : la question prioritaire de constitutionnalité (art. 61-1)** : à l'occasion d'une instance en cours devant une juridiction, il peut être soutenu qu'une disposition législative porte atteinte aux droits et libertés que la Constitution garantit. Le Conseil constitutionnel est alors saisi sur renvoi du Conseil d'État ou de la Cour de cassation.
 - **Effets d'une déclaration d'inconstitutionnalité (art. 62)** : une disposition déclarée inconstitutionnelle sur le fondement de l'article 61 ne peut être promulguée ni mise en application ; celle qui l'est sur le fondement de l'article 61-1 est abrogée à compter de la publication de la décision ou d'une date ultérieure fixée par celle-ci. Le Conseil détermine les conditions et limites dans lesquelles les effets produits sont remis en cause.
 
