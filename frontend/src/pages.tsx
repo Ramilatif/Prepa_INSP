@@ -1,8 +1,142 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Markdown from "react-markdown";
-import { api, type Annale, type Card, type FicheSummary, type Grille, type Me } from "./api";
-import { EPREUVES, TYPE_ANNALE, matiereLabel, statutLevel } from "./labels";
+import { api, uploadPdf, type Annale, type Card, type Copie, type FicheSummary, type Grille, type Me } from "./api";
+import { EPREUVES, TYPE_ANNALE, formatDuration, matiereLabel, statutLevel } from "./labels";
+
+/** Sujets complets chronométrés (format réformé), dépôt du PDF et lien vers l'auto-évaluation. */
+export function Entrainement() {
+  const [sujets, setSujets] = useState<Annale[]>([]);
+  const [copies, setCopies] = useState<Copie[]>([]);
+  const [error, setError] = useState("");
+  const load = () => {
+    api<Annale[]>("/annales?format=reforme")
+      .then((a) => setSujets(a.filter((x) => x.type === "sujet" || x.type === "sujet_fictif")))
+      .catch(() => setSujets([]));
+    api<Copie[]>("/copies").then(setCopies).catch(() => setCopies([]));
+  };
+  useEffect(load, []);
+  const active = copies.find((c) => c.statut === "en_cours");
+  const start = async (a: Annale) => {
+    setError("");
+    try {
+      await api("/copies/start", { method: "POST", body: JSON.stringify({ epreuve_code: a.epreuve_code, sujet_url: a.url_source }) });
+      load();
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  };
+  return (
+    <section>
+      <h1>Sujets chronométrés</h1>
+      <p className="muted">Durée réelle de l'épreuve, lue dans la configuration de la session. Le chronomètre tourne côté serveur : il continue si tu fermes la page.</p>
+      {error && <p className="error">{error}</p>}
+      {active && <Epreuve key={active.id} copie={active} onChange={load} />}
+      {!active && (
+        <>
+          <h2>Choisir un sujet</h2>
+          <ul className="list">
+            {sujets.map((a) => (
+              <li key={a.url_source}>
+                {a.annee ?? "Fictif"} · {a.epreuve.replaceAll("_", " ")}
+                <a href={a.url_source} target="_blank" rel="noreferrer"> (voir le sujet)</a>{" "}
+                <button onClick={() => start(a)}>Démarrer le chrono</button>
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+      <h2>Mes copies</h2>
+      {copies.length === 0 && <p className="muted">Aucune copie pour l'instant.</p>}
+      <ul className="list">
+        {copies.map((c) => (
+          <li key={c.id}>
+            {c.epreuve_code} · {c.statut.replace("_", " ")}
+            {c.pdf_pages ? ` · ${c.pdf_pages} pages` : ""}
+            {c.hors_delai && <span className="badge warn">hors délai</span>}
+            {c.note !== null && <span className="badge">auto-évaluation indicative : {c.note}/20</span>}
+            {c.statut !== "en_cours" && <> <Link to={`/copies/${c.id}/autoeval`}>{c.note === null ? "M'auto-évaluer" : "Refaire l'auto-évaluation"}</Link></>}
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+function Epreuve({ copie, onChange }: { copie: Copie; onChange: () => void }) {
+  // Le serveur est la référence : l'échéance est calculée une fois au montage à partir de son
+  // décompte, puis l'affichage suit l'horloge (insensible aux ticks manqués d'un onglet en veille).
+  const [deadline] = useState(() => Date.now() + (copie.remaining_seconds ?? 0) * 1000);
+  const [now, setNow] = useState(() => Date.now());
+  const [error, setError] = useState("");
+  useEffect(() => {
+    const t = setInterval(() => setNow(Date.now()), 1000);
+    return () => clearInterval(t);
+  }, []);
+  const remaining = Math.max(0, (deadline - now) / 1000);
+  const deposer = async (file: File | undefined) => {
+    if (!file) return;
+    setError("");
+    try {
+      await uploadPdf(`/copies/${copie.id}/pdf`, file);
+      onChange();
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  };
+  return (
+    <div className="card">
+      <h2>{copie.epreuve_code} — {copie.duree_minutes / 60} h</h2>
+      <p style={{ fontSize: "2rem" }}>{remaining > 0 ? formatDuration(remaining) : "Temps écoulé"}</p>
+      <p className="muted">Dépose ta copie en PDF (texte tapé ou scan de ta copie manuscrite).</p>
+      <input type="file" accept="application/pdf" onChange={(e) => deposer(e.target.files?.[0])} />
+      {error && <p className="error">{error}</p>}
+    </div>
+  );
+}
+
+/** Auto-évaluation d'une copie déposée : un score par critère de la grille. */
+export function AutoEval() {
+  const { id } = useParams();
+  const [copie, setCopie] = useState<Copie | null>(null);
+  const [grille, setGrille] = useState<Grille | null>(null);
+  const [scores, setScores] = useState<Record<string, number>>({});
+  const [note, setNote] = useState<number | null>(null);
+  const [error, setError] = useState("");
+  useEffect(() => {
+    api<Copie>(`/copies/${id}`).then((c) => {
+      setCopie(c);
+      api<Grille>(`/grilles/${c.epreuve_code}`).then(setGrille).catch(() => setGrille(null));
+    });
+  }, [id]);
+  if (!copie || !grille) return <p className="muted">Chargement…</p>;
+  const envoyer = async () => {
+    setError("");
+    try {
+      const r = await api<{ note: number }>(`/copies/${id}/autoeval`, { method: "POST", body: JSON.stringify({ scores }) });
+      setNote(r.note);
+    } catch (e) {
+      setError((e as Error).message);
+    }
+  };
+  return (
+    <article>
+      <h1>Auto-évaluation : {grille.nom}</h1>
+      <p className="muted">{grille.note_sur_les_poids}</p>
+      {grille.criteres.map((c) => (
+        <section key={c.id}>
+          <h2>{c.libelle} <span className="muted">(sur {c.poids})</span></h2>
+          <ul>{c.attendus.map((a) => <li key={a}>{a}</li>)}</ul>
+          <input type="number" min={0} max={c.poids} step={0.5} value={scores[c.id] ?? ""}
+            onChange={(e) => setScores({ ...scores, [c.id]: Number(e.target.value) })} />
+        </section>
+      ))}
+      <button onClick={envoyer}>Calculer ma note</button>
+      {error && <p className="error">{error}</p>}
+      {note !== null && <p><strong>Note indicative : {note}/20.</strong> Elle ne préjuge pas de la note d'un jury.</p>}
+    </article>
+  );
+}
 
 /** Annales : le format réformé est présenté en premier ; l'ancien format sert de matière thématique. */
 export function Annales() {

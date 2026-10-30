@@ -18,6 +18,18 @@ export const setToken = (t: string | null) => {
   }
 };
 
+/** Envoie un fichier brut (PDF) ; le serveur valide taille, pages et format. */
+export async function uploadPdf<T>(path: string, file: File): Promise<T> {
+  const token = getToken();
+  const res = await fetch(`/api${path}`, {
+    method: "POST",
+    headers: { "Content-Type": "application/pdf", ...(token ? { Authorization: `Bearer ${token}` } : {}) },
+    body: file,
+  });
+  if (!res.ok) throw new Error((await res.text()) || res.statusText);
+  return res.json() as Promise<T>;
+}
+
 export async function api<T>(path: string, init: RequestInit = {}): Promise<T> {
   const token = getToken();
   const res = await fetch(`/api${path}`, {
@@ -62,6 +74,18 @@ export interface Grille {
   criteres: { id: string; libelle: string; categorie: string; poids: number; poids_officiel: boolean; attendus: string[] }[];
   erreurs_frequentes: string[];
   conseils: string[];
+}
+export interface Copie {
+  id: string;
+  epreuve_code: string;
+  sujet_url: string;
+  duree_minutes: number;
+  statut: "en_cours" | "deposee" | "auto_evaluee";
+  hors_delai: boolean;
+  elapsed_seconds: number | null;
+  pdf_pages: number | null;
+  note: number | null;
+  remaining_seconds: number | null;
 }
 export interface Me {
   pseudo: string;

@@ -71,6 +71,14 @@ identifiants TEXT UUID, booléens INTEGER 0/1), pas de syntaxe propre à SQLite 
 - Tables `annales` et `grilles` (migration 0002) ; endpoints `GET /api/annales?format=&epreuve=&type=` et
   `GET /api/grilles/{code}`.
 
+### Copies (phase 3)
+
+- Tables `copies` (statut `en_cours` → `deposee` → `auto_evaluee`, durée, début, délai, PDF) et `auto_evaluations`
+  (migration 0003). Le PDF est rangé dans `DATA_DIR/copies/<user>/<copie>.pdf` (nom jamais fourni par le client).
+- `POST /api/copies/start`, `GET /api/copies`, `GET /api/copies/{id}`, `POST /api/copies/{id}/pdf` (corps brut
+  `application/pdf`), `POST /api/copies/{id}/autoeval` (`{scores: {critere: points}}`).
+- Logique pure dans `backend/src/copies.rs` : validation du PDF, chronomètre, note (testés).
+
 ## 7. Pipeline des références (`tools/references/`)
 
 Python (venv local) : extraction PDF/EPUB page par page (PyMuPDF, ebooklib), écriture dans

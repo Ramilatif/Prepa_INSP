@@ -1,7 +1,9 @@
 //! Point d'entrée : configuration par variables d'environnement, migrations, import des contenus, API.
 
 mod api;
+mod api_copies;
 mod auth;
+mod copies;
 mod fiches;
 mod import;
 mod srs;

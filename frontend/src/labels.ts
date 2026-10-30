@@ -35,4 +35,13 @@ export const STATUTS = [
   "concordance avec les ouvrages vérifiée",
   "relue par un humain",
 ];
+/** Formate des secondes en « 4 h 05 min 09 s ». */
+export function formatDuration(totalSeconds: number): string {
+  const s = Math.max(0, Math.floor(totalSeconds));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return `${h} h ${pad(m)} min ${pad(s % 60)} s`;
+}
+
 export const statutLevel = (s: string): number => Math.max(0, STATUTS.indexOf(s));

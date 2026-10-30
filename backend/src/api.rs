@@ -14,9 +14,9 @@ use serde_json::{Value, json};
 use sqlx::{Row, SqlitePool};
 use tower_http::cors::CorsLayer;
 
-type ApiResult<T> = Result<Json<T>, (StatusCode, String)>;
+pub type ApiResult<T> = Result<Json<T>, (StatusCode, String)>;
 
-fn internal(e: impl std::fmt::Display) -> (StatusCode, String) {
+pub fn internal(e: impl std::fmt::Display) -> (StatusCode, String) {
     tracing::error!("{e}");
     (StatusCode::INTERNAL_SERVER_ERROR, "erreur interne".into())
 }
@@ -64,6 +64,7 @@ pub fn router(pool: SqlitePool) -> Router {
             "/api/signalements",
             get(list_signalements).post(create_signalement),
         )
+        .merge(crate::api_copies::routes())
         .layer(CorsLayer::permissive())
         .with_state(pool)
 }

@@ -2,9 +2,9 @@
 
 ## État actuel
 
-- Phase en cours : 3 — sujets chronométrés, dépôt PDF, auto-évaluation (phase 1 : MVP fonctionnel mais fiches très incomplètes, voir plus bas ; phase 2 terminée)
+- Phase en cours : 4 — correction IA différée (Batch, deux passes) et budget (phases 2 et 3 terminées ; phase 1 : MVP fonctionnel mais fiches très incomplètes)
 - Dernière mise à jour : 2026-10-30
-- Prochaine action : phase 3 (chronomètre, dépôt de copies en PDF, auto-évaluation avec les grilles) ; compléter les fiches en parallèle
+- Prochaine action : phase 4. Vérifier d'abord en ligne, dans la documentation Anthropic : tarifs Batch d'Opus 5.5, limites PDF (taille/pages), disponibilité de l'extended thinking et de l'outil de recherche web en Batch, mise en cache de prompt en Batch. Ne rien figer de mémoire.
 
 Fait en phase 1 : backend Axum + migrations + SM-2 + import des fiches + signalements, frontend React
 (fiches, flashcards, réglages, signalements), Docker Compose fonctionnel, pipeline d'indexation des
@@ -18,7 +18,7 @@ références, catalogue de la bibliographie INSP (121 ouvrages), 1 fiche.
      catalogue bibliographie, pipeline des références, premier lot de fiches vérifiées,
      flashcards SM-2, signalement
 - [x] 2. Annales et rapports du jury, grilles d'évaluation (voir « Annales » ci-dessous)
-- [ ] 3. Sujets chronométrés, dépôt PDF, auto-évaluation
+- [x] 3. Sujets chronométrés, dépôt PDF, auto-évaluation
 - [ ] 4. Correction IA différée (Batch, deux passes) et budget
 - [ ] 5. Entraînement méthodo et questions à réponses courtes
 - [ ] 6. Veille d'actualité
@@ -71,9 +71,15 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - 2026-10-30 — Annales : concours externe uniquement, téléchargées par tools/annales/fetch_annales.py (liste relevée sur insp.gouv.fr), PDF dans content/annales/files/ exclus de git (re-téléchargeables), manifeste index.json versionné. Format « réformé » = 2024 et après (d'après la page de l'INSP) ; 2022-2023 = « ancien ».
 - 2026-10-30 — Grilles : seul le barème de la forme de la note de réflexion (5/20) est officiel ; tous les autres poids sont des choix de l'appli (champ `poids_officiel: false`, affiché comme « indicatif »). Le total de chaque grille est vérifié à l'import (somme des poids = 20).
 
+- 2026-10-30 — Chronomètre : démarré et tenu côté serveur (heure de début en base) ; la durée vient de la session (`duree_minutes`), jamais codée en dur ; les épreuves de l'ancien format (sans durée dans la session) ne peuvent pas être chronométrées. Dépôt hors délai accepté mais marqué « hors délai » (tolérance de 120 s).
+- 2026-10-30 — Limites du PDF : 32 Mo et 100 pages par défaut (`MAX_PDF_MB`, `MAX_PDF_PAGES`). Ces valeurs viennent de ma connaissance de l'API Claude et n'ont PAS été revérifiées en ligne : à confirmer en phase 4. Un PDF chiffré est refusé. Texte tapé et scan manuscrit sont tous deux acceptés (aucune détection de scan à ce stade).
+- 2026-10-30 — Auto-évaluation : l'utilisateur note chaque critère de la grille (0 à son poids) ; la note est arrondie au demi-point et toujours présentée comme indicative.
+
 ## Problèmes rencontrés
 
 <!-- Format : date — problème — solution ou statut -->
+- 2026-10-30 — sqlx 0.9 refuse le SQL construit à l'exécution (`format!`) : requêtes assemblées à la compilation avec `concat!` (macro `copie_select!`).
+- 2026-10-30 — Pas de test automatisé de l'interface (seuls les utilitaires sont testés) : le parcours chronomètre → dépôt → auto-évaluation a été testé par l'API (Docker) mais pas dans un navigateur.
 - 2026-10-30 — Rapport du jury 2025 : les moyennes de plusieurs épreuves sont identiques d'une épreuve à l'autre (ex. 8,65 pour les trois QRC externes) ; recopiées telles quelles et signalées dans la grille QRC.
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
