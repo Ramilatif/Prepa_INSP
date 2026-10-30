@@ -1,0 +1,29 @@
+{
+  "id": "2027",
+  "label": "Concours externe INSP, session 2027 (voie générale)",
+  "format": "reforme_2023",
+  "source": {
+    "texte": "Arrêté du 21 mars 2023 modifié relatif aux épreuves des concours d'entrée à l'INSP (JORF du 22 mars 2023)",
+    "page_insp": "https://insp.gouv.fr/concours-externe",
+    "verifie_le": "2026-10-30",
+    "remarque": "Texte consolidé Légifrance non lisible automatiquement : épreuves, durées et coefficients recoupés avec la page officielle de l'INSP ; programme détaillé à confirmer sur Légifrance."
+  },
+  "dates": {
+    "ouverture_inscriptions": "2026-08-04",
+    "cloture_inscriptions": "2026-09-22",
+    "ecrits": "2027-03-15",
+    "resultats_admissibilite": "2027-04-29",
+    "resultats_admission": "2027-07-16"
+  },
+  "themes_note_reflexion": [
+    "Puissance et impuissances publiques",
+    "L'apport de la science et des technologies aux politiques publiques"
+  ],
+  "epreuves": [
+    { "code": "note_reflexion", "nom": "Note de réflexion sur une question contemporaine", "duree_minutes": 300, "coefficient": 2 },
+    { "code": "op_economie", "nom": "Épreuve opérationnelle d'économie", "duree_minutes": 300, "coefficient_majeure": 4, "coefficient_mineure": 2, "matiere": "economie" },
+    { "code": "op_droit_public", "nom": "Épreuve opérationnelle de droit public", "duree_minutes": 300, "coefficient_majeure": 4, "coefficient_mineure": 2, "matiere": "droit_public" },
+    { "code": "qrc", "nom": "Questions à réponses courtes", "duree_minutes": 300, "coefficient": 3, "domaines": ["finances_publiques", "questions_sociales", "europe_international"] },
+    { "code": "cas_pratique", "nom": "Cas pratique sur les transitions écologique ou numérique", "duree_minutes": 240, "coefficient": 2 }
+  ]
+}

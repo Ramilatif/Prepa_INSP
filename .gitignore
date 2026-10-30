@@ -1,0 +1,12 @@
+.env
+references/ouvrages/
+references/index/
+tools/references/.venv/
+backend/target/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+__pycache__/
+*.db
+*.db-shm
+*.db-wal
