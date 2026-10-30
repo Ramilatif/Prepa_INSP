@@ -1,0 +1,30 @@
+/* Style sobre, contrasté, pensé pour de longues sessions de lecture. */
+:root {
+  --bg: #fafaf7; --fg: #1d2433; --muted: #5b6475; --accent: #1f3a6e; --line: #d9dbe0; --card: #fff;
+  --warn: #8a4b00;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #151a24; --fg: #e8eaf0; --muted: #a2a9b8; --accent: #8fb0ee; --line: #2c3444; --card: #1c2230; --warn: #f0b060; }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 18px/1.65 Georgia, "Times New Roman", serif; }
+header { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; justify-content: space-between; padding: .75rem 1rem; border-bottom: 1px solid var(--line); }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; align-items: center; }
+nav a { color: var(--fg); text-decoration: none; padding: .25rem 0; }
+nav a.active { color: var(--accent); border-bottom: 2px solid var(--accent); }
+main { max-width: 52rem; margin: 0 auto; padding: 1rem; }
+h1 { font-size: 1.6rem; color: var(--accent); }
+a { color: var(--accent); }
+.muted { color: var(--muted); font-size: .9em; }
+.error { color: #b00020; }
+.row { display: flex; flex-wrap: wrap; gap: .5rem; margin: .75rem 0; }
+input, select, button { font: inherit; padding: .5rem .75rem; border: 1px solid var(--line); border-radius: 4px; background: var(--card); color: var(--fg); }
+button { cursor: pointer; background: var(--accent); color: #fff; border-color: var(--accent); }
+button.link { background: none; color: var(--accent); border: none; padding: 0; text-decoration: underline; }
+.list { list-style: none; padding: 0; }
+.list li { padding: .6rem 0; border-bottom: 1px solid var(--line); }
+.badge { margin-left: .5rem; padding: .05rem .5rem; border: 1px solid var(--line); border-radius: 999px; font-size: .75em; }
+.badge.warn { color: var(--warn); border-color: var(--warn); }
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1.25rem; }
+.login { max-width: 22rem; margin: 15vh auto; display: flex; flex-direction: column; gap: .75rem; padding: 1rem; }
+@media (max-width: 600px) { body { font-size: 17px; } }
