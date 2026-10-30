@@ -8,6 +8,14 @@
     "sha256": "1e080c5c861e7f9f0ecee7d3c8f4584f61ecbc5c34c397d4b0ad32048e0d8d8c"
   },
   {
+    "id": "ouvrages-8",
+    "type": "ouvrages",
+    "fichier": "Droit constitutionnel (Tome 1) - Fondements et pratiques (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 821,
+    "scan": false,
+    "sha256": "dd9e338cb26e0951e2c7a4c8e0eb654c7ec875934594bd9b253ea6184d73d55a"
+  },
+  {
     "id": "ouvrages-6",
     "type": "ouvrages",
     "fichier": "Droit constitutionnel 2. La Ve République - 5e édition (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
