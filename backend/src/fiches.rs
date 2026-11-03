@@ -61,6 +61,8 @@ pub enum FicheError {
     BadStatut(String),
     #[error("au moins une source est obligatoire")]
     NoSource,
+    #[error("notes de bas de page incohérentes : {0}")]
+    Footnotes(String),
 }
 
 /// Analyse le contenu d'un fichier de fiche.
@@ -77,12 +79,47 @@ pub fn parse_fiche(raw: &str) -> Result<Fiche, FicheError> {
         return Err(FicheError::NoSource);
     }
     let body = body.trim_start_matches('\n').to_string();
+    check_footnotes(&body)?;
     let flashcards = extract_flashcards(&body);
     Ok(Fiche {
         meta,
         body,
         flashcards,
     })
+}
+
+/// Vérifie que chaque renvoi `[^n]` a une définition `[^n]:` en début de ligne, et inversement.
+/// Une note mal écrite (ex. `[1]` au lieu de `[^1]`) ne se relierait pas à sa source à l'affichage.
+fn check_footnotes(body: &str) -> Result<(), FicheError> {
+    let mut refs = std::collections::BTreeSet::new();
+    let mut defs = std::collections::BTreeSet::new();
+    for line in body.lines() {
+        let mut rest = line;
+        let mut at_start = true;
+        while let Some(i) = rest.find("[^") {
+            let after = &rest[i + 2..];
+            let Some(j) = after.find(']') else { break };
+            let label = &after[..j];
+            let is_def = at_start && i == 0 && after[j + 1..].starts_with(':');
+            if !label.is_empty() && label.chars().all(|c| c.is_alphanumeric() || c == '-') {
+                if is_def {
+                    defs.insert(label.to_string());
+                } else {
+                    refs.insert(label.to_string());
+                }
+            }
+            at_start = false;
+            rest = &after[j + 1..];
+        }
+    }
+    let sans_def: Vec<_> = refs.difference(&defs).cloned().collect();
+    let non_citees: Vec<_> = defs.difference(&refs).cloned().collect();
+    if sans_def.is_empty() && non_citees.is_empty() {
+        return Ok(());
+    }
+    Err(FicheError::Footnotes(format!(
+        "renvois sans définition : {sans_def:?} ; définitions jamais citées : {non_citees:?}"
+    )))
 }
 
 /// Extrait les flashcards de la section `## Flashcards`.
@@ -153,6 +190,39 @@ ordre: 2",
             (m.kind.as_str(), m.parcours.as_deref(), m.ordre),
             ("cours", Some("droit-public"), Some(2))
         );
+    }
+
+    #[test]
+    fn notes_de_bas_de_page_coherentes_ou_refusees() {
+        let ok = OK.replace(
+            "# Test",
+            "# Test
+
+Texte[^1].
+
+[^1]: Source A",
+        );
+        assert!(parse_fiche(&ok).is_ok());
+        let sans_def = OK.replace(
+            "# Test",
+            "# Test
+
+Texte[^2].",
+        );
+        assert!(matches!(
+            parse_fiche(&sans_def),
+            Err(FicheError::Footnotes(_))
+        ));
+        let non_citee = OK.replace(
+            "# Test",
+            "# Test
+
+[^3]: Jamais citee",
+        );
+        assert!(matches!(
+            parse_fiche(&non_citee),
+            Err(FicheError::Footnotes(_))
+        ));
     }
 
     #[test]

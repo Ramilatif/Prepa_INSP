@@ -15,7 +15,7 @@ sources:
 ---
 # La responsabilité de la puissance publique
 
-> **À quoi sert ce chapitre ?** Dès qu'une politique publique cause un dommage (un accident, un refus de concours de la force publique, une réforme qui prive quelqu'un d'une activité), la question se pose : **qui répare, devant quel juge, sur quel fondement ?** Le rapport du jury 2025 a pris pour sujet un régime de responsabilité de la puissance publique liée à l'intelligence artificielle, et reproche aux candidats d'avoir méconnu les différents régimes [1]. Ce chapitre vous donne la carte complète de ces régimes.
+> **À quoi sert ce chapitre ?** Dès qu'une politique publique cause un dommage (un accident, un refus de concours de la force publique, une réforme qui prive quelqu'un d'une activité), la question se pose : **qui répare, devant quel juge, sur quel fondement ?** Le rapport du jury 2025 a pris pour sujet un régime de responsabilité de la puissance publique liée à l'intelligence artificielle, et reproche aux candidats d'avoir méconnu les différents régimes [^1]. Ce chapitre vous donne la carte complète de ces régimes.
 
 **Comment lire ce cours.** Mêmes conventions que dans le chapitre 1 : encadrés **À retenir**, **Piège**, **Exemple**, **Définition**, **Pour la copie** ; les nombres entre crochets renvoient aux notes de bas de page (référence précise et lien officiel) ; « *à compléter* » signale ce qui n'a pas été vérifié à la source.
 
@@ -34,19 +34,19 @@ sources:
 
 ### A. L'arrêt Blanco (Tribunal des conflits, 8 février 1873)
 
-Une enfant est renversée et blessée par un wagonnet d'une manufacture de tabac exploitée en régie par l'État. Son père saisit les tribunaux judiciaires pour faire déclarer l'État civilement responsable, sur le fondement des articles 1382 à 1384 du Code civil. Un conflit est élevé et le **Tribunal des conflits**, qui tranche les conflits de compétence entre les deux ordres de juridiction, décide [2] :
+Une enfant est renversée et blessée par un wagonnet d'une manufacture de tabac exploitée en régie par l'État. Son père saisit les tribunaux judiciaires pour faire déclarer l'État civilement responsable, sur le fondement des articles 1382 à 1384 du Code civil. Un conflit est élevé et le **Tribunal des conflits**, qui tranche les conflits de compétence entre les deux ordres de juridiction, décide [^2] :
 
 - l'**État est responsable** des dommages causés par ses services publics : c'est la fin d'une longue tradition d'irresponsabilité ;
 - cette responsabilité relève d'un **régime spécial**, distinct des règles du Code civil applicables entre particuliers, en raison des besoins du service public ;
-- la **juridiction administrative est compétente**. Le texte visé est la loi des 16 et 24 août 1790, qui interdit aux tribunaux judiciaires de troubler les opérations des corps administratifs [2].
+- la **juridiction administrative est compétente**. Le texte visé est la loi des 16 et 24 août 1790, qui interdit aux tribunaux judiciaires de troubler les opérations des corps administratifs [^2].
 
 > **À retenir** : Blanco lie deux questions, le **juge compétent** et le **droit applicable**. La responsabilité de la puissance publique est une responsabilité *autonome* du droit civil, jugée par le juge administratif.
 
 ### B. Les limites de Blanco aujourd'hui
 
-Le service public n'est plus un critère absolu de compétence. Les litiges relatifs aux **services publics industriels et commerciaux** relèvent en principe du juge judiciaire (TC, 22 janvier 1921, *Société commerciale de l'Ouest africain*). Le service des tabacs étant devenu industriel et commercial, la solution serait différente aujourd'hui [2].
+Le service public n'est plus un critère absolu de compétence. Les litiges relatifs aux **services publics industriels et commerciaux** relèvent en principe du juge judiciaire (TC, 22 janvier 1921, *Société commerciale de l'Ouest africain*). Le service des tabacs étant devenu industriel et commercial, la solution serait différente aujourd'hui [^2].
 
-Le Code civil peut encore s'appliquer dans certains cas : le Conseil d'État cite la responsabilité décennale des constructeurs [2].
+Le Code civil peut encore s'appliquer dans certains cas : le Conseil d'État cite la responsabilité décennale des constructeurs [^2].
 
 > **Piège** : ne pas écrire que « le juge administratif est toujours compétent pour les dommages causés par l'administration ». Pour les services publics industriels et commerciaux, c'est en principe le juge judiciaire.
 
@@ -56,7 +56,7 @@ Le Code civil peut encore s'appliquer dans certains cas : le Conseil d'État cit
 
 ### A. La séparation des fautes (Tribunal des conflits, 30 juillet 1873, Pelletier)
 
-La même année 1873, la même juridiction pose une autre distinction fondamentale. M. Pelletier avait fait saisir un journal en application de la loi sur l'état de siège ; il demandait réparation aux autorités (commandant militaire, préfet, commissaire de police) devant les tribunaux judiciaires. Le Tribunal des conflits juge que la demande reposait entièrement sur une mesure de police administrative et qu'aucune **faute personnelle** n'était alléguée : le juge judiciaire est incompétent [3].
+La même année 1873, la même juridiction pose une autre distinction fondamentale. M. Pelletier avait fait saisir un journal en application de la loi sur l'état de siège ; il demandait réparation aux autorités (commandant militaire, préfet, commissaire de police) devant les tribunaux judiciaires. Le Tribunal des conflits juge que la demande reposait entièrement sur une mesure de police administrative et qu'aucune **faute personnelle** n'était alléguée : le juge judiciaire est incompétent [^3].
 
 De cette décision est née la distinction entre :
 
@@ -66,58 +66,58 @@ De cette décision est née la distinction entre :
 | Qui répond ? | L'agent lui-même | L'administration |
 | Juge | Judiciaire | Administratif |
 
-Le critère est que la faute soit **assez détachable** de l'administration pour que le juge puisse l'établir sans apprécier le fonctionnement de l'administration elle-même [3].
+Le critère est que la faute soit **assez détachable** de l'administration pour que le juge puisse l'établir sans apprécier le fonctionnement de l'administration elle-même [^3].
 
-> **Définition** : la **faute de service** est celle qui se rattache au fonctionnement du service ; la **faute personnelle** est détachable du service. En pratique, si l'agent a commis une faute personnelle, la victime poursuit l'agent devant le juge judiciaire ; si c'est une faute de service, elle poursuit l'administration devant le juge administratif [3].
+> **Définition** : la **faute de service** est celle qui se rattache au fonctionnement du service ; la **faute personnelle** est détachable du service. En pratique, si l'agent a commis une faute personnelle, la victime poursuit l'agent devant le juge judiciaire ; si c'est une faute de service, elle poursuit l'administration devant le juge administratif [^3].
 
 ### B. Le cumul : Anguet (1911) et Lemonnier (1918)
 
-La séparation stricte laissait des victimes sans réparation complète. Le Conseil d'État a donc admis deux formes de **cumul** [4] [5] :
+La séparation stricte laissait des victimes sans réparation complète. Le Conseil d'État a donc admis deux formes de **cumul** [^4] [^5] :
 
-- **Cumul de fautes** (CE, 3 février 1911, *Anguet*, Rec. p. 146) : lorsqu'une faute personnelle de l'agent et une faute distincte du service ont **toutes deux** contribué au même dommage, la victime peut engager la responsabilité de l'administration devant le juge administratif. Les deux fautes se cumulent sans se confondre [4].
-- **Cumul de responsabilités** (CE, 26 juillet 1918, *Époux Lemonnier*, n° 49595) : une seule faute, personnelle, mais **non dépourvue de tout lien avec le service**, peut aussi engager la responsabilité de l'administration. Dans l'affaire, Mme Lemonnier avait été blessée par un tir provenant d'un stand installé lors d'une fête communale ; le maire avait été jugé personnellement responsable par la juridiction judiciaire, et le Conseil d'État retient la responsabilité de la commune, les autorités municipales ayant commis une faute grave en autorisant le stand sans s'assurer de sa sécurité [5].
+- **Cumul de fautes** (CE, 3 février 1911, *Anguet*, Rec. p. 146) : lorsqu'une faute personnelle de l'agent et une faute distincte du service ont **toutes deux** contribué au même dommage, la victime peut engager la responsabilité de l'administration devant le juge administratif. Les deux fautes se cumulent sans se confondre [^4].
+- **Cumul de responsabilités** (CE, 26 juillet 1918, *Époux Lemonnier*, n° 49595) : une seule faute, personnelle, mais **non dépourvue de tout lien avec le service**, peut aussi engager la responsabilité de l'administration. Dans l'affaire, Mme Lemonnier avait été blessée par un tir provenant d'un stand installé lors d'une fête communale ; le maire avait été jugé personnellement responsable par la juridiction judiciaire, et le Conseil d'État retient la responsabilité de la commune, les autorités municipales ayant commis une faute grave en autorisant le stand sans s'assurer de sa sécurité [^5].
 
-Le commissaire du gouvernement Blum résume la solution : une faute personnelle commise dans le service ou à l'occasion du service peut se détacher du service, mais le service ne se détache pas de la faute [5]. L'arrêt *Laruelle et Delville* (CE, 28 juillet 1951) prolonge cette jurisprudence [5].
+Le commissaire du gouvernement Blum résume la solution : une faute personnelle commise dans le service ou à l'occasion du service peut se détacher du service, mais le service ne se détache pas de la faute [^5]. L'arrêt *Laruelle et Delville* (CE, 28 juillet 1951) prolonge cette jurisprudence [^5].
 
 > **À retenir** : la victime n'est pas obligée de choisir entre deux juges. Si la faute n'est pas dépourvue de tout lien avec le service, elle peut agir contre l'administration devant le juge administratif, même si l'agent a lui aussi commis une faute.
 
-> **Note** : les commentateurs soulignent que la faute « non dépourvue de tout lien avec le service » n'est pas une **troisième catégorie** : elle reste une faute personnelle [5]. *À compléter : les évolutions récentes de ces notions et les régimes spéciaux n'ont pas été vérifiés pour ce cours.*
+> **Note** : les commentateurs soulignent que la faute « non dépourvue de tout lien avec le service » n'est pas une **troisième catégorie** : elle reste une faute personnelle [^5]. *À compléter : les évolutions récentes de ces notions et les régimes spéciaux n'ont pas été vérifiés pour ce cours.*
 
 ### C. Quel niveau de faute ?
 
-Selon une étude annuelle du Conseil d'État, la **faute lourde** a largement reculé : une simple « faute de nature à engager la responsabilité » de l'administration suffit le plus souvent à l'engager [6].
+Selon une étude annuelle du Conseil d'État, la **faute lourde** a largement reculé : une simple « faute de nature à engager la responsabilité » de l'administration suffit le plus souvent à l'engager [^6].
 
-> **Définition** : la **faute lourde** est une faute d'une gravité particulière. Elle est difficile à définir avec précision ; la doctrine (Chapus, cité par Degoffe) se contente de dire qu'elle est *plus grave qu'une faute simple*. Exiger une faute lourde revient à admettre que certaines fautes de l'administration n'engagent pas sa responsabilité [11].
+> **Définition** : la **faute lourde** est une faute d'une gravité particulière. Elle est difficile à définir avec précision ; la doctrine (Chapus, cité par Degoffe) se contente de dire qu'elle est *plus grave qu'une faute simple*. Exiger une faute lourde revient à admettre que certaines fautes de l'administration n'engagent pas sa responsabilité [^11].
 
-Pour comprendre le mouvement, retenez l'exemple de la **responsabilité hospitalière**. Le juge administratif, soucieux de la difficulté de la tâche de l'administration, exigeait autrefois une faute lourde dans certains domaines. À l'hôpital, tant que l'arrêt *Époux V* n'était pas intervenu, la faute lourde était requise lorsque le dommage résultait d'un **acte médical** (en raison de la difficulté particulière de cet acte), alors qu'une **faute simple** suffisait pour les autres dommages, par exemple un défaut d'organisation du service ou des actes de soins. L'exigence de faute lourde a ensuite considérablement reculé depuis le début des années 1990, sous l'effet notamment de l'émotion suscitée par l'affaire du sang contaminé, qui a conduit le Conseil d'État à assouplir les conditions d'engagement de la responsabilité et à admettre, dans certains secteurs de la responsabilité hospitalière, une responsabilité sans faute [11].
+Pour comprendre le mouvement, retenez l'exemple de la **responsabilité hospitalière**. Le juge administratif, soucieux de la difficulté de la tâche de l'administration, exigeait autrefois une faute lourde dans certains domaines. À l'hôpital, tant que l'arrêt *Époux V* n'était pas intervenu, la faute lourde était requise lorsque le dommage résultait d'un **acte médical** (en raison de la difficulté particulière de cet acte), alors qu'une **faute simple** suffisait pour les autres dommages, par exemple un défaut d'organisation du service ou des actes de soins. L'exigence de faute lourde a ensuite considérablement reculé depuis le début des années 1990, sous l'effet notamment de l'émotion suscitée par l'affaire du sang contaminé, qui a conduit le Conseil d'État à assouplir les conditions d'engagement de la responsabilité et à admettre, dans certains secteurs de la responsabilité hospitalière, une responsabilité sans faute [^11].
 
 > **À retenir** : la faute lourde **subsiste dans certains domaines** mais elle est devenue l'exception. La règle de base est la faute simple. *À compléter : la date de l'arrêt Époux V et la liste actuelle des domaines où la faute lourde demeure n'ont pas été vérifiées sur une source officielle.*
 
-> **Pour la copie** : face à un sujet de responsabilité, ne concluez pas que l'État est protégé parce qu'on ne peut pas lui reprocher une faute lourde. Vérifiez d'abord quel régime s'applique (faute simple, faute lourde, sans faute), comme le jury l'a rappelé en 2025 [1].
+> **Pour la copie** : face à un sujet de responsabilité, ne concluez pas que l'État est protégé parce qu'on ne peut pas lui reprocher une faute lourde. Vérifiez d'abord quel régime s'applique (faute simple, faute lourde, sans faute), comme le jury l'a rappelé en 2025 [^1].
 
 ---
 
 ## III. La responsabilité sans faute : risque et rupture d'égalité
 
-La personne publique peut voir sa responsabilité engagée **alors même qu'elle n'a commis aucune faute**. La victime doit alors seulement établir son préjudice et le lien de causalité avec le comportement de la personne publique. Selon l'ouvrage de Degoffe, trois fondements existent : le **risque**, la **rupture d'égalité devant les charges publiques** et la **garde** [7].
+La personne publique peut voir sa responsabilité engagée **alors même qu'elle n'a commis aucune faute**. La victime doit alors seulement établir son préjudice et le lien de causalité avec le comportement de la personne publique. Selon l'ouvrage de Degoffe, trois fondements existent : le **risque**, la **rupture d'égalité devant les charges publiques** et la **garde** [^7].
 
 ### A. Le risque : l'arrêt Cames (CE, 21 juin 1895)
 
-M. Cames, ouvrier à l'arsenal de Tarbes, est gravement blessé à la main par un éclat de métal projeté lors d'un choc de marteau-pilon. Le ministre de la guerre lui a alloué une indemnité ; il veut une indemnité plus élevée. Aucune faute ne peut être reprochée ni à lui ni à l'État son employeur. Suivant les conclusions du commissaire du gouvernement Romieu, le Conseil d'État admet **pour la première fois** une responsabilité sans faute, fondée uniquement sur le **risque** auquel sont exposés les agents de l'État [8].
+M. Cames, ouvrier à l'arsenal de Tarbes, est gravement blessé à la main par un éclat de métal projeté lors d'un choc de marteau-pilon. Le ministre de la guerre lui a alloué une indemnité ; il veut une indemnité plus élevée. Aucune faute ne peut être reprochée ni à lui ni à l'État son employeur. Suivant les conclusions du commissaire du gouvernement Romieu, le Conseil d'État admet **pour la première fois** une responsabilité sans faute, fondée uniquement sur le **risque** auquel sont exposés les agents de l'État [^8].
 
-**Portée** : la loi du 9 avril 1898 sur les accidents du travail a étendu ce système à tous les ouvriers. Aujourd'hui, cette jurisprudence s'applique peu aux agents permanents, couverts par des régimes de pension, mais reste pertinente pour les **collaborateurs occasionnels** de l'administration et dans les cas de **risque spécial** (installations dangereuses, certains actes médicaux, produits dangereux, accidents de travaux publics) [8].
+**Portée** : la loi du 9 avril 1898 sur les accidents du travail a étendu ce système à tous les ouvriers. Aujourd'hui, cette jurisprudence s'applique peu aux agents permanents, couverts par des régimes de pension, mais reste pertinente pour les **collaborateurs occasionnels** de l'administration et dans les cas de **risque spécial** (installations dangereuses, certains actes médicaux, produits dangereux, accidents de travaux publics) [^8].
 
 ### B. La rupture d'égalité devant les charges publiques : l'arrêt Couitéas (CE, 30 novembre 1923)
 
-M. Couitéas possède un domaine de 38 000 hectares en Tunisie. Un jugement lui reconnaît le droit de faire expulser 8 000 occupants, mais le gouvernement refuse à plusieurs reprises le concours de la force militaire, jugée indispensable pour éviter de graves troubles. Le Conseil d'État juge [9] :
+M. Couitéas possède un domaine de 38 000 hectares en Tunisie. Un jugement lui reconnaît le droit de faire expulser 8 000 occupants, mais le gouvernement refuse à plusieurs reprises le concours de la force militaire, jugée indispensable pour éviter de graves troubles. Le Conseil d'État juge [^9] :
 
 - le gouvernement pouvait **légalement** refuser ce concours pour des raisons de sécurité ;
 - mais M. Couitéas pouvait compter sur ce concours pour exécuter le jugement ;
 - un refus de concours dépassant une certaine durée ne constitue pas une charge normalement supportée par l'intéressé : le préjudice, **imposé dans l'intérêt général**, prenait la forme d'une privation totale et illimitée dans le temps de la jouissance de son bien. **Indemnisation due.**
 
-L'arrêt marque le point de départ de la responsabilité sans faute pour **rupture de l'égalité devant les charges publiques**, fondée sur la Déclaration de 1789. L'indemnisation n'est due que si le préjudice est **anormal** (d'une certaine importance) et **spécial** (ne touchant que certains membres de la collectivité) [9].
+L'arrêt marque le point de départ de la responsabilité sans faute pour **rupture de l'égalité devant les charges publiques**, fondée sur la Déclaration de 1789. L'indemnisation n'est due que si le préjudice est **anormal** (d'une certaine importance) et **spécial** (ne touchant que certains membres de la collectivité) [^9].
 
-La jurisprudence s'est étendue notamment au défaut de concours de la force publique pour exécuter une décision de justice, aux décisions administratives, aux règlements, à certaines lois et aux dommages de travaux publics, et a été confirmée par la loi du 9 juillet 1991. Elle n'est pas absolue : le législateur a exclu l'indemnisation des servitudes d'urbanisme, sauf cas très limités [9].
+La jurisprudence s'est étendue notamment au défaut de concours de la force publique pour exécuter une décision de justice, aux décisions administratives, aux règlements, à certaines lois et aux dommages de travaux publics, et a été confirmée par la loi du 9 juillet 1991. Elle n'est pas absolue : le législateur a exclu l'indemnisation des servitudes d'urbanisme, sauf cas très limités [^9].
 
 > **Piège** : dans la responsabilité pour rupture d'égalité, l'acte à l'origine du dommage peut être **parfaitement légal** (comme le refus de concours dans Couitéas). Ne confondez pas responsabilité sans faute et responsabilité pour illégalité.
 
@@ -129,21 +129,21 @@ La jurisprudence s'est étendue notamment au défaut de concours de la force pub
 
 ### A. L'arrêt La Fleurette (CE, 14 janvier 1938)
 
-La loi du 29 juin 1934 interdisait la fabrication et la vente de produits ayant l'apparence de la crème et destinés aux mêmes usages, mais non entièrement issus du lait. La société La Fleurette fabriquait un tel produit, le « Gradine », et a dû cesser son activité. Les produits n'étaient pas dangereux, et ni le texte ni les travaux préparatoires ne laissaient penser que le législateur voulait faire peser cette charge sur cette seule société [10].
+La loi du 29 juin 1934 interdisait la fabrication et la vente de produits ayant l'apparence de la crème et destinés aux mêmes usages, mais non entièrement issus du lait. La société La Fleurette fabriquait un tel produit, le « Gradine », et a dû cesser son activité. Les produits n'étaient pas dangereux, et ni le texte ni les travaux préparatoires ne laissaient penser que le législateur voulait faire peser cette charge sur cette seule société [^10].
 
-Le Conseil d'État reconnaît **pour la première fois la responsabilité de l'État du fait d'une loi**. La charge, imposée dans un but d'intérêt général, doit être supportée par la collectivité. Le fondement est la **rupture de l'égalité devant les charges publiques**, une responsabilité sans faute [10].
+Le Conseil d'État reconnaît **pour la première fois la responsabilité de l'État du fait d'une loi**. La charge, imposée dans un but d'intérêt général, doit être supportée par la collectivité. Le fondement est la **rupture de l'égalité devant les charges publiques**, une responsabilité sans faute [^10].
 
 ### B. Les conditions
 
-La jurisprudence ultérieure a posé des conditions restrictives, en raison de la nature particulière de l'acte législatif [10] :
+La jurisprudence ultérieure a posé des conditions restrictives, en raison de la nature particulière de l'acte législatif [^10] :
 
 1. **Absence d'exclusion de l'indemnisation** par la loi ou ses travaux préparatoires. Le juge a abandonné le critère de la volonté implicite du législateur au profit d'un principe : le silence de la loi n'exclut pas en soi l'indemnisation (CE, 2 novembre 2005, *Ax'ion*) ;
 2. **Préjudice anormal**, d'une certaine importance ;
 3. **Préjudice spécial**, ne touchant que certains membres de la collectivité. Cette condition est difficile à remplir quand le dommage vient d'une loi : les applications positives sont rares.
 
-Le même fondement a été retenu pour des conventions internationales, pour des lois contraires à des engagements internationaux de la France et pour des lois contraires aux principes généraux du droit de l'Union européenne [10].
+Le même fondement a été retenu pour des conventions internationales, pour des lois contraires à des engagements internationaux de la France et pour des lois contraires aux principes généraux du droit de l'Union européenne [^10].
 
-**Pourquoi si rare ?** Degoffe l'explique ainsi : en 1938 prévalait encore l'idée que la loi exprime la volonté générale. Le Conseil d'État jugeait pourtant contraire à l'égalité devant les charges publiques que quelques-uns supportent seuls le préjudice d'une loi prise dans l'intérêt de tous. Mais, dans sa version initiale, la jurisprudence excluait la responsabilité dès que la loi poursuivait un but d'intérêt général, ce qui est en principe toujours le cas : il n'y a eu que deux applications positives jusqu'en 2003. À partir de 2003, le Conseil d'État infléchit sa position, puis la renverse plus radicalement par l'arrêt du 2 novembre 2005 (*Ax'ion*), après lequel c'est l'exclusion expresse de l'indemnisation qui fait obstacle à la responsabilité [12].
+**Pourquoi si rare ?** Degoffe l'explique ainsi : en 1938 prévalait encore l'idée que la loi exprime la volonté générale. Le Conseil d'État jugeait pourtant contraire à l'égalité devant les charges publiques que quelques-uns supportent seuls le préjudice d'une loi prise dans l'intérêt de tous. Mais, dans sa version initiale, la jurisprudence excluait la responsabilité dès que la loi poursuivait un but d'intérêt général, ce qui est en principe toujours le cas : il n'y a eu que deux applications positives jusqu'en 2003. À partir de 2003, le Conseil d'État infléchit sa position, puis la renverse plus radicalement par l'arrêt du 2 novembre 2005 (*Ax'ion*), après lequel c'est l'exclusion expresse de l'indemnisation qui fait obstacle à la responsabilité [^12].
 
 > **À retenir** : la responsabilité du fait des lois existe, mais elle est **rare** en pratique. En copie, évoquez-la comme une possibilité encadrée par des conditions strictes, sans promettre une indemnisation.
 
@@ -185,7 +185,7 @@ Le même fondement a été retenu pour des conventions internationales, pour des
 4. *Conclusion nuancée.* L'indemnisation est possible mais incertaine ; si d'autres opérateurs sont touchés, le caractère spécial manque.
 5. *Proposition.* Si la mesure risque de faire peser une charge sur un petit nombre d'acteurs, prévoir dans la loi un régime d'indemnisation ou de transition (délai, accompagnement), ce qui sécurise la décision publique.
 
-> **Pour la copie** : montrez que vous raisonnez par conditions (silence de la loi, anormal, spécial) et que vous concluez par une appréciation, pas par une affirmation. C'est le « syllogisme juridique » que le jury 2025 attend [1].
+> **Pour la copie** : montrez que vous raisonnez par conditions (silence de la loi, anormal, spécial) et que vous concluez par une appréciation, pas par une affirmation. C'est le « syllogisme juridique » que le jury 2025 attend [^1].
 
 ### Questions d'auto-test
 
