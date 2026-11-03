@@ -46,7 +46,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 8        | 2                 | 3                    | 0             |
+| Droit public                   | —       | 8        | 2                 | 5                    | 0             |
 | Économie                       | —       | 1        | 1                 | 0                    | 0             |
 | Finances publiques             | —       | 1        | 1                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
@@ -55,7 +55,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 | Thèmes de la note de réflexion | —       | 0        | 0                 | 0                    | 0             |
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
-Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les cours de droit administratif restent en brouillon) :
+Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les deux cours de droit administratif l'ont aussi depuis la vérification contre le Degoffe, voir docs/VERIFICATION.md) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
 - Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0

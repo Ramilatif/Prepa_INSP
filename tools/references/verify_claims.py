@@ -29,7 +29,14 @@ def main() -> None:
     ap.add_argument("claims")
     ap.add_argument("--only")
     ap.add_argument("--width", type=int, default=240)
+    ap.add_argument(
+        "--books",
+        help="fragments de nom de fichier séparés par des virgules (remplace les manuels de droit constitutionnel)",
+    )
     a = ap.parse_args()
+    if a.books:
+        BOOKS.clear()
+        BOOKS.update({frag.strip(): frag.strip() for frag in a.books.split(",")})
     claims = json.loads(Path(a.claims).read_text(encoding="utf-8"))
     con = sqlite3.connect(DB)
     docs = {}

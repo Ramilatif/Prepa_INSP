@@ -95,3 +95,52 @@ par les manuels (la source officielle seule demeure).
 - Lamotte (1950), Rouquette (1999), SNIP (2001) ; la décision 2010-14/22 QPC ; l'article 12 (détails) ; le délai de soixante jours de l'article 16.
 - Ouvrage seul, à relire à la source officielle : Deprez (2005), 2006-540 DC, 2021-940 QPC, réserves d'interprétation, délai de trois mois du Conseil en QPC.
 - Origine de la QPC dans la révision de 2008 : non retrouvée dans les manuels.
+
+## Vérification affirmation par affirmation : droit administratif (2026-11-03)
+
+Même méthode (outil `verify_claims.py --books Degoffe`, liste `claims_administratif.json`). Seul ouvrage de droit administratif déposé :
+Degoffe, *Droit administratif* (734 pages, numéros de page du fichier PDF). Légende : ✓ confirmé ; ◐ en partie ; ✗ non couvert par l'ouvrage.
+
+### Cours « Actes administratifs et recours pour excès de pouvoir »
+
+| Id | Affirmation | Officiel | Degoffe | Verdict |
+|---|---|---|---|---|
+| A1 | Lamotte (1950), REP sans texte | ✓ CE | non couvert | ✗ |
+| A2 | Duvignères (2002), circulaires impératives, fin de Notre-Dame du Kreisker | ✓ CE | p. 392 | ✓ |
+| A3 | REP : deux mois, délai franc (exemple 4 août → 5 octobre) | ✓ Légifrance | p. 425 | ✓ |
+| A4 | Absence de publicité, connaissance acquise, tiers | — | p. 425 et 437 | ✓ (ouvrage seul) |
+| A5 | Mention des voies de recours, délai raisonnable d'un an | ✓ CE (n° 419220) | p. 416 | ✓ |
+| A6 | Danthony (2011) : influence sur la décision ou garantie | ✓ CE | p. 482 (effets de la jurisprudence ; le principe n'y est pas détaillé) | ◐ |
+| A7 | Détournement de pouvoir ; Pariset (1875) | ✓ CE (principe) | p. 482 (faits) | ✓ |
+| A8 | Exception d'illégalité sans délai | — | p. 69-70, 440, 455 | ✓ (ouvrage seul) |
+| A9 | Légalité externe / interne | — | p. 482-483 | ✓ (ouvrage seul) |
+| A10 | Permis de construire : pas un acte d'application du document d'urbanisme | — | p. 69-70 | ✓ (ouvrage seul) |
+| A11 | Ne pas appliquer un règlement illégal ; appliquer l'acte individuel | — | p. 440 | ✓ (ouvrage seul) |
+
+### Cours « Responsabilité de la puissance publique »
+
+| Id | Affirmation | Officiel | Degoffe | Verdict |
+|---|---|---|---|---|
+| R1 | Blanco (8 février 1873), loi des 16-24 août 1790 | ✓ CE | p. 53-54 | ✓ |
+| R2 | Pelletier (30 juillet 1873), faute personnelle / de service | ✓ CE | p. 683 (note : GAJA n° 2) | ✓ |
+| R3 | Faute personnelle détachable du service | ✓ CE | p. 678 | ✓ |
+| R4 | Anguet (1911), cumul de fautes, faits (bureau de poste) | ✓ CE (principe) | p. 669 | ✓ (faits : ouvrage seul) |
+| R5 | Lemonnier (26 juillet 1918), cumul de responsabilités | ✓ CE | p. 684 (note), table des matières | ✓ |
+| R6 | Cames (21 juin 1895), risque | ✓ CE | non couvert | ✗ |
+| R7 | Couitéas (30 novembre 1923) | ✓ CE | p. 655 | ✓ |
+| R8 | Trois fondements de la responsabilité sans faute | — | p. 636 | ✓ (ouvrage seul) |
+| R9 | Préjudice anormal et spécial | ✓ CE | p. 645 et 657 | ✓ |
+| R10 | La Fleurette (14 janvier 1938) | ✓ CE | p. 646 | ✓, avec l'écart de date ci-dessous |
+| R11 | Ax'ion (2 novembre 2005) | ✓ (cité par la page La Fleurette) | p. 646 et 663 (note) | ✓ |
+| R12 | Faute lourde : recul depuis les années 1990, exemple hospitalier | ✓ (étude annuelle 2005, via extrait) | p. 621 | ✓ |
+| R13 | TC, 22 janvier 1921 (services publics industriels et commerciaux) | ✓ CE | p. 101 (note) | ✓ |
+| R14 | Loi du 9 juillet 1991, art. 16 (consécration législative de Couitéas) | ✓ CE | p. 655 | ✓ |
+| R15 | Loi du 9 avril 1898 (accidents du travail) ; collaborateur occasionnel | ✓ CE | non couvert | ✗ |
+| R16 | Gardedieu (lois contraires aux engagements internationaux) | ✓ CE (principe, page La Fleurette) | p. 650 | ✓ (détail et date : ouvrage seul / non relevée) |
+
+### Écarts relevés
+- Date de la loi de La Fleurette : voir tableau principal (Degoffe : 9 juin 1934 ; Conseil d'État : 29 juin 1934).
+- Numéro d'affaire d'Ax'ion : la note de Degoffe (p. 663) donne un numéro apparemment tronqué (« n° 26564 ») ; non repris.
+
+### Restent sans appui d'un manuel
+- Lamotte, Cames, loi du 9 avril 1898 (sources officielles seules) ; le principe de Danthony n'est qu'évoqué par l'ouvrage ; les définitions et exemples sur les délais, l'exception d'illégalité et les moyens sont soutenus par l'ouvrage seul (pas de texte officiel relu pour tous).

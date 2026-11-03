@@ -8,7 +8,7 @@ ordre: 1
 matiere: droit_public
 epreuves: [op_droit_public]
 maj: 2026-11-03
-statut: brouillon
+statut: concordance avec les ouvrages vérifiée
 sources:
   - Conseil d'État, Assemblée, 17 février 1950, Dame Lamotte, n° 86949 ; Section, 18 décembre 2002, Mme Duvignères, n° 233618 ; Assemblée, 23 décembre 2011, Danthony et autres, n° 335033 et 335477 ; 16 décembre 2019, n° 419220
   - Conseil d'État, 26 novembre 1875, Pariset (principe d'après des publications du Conseil d'État)
@@ -189,8 +189,8 @@ Deux limites sont mentionnées par Degoffe :
 [^4]: Code de justice administrative, art. R. 421-1 (rédaction applicable aux requêtes enregistrées depuis le 1er janvier 2017, décret n° 2016-1480 du 2 novembre 2016), https://circulaire.legifrance.gouv.fr/codes/article_lc/LEGIARTI000033340882/2017-01-01 ; art. R. 421-5 (mention des délais et voies de recours), d'après les décisions du Conseil d'État citées en [^7]. Texte intégral de R. 421-5 non relu.
 [^5]: Degoffe, *Droit administratif* (ouvrage déposé), p. 425 du fichier PDF : délai franc, exemple du 4 août, tiers et connaissance, publicité du permis de construire.
 [^6]: Degoffe, *Droit administratif* (ouvrage déposé), p. 425 et 437 du fichier PDF : absence de publicité, connaissance acquise, membre d'un conseil municipal.
-[^7]: Conseil d'État, 16 décembre 2019, n° 419220, https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2019-12-16/419220 (délai raisonnable d'un an) ; voir aussi la décision du 10 février 2020, n° 429343, sur Légifrance (fondement de sécurité juridique).
-[^8]: Degoffe, *Droit administratif* (ouvrage déposé), p. 482 du fichier PDF : classement des moyens en légalité externe et interne. La classification est standard ; son énoncé complet (formes, procédure) n'a pas été relevé page par page.
+[^7]: Conseil d'État, 16 décembre 2019, n° 419220, https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2019-12-16/419220 (délai raisonnable d'un an) ; voir aussi la décision du 10 février 2020, n° 429343, sur Légifrance (fondement de sécurité juridique). Concordance : Degoffe, p. 416 du fichier PDF, confirme que le délai raisonnable est d'un an lorsque l'acte attaqué n'a pas indiqué les voies et délais de recours.
+[^8]: Degoffe, *Droit administratif* (ouvrage déposé), p. 482 du fichier PDF : classement des moyens en légalité externe et interne. Page 483 : la distinction entre les moyens de légalité externe et de légalité interne « n'a pas que des vertus pédagogiques » et a des implications contentieuses (son détail n'a pas été relu).
 [^9]: Conseil d'État, Assemblée, 23 décembre 2011, *Danthony et autres*, n° 335033 (analyse : https://www.conseil-etat.fr/fr/arianeweb/CE/analyse/2011-12-23/335033) et n° 335477 (décision : https://conseil-etat.fr/fr/arianeweb/CE/decision/2011-12-23/335477).
 [^10]: Degoffe, *Droit administratif* (ouvrage déposé), p. 482 du fichier PDF : effets de la jurisprudence Danthony, détournement de pouvoir, exemples du maire, de l'affaire Pariset (faits de l'espèce).
 [^11]: Conseil d'État, « Le Conseil d'État et la protection des droits fondamentaux », https://www.conseil-etat.fr/site/publications-colloques/discours-et-contributions/le-conseil-d-etat-et-la-protection-des-droits-fondamentaux : CE, 26 novembre 1875, *Pariset* (mesures de police et objectif purement financier) ; Rec. p. 934 d'après une autre publication du Conseil d'État.
