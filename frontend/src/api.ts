@@ -52,6 +52,7 @@ export interface FicheSummary {
   a_verifier: boolean;
   type: "fiche" | "cours";
   parcours: string | null;
+  domaine: string | null;
   ordre: number | null;
 }
 export interface Card {

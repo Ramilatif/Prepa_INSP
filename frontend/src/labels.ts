@@ -16,6 +16,28 @@ export const PARCOURS: Record<string, string> = {
   economie: "Économie et politiques économiques",
 };
 
+/** Domaines d'un parcours, dans l'ordre d'affichage (identifiant → intitulé). */
+export const DOMAINES: Record<string, [string, string][]> = {
+  "droit-public": [
+    ["droit-constitutionnel", "Droit constitutionnel"],
+    ["droit-administratif", "Droit administratif"],
+    ["libertes-fondamentales", "Libertés et droits fondamentaux"],
+    ["droit-union-europeenne", "Droit de l'Union européenne"],
+  ],
+};
+
+/** Regroupe des cours d'un parcours par domaine, dans l'ordre déclaré ; les domaines inconnus passent à la fin. */
+export function groupByDomaine<T extends { domaine: string | null }>(
+  parcours: string,
+  items: T[],
+): { id: string; label: string; items: T[] }[] {
+  const known = DOMAINES[parcours] ?? [];
+  const groups = known.map(([id, label]) => ({ id, label, items: items.filter((c) => c.domaine === id) }));
+  const others = items.filter((c) => !known.some(([id]) => id === c.domaine));
+  if (others.length > 0) groups.push({ id: "autres", label: "Autres", items: others });
+  return groups.filter((g) => g.items.length > 0);
+}
+
 export const TYPE_ANNALE: Record<string, string> = {
   sujet: "Sujet",
   meilleure_copie: "Meilleure copie",

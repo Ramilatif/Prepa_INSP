@@ -3,6 +3,7 @@ slug: cours-responsabilite-administrative
 titre: "Cours de droit public : la responsabilité de la puissance publique"
 type: cours
 parcours: droit-public
+domaine: droit-administratif
 ordre: 2
 matiere: droit_public
 epreuves: [op_droit_public]

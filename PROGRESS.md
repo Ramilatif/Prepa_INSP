@@ -55,7 +55,10 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 | Thèmes de la note de réflexion | —       | 0        | 0                 | 0                    | 0             |
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
-Cours rédigés (type « cours ») : 2 (droit public : hiérarchie des normes ; responsabilité de la puissance publique), statut brouillon
+Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du droit public :
+- Droit constitutionnel : 1 (hiérarchie des normes et principe de légalité)
+- Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
+- Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0
 
 ## Annales
 

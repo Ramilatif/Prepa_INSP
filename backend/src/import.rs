@@ -176,12 +176,13 @@ async fn import_fiches(pool: &SqlitePool, dir: &Path, r: &mut ImportReport) -> a
         let m = &fiche.meta;
         let fiche_id = format!("fiche:{}", m.slug);
         sqlx::query(
-            "INSERT INTO fiches (id, slug, titre, matiere, epreuves_json, updated_at, statut, sources_json, body_md, type, parcours, ordre)
-             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            "INSERT INTO fiches (id, slug, titre, matiere, epreuves_json, updated_at, statut, sources_json, body_md, type, parcours, ordre, domaine)
+             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
              ON CONFLICT(slug) DO UPDATE SET titre = excluded.titre, matiere = excluded.matiere,
                epreuves_json = excluded.epreuves_json, updated_at = excluded.updated_at,
                statut = excluded.statut, sources_json = excluded.sources_json, body_md = excluded.body_md,
-               type = excluded.type, parcours = excluded.parcours, ordre = excluded.ordre",
+               type = excluded.type, parcours = excluded.parcours, ordre = excluded.ordre,
+               domaine = excluded.domaine",
         )
         .bind(&fiche_id)
         .bind(&m.slug)
@@ -195,6 +196,7 @@ async fn import_fiches(pool: &SqlitePool, dir: &Path, r: &mut ImportReport) -> a
         .bind(&m.kind)
         .bind(&m.parcours)
         .bind(m.ordre)
+        .bind(&m.domaine)
         .execute(pool)
         .await?;
         r.fiches += 1;

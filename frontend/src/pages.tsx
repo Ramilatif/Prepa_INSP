@@ -4,7 +4,7 @@ import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import remarkCallouts from "./remarkCallouts";
 import { api, uploadPdf, type Annale, type Card, type Copie, type FicheSummary, type Grille, type Me } from "./api";
-import { EPREUVES, PARCOURS, TYPE_ANNALE, formatDuration, matiereLabel, statutLevel } from "./labels";
+import { EPREUVES, PARCOURS, TYPE_ANNALE, formatDuration, groupByDomaine, matiereLabel, statutLevel } from "./labels";
 
 /** Cours rédigés, classés par parcours puis par ordre de lecture. */
 export function Cours() {
@@ -21,14 +21,19 @@ export function Cours() {
       {parcours.map((p) => (
         <div key={p}>
           <h2>{PARCOURS[p] ?? p}</h2>
-          <ol>
-            {list.filter((c) => (c.parcours ?? "autres") === p).map((c) => (
-              <li key={c.slug}>
-                <Link to={`/fiches/${c.slug}`}>{c.titre.replace(/^Cours de [^:]+ : /, "")}</Link>
-                <span className={`badge level${statutLevel(c.statut)}`}>{c.statut}</span>
-              </li>
-            ))}
-          </ol>
+          {groupByDomaine(p, list.filter((c) => (c.parcours ?? "autres") === p)).map((g) => (
+            <div key={g.id}>
+              <h3>{g.label}</h3>
+              <ol>
+                {g.items.map((c) => (
+                  <li key={c.slug}>
+                    <Link to={`/fiches/${c.slug}`}>{c.titre.replace(/^Cours de [^:]+ : /, "")}</Link>
+                    <span className={`badge level${statutLevel(c.statut)}`}>{c.statut}</span>
+                  </li>
+                ))}
+              </ol>
+            </div>
+          ))}
         </div>
       ))}
     </section>

@@ -28,7 +28,10 @@ pub struct FrontMatter {
     /// Parcours auquel appartient un cours (ex. « droit-public »).
     #[serde(default)]
     pub parcours: Option<String>,
-    /// Rang du cours dans son parcours.
+    /// Domaine du cours dans son parcours (ex. « droit-administratif »).
+    #[serde(default)]
+    pub domaine: Option<String>,
+    /// Rang du cours dans son domaine.
     #[serde(default)]
     pub ordre: Option<i64>,
 }
@@ -183,6 +186,7 @@ mod tests {
             "statut: brouillon
 type: cours
 parcours: droit-public
+domaine: droit-administratif
 ordre: 2",
         );
         let m = parse_fiche(&cours).unwrap().meta;
@@ -190,6 +194,7 @@ ordre: 2",
             (m.kind.as_str(), m.parcours.as_deref(), m.ordre),
             ("cours", Some("droit-public"), Some(2))
         );
+        assert_eq!(m.domaine.as_deref(), Some("droit-administratif"));
     }
 
     #[test]

@@ -160,7 +160,7 @@ async fn list_fiches(
     _u: User,
     Query(f): Query<FicheFilter>,
 ) -> ApiResult<Value> {
-    let rows = sqlx::query("SELECT slug, titre, matiere, epreuves_json, updated_at, statut, a_verifier, type, parcours, ordre FROM fiches ORDER BY parcours, ordre, titre")
+    let rows = sqlx::query("SELECT slug, titre, matiere, epreuves_json, updated_at, statut, a_verifier, type, parcours, domaine, ordre FROM fiches ORDER BY parcours, domaine, ordre, titre")
         .fetch_all(&pool)
         .await
         .map_err(internal)?;
@@ -197,6 +197,7 @@ async fn list_fiches(
                 "a_verifier": r.get::<i64, _>("a_verifier") != 0,
                 "type": r.get::<String, _>("type"),
                 "parcours": r.get::<Option<String>, _>("parcours"),
+                "domaine": r.get::<Option<String>, _>("domaine"),
                 "ordre": r.get::<Option<i64>, _>("ordre"),
             })
         })

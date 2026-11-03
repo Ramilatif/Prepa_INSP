@@ -63,8 +63,10 @@ identifiants TEXT UUID, booléens INTEGER 0/1), pas de syntaxe propre à SQLite 
 
 - Deux types de contenu, même fichier Markdown et même pipeline d'import (`content/fiches/`) : la **fiche**
   (synthèse à réviser, flashcards) et le **cours** (chapitre développé, `type: cours`).
-- Front matter additionnel pour un cours : `type: cours`, `parcours` (ex. `droit-public`), `ordre` (rang dans le parcours).
-  Colonnes `type`, `parcours`, `ordre` dans `fiches` (migration 0004). `GET /api/fiches?type=cours|fiche`.
+- Front matter additionnel pour un cours : `type: cours`, `parcours` (ex. `droit-public`), `domaine` (ex. `droit-constitutionnel`,
+  `droit-administratif`, `libertes-fondamentales`, `droit-union-europeenne`), `ordre` (rang dans le domaine).
+  Colonnes `type`, `parcours`, `ordre` (migration 0004) et `domaine` (migration 0005) dans `fiches`.
+  La page « Cours » les range par parcours, puis par domaine (ordre déclaré dans `frontend/src/labels.ts`). `GET /api/fiches?type=cours|fiche`.
 - Structure d'un cours : encadré « à quoi sert ce chapitre », problématique, plan annoncé, parties développées
   avec exemples et tableaux, application à l'épreuve (méthode, pièges, ce que le jury sanctionne), « pour réviser »,
   « pour aller plus loin », flashcards en fin de chapitre (secondaires).

@@ -3,6 +3,7 @@ slug: cours-hierarchie-des-normes
 titre: "Cours de droit public : la hiérarchie des normes et le principe de légalité"
 type: cours
 parcours: droit-public
+domaine: droit-constitutionnel
 ordre: 1
 matiere: droit_public
 epreuves: [op_droit_public]
