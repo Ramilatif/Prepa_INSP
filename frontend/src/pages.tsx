@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Markdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import remarkCallouts from "./remarkCallouts";
 import { api, uploadPdf, type Annale, type Card, type Copie, type FicheSummary, type Grille, type Me } from "./api";
 import { EPREUVES, PARCOURS, TYPE_ANNALE, formatDuration, matiereLabel, statutLevel } from "./labels";
 
@@ -303,7 +304,10 @@ export function FichePage() {
       <p className="muted">
         {matiereLabel(f.matiere)} · mise à jour {f.maj} · <span className={`badge level${statutLevel(f.statut)}`}>{f.statut}</span>
       </p>
-      <div className="cours"><Markdown remarkPlugins={[remarkGfm]}>{f.body_md}</Markdown></div>
+      <div className="cours"><Markdown
+        remarkPlugins={[remarkGfm, remarkCallouts]}
+        remarkRehypeOptions={{ footnoteLabel: "Notes de bas de page", footnoteBackLabel: "Retour au texte" }}
+      >{f.body_md}</Markdown></div>
       <h2>Sources</h2>
       <ul>{f.sources.map((s) => <li key={s}>{s}</li>)}</ul>
       <SignalButton type="fiche" id={f.slug} />

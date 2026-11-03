@@ -36,5 +36,18 @@ button.link { background: none; color: var(--accent); border: none; padding: 0; 
 .cours th, .cours td { border: 1px solid var(--line); padding: .4rem .6rem; text-align: left; vertical-align: top; }
 .cours th { background: var(--card); }
 .cours pre { overflow-x: auto; padding: .75rem 1rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; font-size: .85em; line-height: 1.35; }
+/* Encadrés annotés : à retenir, piège, exemple, pour la copie, note, définition. */
+.cours .callout { border-left-width: 5px; border-radius: 0 4px 4px 0; }
+.cours .callout.retenir { border-left-color: #1f6f43; }
+.cours .callout.piege { border-left-color: #b00020; }
+.cours .callout.exemple { border-left-color: #8a4b00; }
+.cours .callout.copie { border-left-color: #5b3a9a; }
+.cours .callout.note { border-left-color: var(--muted); }
+.cours .callout.definition { border-left-color: var(--accent); }
+.cours .callout > p { margin: .3rem 0; }
+/* Notes de bas de page (références précises des sources). */
+.cours section[data-footnotes] { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); font-size: .85em; color: var(--muted); }
+.cours section[data-footnotes] h2 { font-size: 1rem; border: none; margin-top: 0; }
+.cours sup a { text-decoration: none; font-weight: bold; }
 .cours hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 @media (max-width: 600px) { body { font-size: 17px; } }
