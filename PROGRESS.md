@@ -56,7 +56,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
 Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du droit public :
-- Droit constitutionnel : 1 (hiérarchie des normes et principe de légalité)
+- Droit constitutionnel : 2 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
 - Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0
 
@@ -86,6 +86,8 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 
 - 2026-11-03 — Changement de règle demandé par l'utilisateur : pour les cours, les ouvrages déposés peuvent servir directement de source de rédaction (et plus seulement de vérification). Consigné dans CLAUDE.md (règle spécifique aux cours) ; PROMPT.md n'a pas été modifié. Garde-fous : mots propres, pas de recopie ni paraphrase serrée, citation de l'ouvrage et de la page en note, sources officielles privilégiées pour le daté et le chiffré, aucun envoi à l'API Claude. À noter : deux ouvrages portent « z-library » dans leur nom ; les cours qui s'en inspirent seront visibles des autres utilisateurs de l'appli, ce qui est un point de vigilance (droit d'auteur) laissé à l'appréciation de l'utilisateur.
 
+- 2026-11-03 — Cours rangés par domaine du droit public (champ `domaine` : droit-constitutionnel, droit-administratif, libertes-fondamentales, droit-union-europeenne), page « Cours » regroupée par parcours puis domaine. Chaque cours s'appuie désormais, quand c'est utile, sur les ouvrages déposés (règle du 2026-11-03), reformulés et cités en note avec la page du fichier PDF.
+
 ## Problèmes rencontrés
 
 <!-- Format : date — problème — solution ou statut -->
@@ -95,6 +97,9 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Cours « Les actes administratifs et le recours pour excès de pouvoir » (brouillon) : appuyé sur le Degoffe (pages 69-70, 392, 425, 437, 440, 455, 482 du PDF) et sur les pages du Conseil d'État (Duvignères, Danthony, Pariset) et de Légifrance (R. 421-1). À reconfirmer : texte complet de R. 421-5 (non relu) ; faits de l'affaire Pariset (allumettes) tirés de l'ouvrage seul, seul le principe est confirmé par le Conseil d'État ; extension du recours aux avis et recommandations des autorités de régulation (ouvrage seul) ; classification légalité externe/interne (ouvrage seul).
+- Cours « Le Conseil constitutionnel et le contrôle de constitutionnalité (DC et QPC) » (brouillon) : composition et saisine lues sur le texte de la Constitution (site du Conseil), filtrage de la QPC sur les art. 23-2 et 23-4 de l'ordonnance organique (Légifrance, via résumé), statistiques du bilan du Conseil (à revérifier : les totaux diffèrent d'un bilan à l'autre). Non vérifié : origine précise de la révision de 2008, priorité de la QPC sur les moyens de conventionnalité, portée du dernier alinéa de l'article 62.
 
 - Cours « La hiérarchie des normes et le principe de légalité » (statut brouillon) : décisions lues sur les pages du Conseil d'État, du Conseil constitutionnel, d'EUR-Lex et de la Cour de cassation via un outil de résumé (pas en texte intégral). Éléments à documenter ou à reconfirmer : numéro de pourvoi Jacques Vabre (73-13556, relevé dans une page du Conseil constitutionnel) ; réserve de l'identité constitutionnelle (décisions postérieures à 2004, non vérifiées, signalées dans le cours) ; décisions Rouquette 1999, SNIP 2001, Fraisse 2000, Boisdet 1990, Trompier-Gravier 1944 (citées d'après les pages du Conseil d'État, sans lecture de leur texte) ; liste détaillée du bloc de constitutionnalité (principes à valeur constitutionnelle, objectifs de valeur constitutionnelle) non fournie par la source.
 - Cours « La responsabilité de la puissance publique » (brouillon) : décisions lues sur les pages « grandes décisions » du Conseil d'État via un outil de résumé. Points à reconfirmer ou à compléter : faits de l'arrêt Anguet (non trouvés), arrêts Laruelle et Delville 1951 et Ax'ion 2005 (cités d'après d'autres pages, non relus), domaines où la faute lourde subsiste (non relevés), régimes spéciaux d'indemnisation, la « garde » comme troisième fondement (appuyée par l'ouvrage Degoffe seul), numéro de Recueil de Pelletier (117 ou 118 selon les sources). Les cas pratiques des deux cours sont des hypothèses construites par moi, pas des sujets d'annales.
