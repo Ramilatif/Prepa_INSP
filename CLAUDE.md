@@ -56,6 +56,16 @@ En cas de contradiction : PROMPT.md fait foi, puis ARCHITECTURE.md.
 - Mettre à jour PROGRESS.md à la fin de chaque phase et à chaque décision non prévue par PROMPT.md
 - Aucun secret en dur : clé API et tarifs dans .env (exclu de git), .env.example versionné
 
+## Règle spécifique aux cours (décision de l'utilisateur, 2026-11-03)
+
+Pour les contenus de type « cours » (chapitres développés), l'utilisateur autorise à utiliser **directement les
+ouvrages déposés** dans references/ouvrages/ comme source de rédaction, en plus des sources officielles. Cette
+décision remplace, pour les cours seulement, la règle de PROMPT.md qui limitait les ouvrages à la vérification.
+Garde-fous conservés : rédiger **avec ses propres mots** (pas de recopie de passages, pas de paraphrase
+serrée), citer l'ouvrage et la page en note de bas de page (pages du fichier PDF), privilégier les sources
+officielles pour tout ce qui est daté ou chiffré, ne jamais envoyer le texte des ouvrages à l'API Claude depuis
+l'appli. Les fiches (synthèses) restent soumises aux règles ci-dessous.
+
 ## Règles sur les fiches
 
 - Rédaction uniquement à partir des sources autorisées, en respectant la hiérarchie

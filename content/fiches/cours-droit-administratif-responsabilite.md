@@ -85,7 +85,13 @@ Le commissaire du gouvernement Blum résume la solution : une faute personnelle 
 
 ### C. Quel niveau de faute ?
 
-Selon une étude annuelle du Conseil d'État, la **faute lourde** a largement reculé : une simple « faute de nature à engager la responsabilité » de l'administration suffit le plus souvent à l'engager [6]. *À compléter : la liste des domaines où la faute lourde demeure exigée n'a pas été relevée.*
+Selon une étude annuelle du Conseil d'État, la **faute lourde** a largement reculé : une simple « faute de nature à engager la responsabilité » de l'administration suffit le plus souvent à l'engager [6].
+
+> **Définition** : la **faute lourde** est une faute d'une gravité particulière. Elle est difficile à définir avec précision ; la doctrine (Chapus, cité par Degoffe) se contente de dire qu'elle est *plus grave qu'une faute simple*. Exiger une faute lourde revient à admettre que certaines fautes de l'administration n'engagent pas sa responsabilité [11].
+
+Pour comprendre le mouvement, retenez l'exemple de la **responsabilité hospitalière**. Le juge administratif, soucieux de la difficulté de la tâche de l'administration, exigeait autrefois une faute lourde dans certains domaines. À l'hôpital, tant que l'arrêt *Époux V* n'était pas intervenu, la faute lourde était requise lorsque le dommage résultait d'un **acte médical** (en raison de la difficulté particulière de cet acte), alors qu'une **faute simple** suffisait pour les autres dommages, par exemple un défaut d'organisation du service ou des actes de soins. L'exigence de faute lourde a ensuite considérablement reculé depuis le début des années 1990, sous l'effet notamment de l'émotion suscitée par l'affaire du sang contaminé, qui a conduit le Conseil d'État à assouplir les conditions d'engagement de la responsabilité et à admettre, dans certains secteurs de la responsabilité hospitalière, une responsabilité sans faute [11].
+
+> **À retenir** : la faute lourde **subsiste dans certains domaines** mais elle est devenue l'exception. La règle de base est la faute simple. *À compléter : la date de l'arrêt Époux V et la liste actuelle des domaines où la faute lourde demeure n'ont pas été vérifiées sur une source officielle.*
 
 > **Pour la copie** : face à un sujet de responsabilité, ne concluez pas que l'État est protégé parce qu'on ne peut pas lui reprocher une faute lourde. Vérifiez d'abord quel régime s'applique (faute simple, faute lourde, sans faute), comme le jury l'a rappelé en 2025 [1].
 
@@ -136,6 +142,8 @@ La jurisprudence ultérieure a posé des conditions restrictives, en raison de l
 3. **Préjudice spécial**, ne touchant que certains membres de la collectivité. Cette condition est difficile à remplir quand le dommage vient d'une loi : les applications positives sont rares.
 
 Le même fondement a été retenu pour des conventions internationales, pour des lois contraires à des engagements internationaux de la France et pour des lois contraires aux principes généraux du droit de l'Union européenne [10].
+
+**Pourquoi si rare ?** Degoffe l'explique ainsi : en 1938 prévalait encore l'idée que la loi exprime la volonté générale. Le Conseil d'État jugeait pourtant contraire à l'égalité devant les charges publiques que quelques-uns supportent seuls le préjudice d'une loi prise dans l'intérêt de tous. Mais, dans sa version initiale, la jurisprudence excluait la responsabilité dès que la loi poursuivait un but d'intérêt général, ce qui est en principe toujours le cas : il n'y a eu que deux applications positives jusqu'en 2003. À partir de 2003, le Conseil d'État infléchit sa position, puis la renverse plus radicalement par l'arrêt du 2 novembre 2005 (*Ax'ion*), après lequel c'est l'exclusion expresse de l'indemnisation qui fait obstacle à la responsabilité [12].
 
 > **À retenir** : la responsabilité du fait des lois existe, mais elle est **rare** en pratique. En copie, évoquez-la comme une possibilité encadrée par des conditions strictes, sans promettre une indemnisation.
 
@@ -208,10 +216,13 @@ Le même fondement a été retenu pour des conventions internationales, pour des
 [^4]: CE, 3 février 1911, *Anguet*, Rec. p. 146, d'après la page « Demoiselle Mimeur » du Conseil d'État (https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-18-novembre-1949-demoiselle-mimeur) et les conclusions du rapporteur public dans l'affaire Ministre des armées (https://conseil-etat.fr/fr/arianeweb/CRP/conclusion/2019-06-28/422920). Les faits de l'arrêt n'ont pas été relevés.
 [^5]: Conseil d'État, 26 juillet 1918, *Époux Lemonnier*, n° 49595, https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-26-juillet-1918-epoux-lemonnier ; texte : https://conseil-etat.fr/fr/arianeweb/CE/decision/1918-07-26/49595. Sur *Laruelle et Delville* : https://conseil-etat.fr/ressources/decisions-contentieuses/les-grandes-decisions-du-conseil-d-etat/conseil-d-etat-28-juillet-1951-laruelle-et-delville (non relu).
 [^6]: Conseil d'État, étude annuelle 2005, « Responsabilité et socialisation du risque », https://www.conseil-etat.fr/content/download/224157/file/EA2005%20-%20Responsabilit%C3%A9%20et%20socialisation%20du%20risque.pdf (propos rapportés d'après un extrait de recherche).
-[^7]: Degoffe, *Droit administratif* (ouvrage déposé, usage de vérification uniquement), p. 636 du fichier PDF : définition de la responsabilité sans faute et trois fondements (risque, rupture d'égalité, garde).
+[^7]: Degoffe, *Droit administratif* (ouvrage déposé), p. 636 du fichier PDF : définition de la responsabilité sans faute et trois fondements (risque, rupture d'égalité, garde).
 [^8]: Conseil d'État, « Les grandes décisions depuis 1873 », CE, 21 juin 1895, *Cames*, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/ce-21-juin-1895-cames.
 [^9]: Conseil d'État, « Les grandes décisions depuis 1873 », CE, 30 novembre 1923, *Couitéas*, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-30-novembre-1923-couiteas.
 [^10]: Conseil d'État, « Les grandes décisions depuis 1873 », CE, 14 janvier 1938, *Société anonyme des produits laitiers « La Fleurette »*, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/ce-14-janvier-1938-societe-anonyme-des-produits-laitiers-la-fleurette ; CE, 2 novembre 2005, *Ax'ion* (cité par cette page).
+
+[^11]: Degoffe, *Droit administratif* (ouvrage déposé), p. 621 du fichier PDF : définition de la faute lourde, recul depuis le début des années 1990, exemple de la responsabilité hospitalière (arrêt *Époux V*) et sang contaminé. Texte reformulé ; les références de jurisprudence citées par l'ouvrage n'ont pas été reprises ni vérifiées.
+[^12]: Degoffe, *Droit administratif* (ouvrage déposé), p. 646 du fichier PDF : évolution de la jurisprudence *La Fleurette* jusqu'à l'arrêt du 2 novembre 2005. L'ouvrage date la loi de La Fleurette du « 9 juin 1934 » ; la page du Conseil d'État indique le **29 juin 1934**, date retenue dans ce cours (voir `docs/VERIFICATION.md`).
 
 ## Flashcards
 
