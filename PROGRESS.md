@@ -55,7 +55,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 | Thèmes de la note de réflexion | —       | 0        | 0                 | 0                    | 0             |
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
-Cours rédigés (type « cours ») : 1 (droit public : hiérarchie des normes), statut brouillon
+Cours rédigés (type « cours ») : 2 (droit public : hiérarchie des normes ; responsabilité de la puissance publique), statut brouillon
 
 ## Annales
 
@@ -78,6 +78,9 @@ Cours rédigés (type « cours ») : 1 (droit public : hiérarchie des normes), 
 
 - 2026-11-03 — Retour de l'utilisateur : il veut de vrais cours (chapitres rédigés), pas des fiches de mémorisation avec flashcards. Décision : nouveau type de contenu « cours » (voir ARCHITECTURE.md), page « Cours » dans l'appli, flashcards reléguées en fin de chapitre. Un premier chapitre modèle est écrit (hiérarchie des normes, ~3 400 mots) pour valider le format avant d'en écrire d'autres. Les fiches existantes (synthèses) sont conservées.
 
+- 2026-11-03 — Retour de l'utilisateur : « le plus complet possible » et « ajoute des annotations ». Interprétation retenue : annotations dans le texte du cours = notes de bas de page (référence précise + lien officiel de chaque décision ou texte) et encadrés À retenir / Piège / Exemple / Définition / Pour la copie / Note. Rendu géré par remark-gfm + un petit plugin (frontend/src/remarkCallouts.ts), testé. Si l'utilisateur voulait plutôt pouvoir annoter lui-même les cours (surligner, prendre des notes personnelles), c'est une fonctionnalité distincte, non faite.
+- 2026-11-03 — Chaque cours contient désormais : problématique, plan, développements sourcés, schéma ou tableaux, chronologie, cas pratique corrigé (hypothèses construites, signalées comme telles), questions d'auto-test, notes de bas de page. Deux cours rédigés : hiérarchie des normes (~4 900 mots avec notes) et responsabilité administrative (~3 400 mots).
+
 ## Problèmes rencontrés
 
 <!-- Format : date — problème — solution ou statut -->
@@ -89,6 +92,7 @@ Cours rédigés (type « cours ») : 1 (droit public : hiérarchie des normes), 
 ## Points à vérifier par l'utilisateur
 
 - Cours « La hiérarchie des normes et le principe de légalité » (statut brouillon) : décisions lues sur les pages du Conseil d'État, du Conseil constitutionnel, d'EUR-Lex et de la Cour de cassation via un outil de résumé (pas en texte intégral). Éléments à documenter ou à reconfirmer : numéro de pourvoi Jacques Vabre (73-13556, relevé dans une page du Conseil constitutionnel) ; réserve de l'identité constitutionnelle (décisions postérieures à 2004, non vérifiées, signalées dans le cours) ; décisions Rouquette 1999, SNIP 2001, Fraisse 2000, Boisdet 1990, Trompier-Gravier 1944 (citées d'après les pages du Conseil d'État, sans lecture de leur texte) ; liste détaillée du bloc de constitutionnalité (principes à valeur constitutionnelle, objectifs de valeur constitutionnelle) non fournie par la source.
+- Cours « La responsabilité de la puissance publique » (brouillon) : décisions lues sur les pages « grandes décisions » du Conseil d'État via un outil de résumé. Points à reconfirmer ou à compléter : faits de l'arrêt Anguet (non trouvés), arrêts Laruelle et Delville 1951 et Ax'ion 2005 (cités d'après d'autres pages, non relus), domaines où la faute lourde subsiste (non relevés), régimes spéciaux d'indemnisation, la « garde » comme troisième fondement (appuyée par l'ouvrage Degoffe seul), numéro de Recueil de Pelletier (117 ou 118 selon les sources). Les cas pratiques des deux cours sont des hypothèses construites par moi, pas des sujets d'annales.
 - Désaccord ouvert/clos dans docs/VERIFICATION.md : date de l'arrêt de la CJUE Arcelor (Degoffe : 16 novembre 2008 ; EUR-Lex : 16 décembre 2008 → date officielle retenue).
 
 - Lot de fiches du 2026-11-03 (4 fiches : recours pour excès de pouvoir / Dame Lamotte, responsabilité de la puissance publique, déficit et dette publics 2025, politique monétaire de la BCE), statut « sources officielles vérifiées » :
