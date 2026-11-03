@@ -11,7 +11,8 @@ maj: 2026-11-03
 statut: brouillon
 sources:
   - Constitution du 4 octobre 1958, art. 5, 6, 8, 12, 16, 19, 20, 21, 24, 34, 37, 38, 39, 44, 45, 47, 47-1, 49, 50 (Conseil constitutionnel, texte à jour au 8 mars 2024 ; Légifrance)
-  - Rouvillois, Droit constitutionnel, tome 1 « Fondements et pratiques » (ouvrage déposé), p. 282, 285, 316, 334
+  - Rouvillois, Droit constitutionnel, tome 1 « Fondements et pratiques » (ouvrage déposé), p. 282, 285, 316, 334 ; tome 2 « La Ve République », 5e éd., 2016 (ouvrage déposé)
+  - Décret du 9 juin 2024 portant dissolution de l'Assemblée nationale ; décisions du Conseil constitutionnel n° 2024-32 à 41 ELEC et 2024-42 à 53 ELEC ; résultats des législatives de 2022 (ministère de l'Intérieur, Assemblée nationale)
   - Rapport de la Présidente des jurys des concours d'entrée à l'INSP de 2025, annexe « Droit public », p. 30 à 32
 ---
 # Le Président, le Gouvernement, le Parlement et la procédure législative
@@ -28,7 +29,8 @@ sources:
 - III. Le Parlement
 - IV. La fabrication de la loi
 - V. La responsabilité du Gouvernement et le budget
-- VI. Application, cas pratique et auto-test
+- VI. La pratique des institutions
+- VII. Application, cas pratique et auto-test
 
 ---
 
@@ -66,7 +68,7 @@ La **responsabilité du Gouvernement devant le Parlement**, la **dissolution** e
 - Le **Gouvernement** détermine et conduit la politique de la nation ; il dispose de l'administration et de la force armée ; il est responsable devant le Parlement dans les conditions des articles 49 et 50 (art. 20) [^5].
 - Le **Premier ministre** dirige l'action du Gouvernement ; il est responsable de la défense nationale, assure l'exécution des lois et exerce le pouvoir réglementaire, sous réserve de l'article 13 (art. 21) [^5].
 
-> **À retenir** : sur le papier, la **politique de la nation** relève du **Gouvernement** (art. 20), alors que le Président « veille au respect de la Constitution » (art. 5). La pratique réelle dépend de la **concordance** entre majorité présidentielle et majorité parlementaire. *À compléter : une analyse de la pratique (cohabitations, quinquennat) n'a pas été relevée à la source pour ce cours.*
+> **À retenir** : sur le papier, la **politique de la nation** relève du **Gouvernement** (art. 20), alors que le Président « veille au respect de la Constitution » (art. 5). La pratique réelle dépend de la **concordance** entre majorité présidentielle et majorité parlementaire : voir la partie VI.
 
 ---
 
@@ -149,7 +151,50 @@ Si l'Assemblée adopte une motion de censure ou désapprouve le programme ou la 
 
 ---
 
-## VI. Application, cas pratique et auto-test
+## VI. La pratique des institutions
+
+Le texte de la Constitution ne dit pas tout. Cette partie s'appuie sur le tome 2 du manuel de Rouvillois (5e édition, **2016**, reformulé) pour la pratique jusqu'à cette date, et sur des sources officielles pour ce qui s'est passé depuis.
+
+### A. Pouvoirs propres et pouvoirs partagés
+
+L'article 19 range certains actes du Président parmi les pouvoirs qu'il exerce **sans contreseing** : on parle de **pouvoirs propres**. Ils correspondent à des fonctions ponctuelles ou exceptionnelles mais importantes : la nomination du Premier ministre (art. 8, alinéa 1), le référendum législatif (art. 11), la dissolution (art. 12), les pouvoirs de crise (art. 16), le message au Parlement (art. 18), la saisine du Conseil constitutionnel (art. 54 et 61) et la nomination de trois de ses membres (art. 56) [^9]. Les autres pouvoirs sont **partagés** : ils exigent le contreseing du Premier ministre.
+
+Rouvillois note que cette énumération doit se lire à la lumière de l'article 5, qui, selon le juriste Gérard Conac cité par l'auteur, « ne définit pas les compétences du Président : il les explique et les justifie » [^9].
+
+La **pratique** a toutefois remis en cause cette distinction. Si les pouvoirs propres demeurent à peu près intangibles, les pouvoirs partagés ont été largement **annexés par le Président**, depuis le général de Gaulle et chez ses successeurs : le Président s'approprie la réalité de la décision, le Premier ministre n'ayant plus qu'un pouvoir de confirmation formel, et ne retrouvant la direction effective que dans l'hypothèse particulière de la **cohabitation** [^9]. À cela s'ajoutent des **actes matériels** (rencontres avec des chefs d'État, sommets européens, discours, conférences de presse, allocutions télévisées), qui échappent au contreseing et ont contribué à cette relecture [^9].
+
+> **À retenir** : juridiquement, c'est le Gouvernement qui « détermine et conduit la politique de la nation » (art. 20). En fait, tant que le Président dispose d'une majorité à l'Assemblée, il en est le véritable chef.
+
+### B. Fait majoritaire et cohabitation
+
+> **Définition** : on appelle **fait majoritaire** la situation où l'Assemblée nationale est dominée par une majorité qui soutient le Président. La **cohabitation** est la situation inverse : une majorité hostile au Président est élue à l'Assemblée, et le Président doit nommer un Premier ministre issu de cette majorité.
+
+Rouvillois en tire trois constats [^10] :
+
+- sous la Ve République, le **déclin du Parlement** s'accompagne d'une **subordination du Gouvernement au Président** : un gouvernement qui ne s'appuie que sur un Parlement diminué est conduit à se soumettre à la volonté du chef de l'État ;
+- la **rupture du fait majoritaire** permet aux gouvernements de cohabitation, soutenus par leur majorité, de **retrouver la plus grande part de leurs attributs constitutionnels** ;
+- la succession des cohabitations **depuis 1986** a favorisé un certain **renouveau du Parlement**.
+
+Même dans le fait majoritaire, le Premier ministre domine le Gouvernement : il le dirige en vertu de l'article 21, mais seulement en tant que « second » du Président [^10].
+
+> **Piège** : ne dites pas que la Constitution fait du Président le chef du Gouvernement. C'est la **pratique** du fait majoritaire qui produit cet effet ; les textes confient la politique de la nation au Gouvernement.
+
+### C. Le quinquennat
+
+À l'origine, l'article 6 prévoyait un mandat de **sept ans**, renouvelable. Cette durée longue, héritée des IIIe et IVe Républiques, avait été choisie après réflexion en 1958 pour renforcer le Président : « la durée est un des premiers éléments de la force » (Tocqueville, cité par l'auteur) [^11]. La révision d'**octobre 2000** a ramené le mandat à **cinq ans**. Rouvillois en souligne l'importance, supérieure à celle de la révision de **juillet 2008**, qui s'est contentée de limiter la possibilité de renouvellement (aujourd'hui, deux mandats consécutifs au plus) [^11].
+
+### D. Depuis 2016 : majorité relative, puis dissolution
+
+Le manuel date de 2016 et ne couvre pas les événements ultérieurs. Voici ce que disent les sources officielles.
+
+- **Législatives de 2022.** Aucune force n'a obtenu la majorité absolue (289 sièges sur 577). La coalition présidentielle *Ensemble !* a obtenu 245 sièges, selon le ministère de l'Intérieur ; le Rassemblement national 89 ; la NUPES 131 selon le ministère et 133 selon le bilan de l'Assemblée nationale (les chiffres varient d'une source à l'autre) [^12]. Le Gouvernement a donc dû gouverner avec une **majorité relative**, ce qui rend le recours aux outils de rationalisation (amendements, CMP, article 49-3) plus délicat.
+- **Dissolution de 2024.** Le Président de la République a dissous l'Assemblée nationale par un décret du **9 juin 2024**, sur le fondement de l'article 12, après consultation du Premier ministre et des présidents des deux assemblées. Les élections ont eu lieu les **30 juin et 7 juillet 2024**, dans le délai de l'article 12. Le Conseil constitutionnel a jugé que le premier tour pouvait être fixé dès le vingtième jour suivant la dissolution ; il s'est déclaré incompétent pour annuler le décret de dissolution lui-même [^13].
+
+> **Pour la copie** : sur la question « le Président est-il le chef du Gouvernement ? », nuancez en trois temps : le **texte** (art. 5, 20, 21) ; la **pratique du fait majoritaire** (primauté présidentielle) ; la **cohabitation** ou la **majorité relative** (retour du rôle du Gouvernement et du Parlement). Illustrez avec des faits datés (2022, 2024).
+
+---
+
+## VII. Application, cas pratique et auto-test
 
 ### Tableau : quelle voie pour une mesure ?
 
@@ -206,8 +251,19 @@ Si l'Assemblée adopte une motion de censure ou désapprouve le programme ou la 
 [^7]: Constitution, art. 34, 37, 38, 39 et 49 alinéa 3, Légifrance, https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006071194/ et texte intégral du Conseil constitutionnel (même source que ci-dessus).
 [^8]: Rapport de la Présidente des jurys de concours d'entrée à l'INSP de 2025 (25/09/2025), annexe « Droit public », p. 30 à 32, https://insp.gouv.fr/files/files/concours/ressources-utiles/sujets-meilleurs-copies/sujets-copies-rapports/rapport_de_la_presidente_des_jurys_de_concours_insp_2025.pdf.
 
+[^9]: Rouvillois, *Droit constitutionnel*, tome 2 « La Ve République », 5e éd., Flammarion, 2016 (ouvrage déposé, format EPUB), section « Le règne du Président » (section 19 du fichier indexé) : pouvoirs propres et pouvoirs partagés, article 19, article 5 (Conac), actes matériels, cohabitation. Texte reformulé.
+[^10]: Rouvillois, tome 2, sections 21 et 22 du fichier indexé : « Le couple Parlement-gouvernement », déclin du Parlement, subordination du Gouvernement, fait majoritaire, cohabitations depuis 1986, place du Premier ministre.
+[^11]: Rouvillois, tome 2, section 18 du fichier indexé : du septennat au quinquennat, révisions d'octobre 2000 et de juillet 2008.
+[^12]: Résultats des élections législatives de 2022 : ministère de l'Intérieur, https://www.archives-resultats-elections.interieur.gouv.fr/resultats/legislatives-2022/FE.php ; Assemblée nationale, bilan statistique de la XVIe législature, https://www2.assemblee-nationale.fr/static/16/statistiques/bilan_XVIe_legislature.pdf. Le seuil de 289 sièges est le calcul de la moitié de 577 plus un.
+[^13]: Décret du 9 juin 2024 portant dissolution de l'Assemblée nationale, Légifrance, https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049689651 ; Conseil constitutionnel, décision n° 2024-32 à 41 ELEC du 20 juin 2024, https://www.conseil-constitutionnel.fr/decision/2024/202432_33_34_35_36_37_38_39_40_41ELEC.htm ; décision n° 2024-42 à 53 ELEC du 26 juin 2024, https://www.conseil-constitutionnel.fr/decision/2024/202442_43_44_45_46_47_48_49_50_51_52_53ELEC.htm ; Assemblée nationale, https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/dissolution-de-l-assemblee-nationale-en-application-de-l-article-12-de-la-constitution. Résumés lus par recherche, textes complets non relus.
+
 ## Flashcards
 
+- [definition] Qu'est-ce que le fait majoritaire ? :: La situation où l'Assemblée nationale est dominée par une majorité qui soutient le Président de la République, ce qui renforce sa primauté de fait.
+- [definition] Qu'est-ce que la cohabitation ? :: La situation où une majorité hostile au Président est élue à l'Assemblée nationale et où le Président nomme un Premier ministre issu de cette majorité ; le Gouvernement retrouve alors l'essentiel de ses attributs constitutionnels.
+- [definition] Que sont les pouvoirs propres du Président (art. 19) ? :: Les actes exercés sans contreseing : nomination du Premier ministre (art. 8 al. 1), référendum (11), dissolution (12), pouvoirs de crise (16), message au Parlement (18), saisine du Conseil constitutionnel (54, 61), nomination de trois membres du Conseil (56).
+- [date] Quand la durée du mandat présidentiel a-t-elle été ramenée à cinq ans ? :: Par la révision d'octobre 2000 (auparavant sept ans, renouvelables).
+- [date] Quand l'Assemblée nationale a-t-elle été dissoute en 2024 et quand ont eu lieu les élections ? :: Décret du 9 juin 2024 (art. 12) ; élections les 30 juin et 7 juillet 2024.
 - [definition] Qu'est-ce qu'un régime parlementaire ? :: Un régime d'équilibre où la direction des affaires publiques résulte d'une collaboration entre un Parlement susceptible d'être dissous et un chef de l'État irresponsable, par l'intermédiaire d'un gouvernement politiquement responsable.
 - [chiffre] Quelle est la durée du mandat présidentiel et combien de mandats consécutifs au plus ? :: Cinq ans ; deux mandats consécutifs au plus (art. 6).
 - [chiffre] Dans quel délai ont lieu les élections après une dissolution (art. 12) ? :: Vingt jours au moins et quarante jours au plus après la dissolution.

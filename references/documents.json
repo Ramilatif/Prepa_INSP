@@ -16,20 +16,36 @@
     "sha256": "dd9e338cb26e0951e2c7a4c8e0eb654c7ec875934594bd9b253ea6184d73d55a"
   },
   {
-    "id": "ouvrages-6",
-    "type": "ouvrages",
-    "fichier": "Droit constitutionnel 2. La Ve République - 5e édition (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
-    "pages": 45,
-    "scan": false,
-    "sha256": "83c8158ec8680cdce8280d592e4d425df2f7517e5c839c878afc41418fad8588"
-  },
-  {
     "id": "ouvrages-7",
     "type": "ouvrages",
     "fichier": "Droit international public (Jean-Claude Zarka) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
     "pages": 237,
     "scan": false,
     "sha256": "a6308048f3f1842e54829eb343775550a31a095596c08f27f2de956c07c280d1"
+  },
+  {
+    "id": "ouvrages-9",
+    "type": "ouvrages",
+    "fichier": "EBOOK - Jacques Genereux -Introduction a leconomie.pdf",
+    "pages": 194,
+    "scan": false,
+    "sha256": "07c737f8598f1b234c7496bc53686d2cac610f05e0efe79b159bca3b2aadbec2"
+  },
+  {
+    "id": "ouvrages-10",
+    "type": "ouvrages",
+    "fichier": "F0137_Prefaces.pdf",
+    "pages": 10,
+    "scan": false,
+    "sha256": "02ac36fb07fdb3879c1cee3039a65c92c7da1a6adaaafc36c039d257bf2786de"
+  },
+  {
+    "id": "ouvrages-11",
+    "type": "ouvrages",
+    "fichier": "Finances publiques ( etc.) (z-library.sk, 1lib.sk, z-lib.sk) (1).pdf",
+    "pages": 341,
+    "scan": false,
+    "sha256": "56a958a5f0392ec125d3a93e78105f73b70963c645e84660f02ae134a15a9c95"
   },
   {
     "id": "ouvrages-2",
@@ -40,12 +56,60 @@
     "sha256": "56a958a5f0392ec125d3a93e78105f73b70963c645e84660f02ae134a15a9c95"
   },
   {
+    "id": "ouvrages-12",
+    "type": "ouvrages",
+    "fichier": "Introduction à l'économie (nouvelle édition) -- Jacques Genereux [Genereux, Jacques] -- Points, Nouvel...lion augmentée et mise à jour, Paris 14, -- isbn13 9782020134972 -- 829453ebef78f1a8f08a367975acd658 -- Anna’.epub",
+    "pages": 12,
+    "scan": false,
+    "sha256": "cc27a9fa3cdeb50bbabe6ff10230fc0f1f72992e4a18ddbc5caa4119c66a217e"
+  },
+  {
+    "id": "ouvrages-13",
+    "type": "ouvrages",
+    "fichier": "Introduction à la politique économique -- Jacques Généreux [Généreux, Jacques] -- 2018 -- Éd_ Seuil -- isbn13 9782020134958 -- f6ab6e3bd5464224d61bf68a120856c8 -- Anna’s Archive.epub",
+    "pages": 13,
+    "scan": false,
+    "sha256": "ba6fc96821111ad4fcd553ac45155d645f670002127606cde0d98c9119b20ba9"
+  },
+  {
+    "id": "ouvrages-14",
+    "type": "ouvrages",
+    "fichier": "Introduction à léconomie monétaire - 2e éd. (Alain Beitone, Christophe Rodrigues etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "pages": 25,
+    "scan": false,
+    "sha256": "67735f7ce072cc8ac308bd2344a779a859c1d43d463c1b9179b1eee5f81aad6c"
+  },
+  {
+    "id": "ouvrages-17",
+    "type": "ouvrages",
+    "fichier": "La Ve République (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "pages": 76,
+    "scan": false,
+    "sha256": "701907ea7424a3254aee27071da17847ae6110ee359ea9f3557ac60ab045e3f5"
+  },
+  {
+    "id": "ouvrages-15",
+    "type": "ouvrages",
+    "fichier": "Les finances publiques aux concours (Franck Waserman) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "pages": 18,
+    "scan": false,
+    "sha256": "54ad04514e871b736caf518fccc2040f39c3a0aaac4dab0c24976e686fc5bb28"
+  },
+  {
     "id": "ouvrages-3",
     "type": "ouvrages",
     "fichier": "Les politiques économiques à lépreuve des faits (Xavier Jaravel, Emmanuel Monnet etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
     "pages": 40,
     "scan": false,
     "sha256": "6f33efea9a8cefeb8bc596e037fa241fb83671c62a7461536ad5676747943bf9"
+  },
+  {
+    "id": "ouvrages-16",
+    "type": "ouvrages",
+    "fichier": "The Globalization of the Worlds Economies A Concise Historical Introduction (James L. Newell) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 213,
+    "scan": false,
+    "sha256": "a55132c11964eeedf462b40e5114d8e53249d53243d2d48a1319de2ba26f883f"
   },
   {
     "id": "officiels-4",

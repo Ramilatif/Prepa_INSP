@@ -98,6 +98,15 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 
 ## Points à vérifier par l'utilisateur
 
+- Ouvrages déposés le 2026-11-03 : Rouvillois, *La Ve République* (tome 2, **5e éd., 2016**, EPUB de 76 sections, complet : 
+  remplace l'extrait de 45 pages), plusieurs ouvrages d'économie (Généreux ×3 extraits/ebook, Beitone sur l'économie monétaire,
+  *The Globalization of the World's Economies*), Waserman *Les finances publiques aux concours* (extrait de 18 sections) et un doublon de
+  *Finances publiques* (Dunod). Tous indexés, aucun scan. Attention : le tome 2 date de 2016 ; la pratique postérieure (2017, 2022, 2024) a été
+  complétée avec des sources officielles dans le cours (partie VI).
+- Cours « Président, Gouvernement, Parlement » : partie VI ajoutée (pratique des institutions) à partir du tome 2 (reformulé) et de sources officielles
+  (décret de dissolution du 9 juin 2024, décisions 2024-32 à 41 ELEC et 2024-42 à 53 ELEC, résultats de 2022). Chiffres de 2022 divergents d'une source à l'autre
+  (NUPES : 131 ou 133 sièges), signalés dans le cours. Les trois cours de droit constitutionnel restent en brouillon.
+
 - Cours « Le Président, le Gouvernement, le Parlement et la procédure législative » (brouillon) : articles lus sur le texte intégral de la Constitution (site du Conseil constitutionnel, via résumé). Définitions de science politique tirées du Rouvillois tome 1 (p. 282, 285, 316, 334 du PDF), reformulées. À compléter : article 8 alinéa 1 (fin des fonctions du Premier ministre), détails de l'article 16 (saisine du Conseil constitutionnel), analyse de la pratique (cohabitations, quinquennat) non relevée.
 
 - Cours « Les actes administratifs et le recours pour excès de pouvoir » (brouillon) : appuyé sur le Degoffe (pages 69-70, 392, 425, 437, 440, 455, 482 du PDF) et sur les pages du Conseil d'État (Duvignères, Danthony, Pariset) et de Légifrance (R. 421-1). À reconfirmer : texte complet de R. 421-5 (non relu) ; faits de l'affaire Pariset (allumettes) tirés de l'ouvrage seul, seul le principe est confirmé par le Conseil d'État ; extension du recours aux avis et recommandations des autorités de régulation (ouvrage seul) ; classification légalité externe/interne (ouvrage seul).
