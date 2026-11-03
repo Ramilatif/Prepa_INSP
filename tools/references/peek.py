@@ -1,4 +1,5 @@
 """Aperçu de quelques pages indexées d'un document : python peek.py <fragment du nom> [pages...]"""
+import os
 import sqlite3
 import sys
 from pathlib import Path
@@ -10,4 +11,5 @@ print(doc)
 pages = [int(p) for p in sys.argv[2:]] or [1, 2, 3, 10, 30, 45]
 for p in pages:
     row = con.execute("SELECT text FROM passages WHERE doc=? AND page=?", (doc[0], p)).fetchone()
-    print(f"--- p.{p}: {row[0][:350] if row else '(vide)'}")
+    n = int(os.environ.get("PEEK_LEN", "350"))  # longueur de l'extrait affiché
+    print(f"--- p.{p}: {row[0][:n] if row else '(vide)'}")

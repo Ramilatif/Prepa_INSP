@@ -46,9 +46,9 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 3        | 0                 | 0                    | 0             |
-| Économie                       | —       | 0        | 0                 | 0                    | 0             |
-| Finances publiques             | —       | 0        | 0                 | 0                    | 0             |
+| Droit public                   | —       | 5        | 2                 | 0                    | 0             |
+| Économie                       | —       | 1        | 1                 | 0                    | 0             |
+| Finances publiques             | —       | 1        | 1                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
 | Europe et international        | —       | 0        | 0                 | 0                    | 0             |
 | Transitions                    | —       | 0        | 0                 | 0                    | 0             |
@@ -84,6 +84,16 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Lot de fiches du 2026-11-03 (4 fiches : recours pour excès de pouvoir / Dame Lamotte, responsabilité de la puissance publique, déficit et dette publics 2025, politique monétaire de la BCE), statut « sources officielles vérifiées » :
+  - Décisions (Lamotte, Blanco, Cames, Couitéas) lues sur les pages « Les grandes décisions depuis 1873 » du Conseil d'État ; chiffres INSEE sur la page de l'Insee Première n° 2106 (29 mai 2026) ; taux et projections sur le communiqué de la BCE du 10 septembre 2026 ; chiffres de la Cour des comptes dans le PDF local. Ces pages ont été lues via un outil de résumé, pas en texte intégral : relire les chiffres clés avant usage en copie.
+  - Concordance avec les ouvrages seulement partielle : Degoffe confirme Blanco (p. 53-54), les trois fondements (p. 636), Couitéas (p. 655), préjudice anormal et spécial (p. 645) ; Lamotte et Cames n'y ont pas été retrouvés. Les numéros de page sont ceux du fichier PDF, pas forcément ceux du livre imprimé.
+  - Dans la fiche sur la dette, la définition de l'effet « boule de neige » et la décomposition structurel/conjoncturel de 2024 s'appuient uniquement sur les ouvrages déposés (pas de source officielle citée pour ces deux points).
+  - Les taux de la BCE changent à chaque réunion (prochaine à revérifier). La décision « inchangés le 29 octobre 2026 » vient d'un résultat de recherche non relu sur la page.
+  - Article du TFUE fondant le mandat de la BCE non cité (EUR-Lex illisible automatiquement).
+  - Le numéro 86949 de l'arrêt Lamotte vient de la base ArianeWeb (titre de la page), pas de la page « grandes décisions ».
+  - Toujours pas de relecture critique indépendante de ce lot ni du précédent.
+  - Une erreur de syntaxe YAML (titre contenant « : » non entre guillemets) a empêché l'import de 3 fiches avant correction : toujours mettre les titres entre guillemets.
 
 - Programme détaillé de chaque épreuve : à confirmer sur le texte consolidé de l'arrêté du 21 mars 2023 (Légifrance), non lisible automatiquement.
 - Deux ouvrages déposés portent « z-library » dans leur nom : utilisés en vérification locale uniquement, exclus de git.
