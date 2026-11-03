@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BrowserRouter, NavLink, Navigate, Route, Routes } from "react-router-dom";
 import { api, getToken, setToken } from "./api";
-import { Annales, AutoEval, Cartes, Entrainement, FichePage, Fiches, GrillePage, Reglages, Signalements } from "./pages";
+import { Annales, AutoEval, Cartes, Cours, Entrainement, FichePage, Fiches, GrillePage, Reglages, Signalements } from "./pages";
 
 function Login({ onDone }: { onDone: () => void }) {
   const [pseudo, setPseudo] = useState("");
@@ -35,6 +35,7 @@ export default function App() {
       <header>
         <strong>Prépa INSP</strong>
         <nav>
+          <NavLink to="/cours">Cours</NavLink>
           <NavLink to="/fiches">Fiches</NavLink>
           <NavLink to="/cartes">Flashcards</NavLink>
           <NavLink to="/annales">Annales</NavLink>
@@ -46,7 +47,8 @@ export default function App() {
       </header>
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="/fiches" replace />} />
+          <Route path="/" element={<Navigate to="/cours" replace />} />
+          <Route path="/cours" element={<Cours />} />
           <Route path="/fiches" element={<Fiches />} />
           <Route path="/fiches/:slug" element={<FichePage />} />
           <Route path="/cartes" element={<Cartes />} />

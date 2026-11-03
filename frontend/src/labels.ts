@@ -10,6 +10,12 @@ const MATIERES: Record<string, string> = {
   note_reflexion: "Note de réflexion",
 };
 
+/** Intitulés des parcours de cours. */
+export const PARCOURS: Record<string, string> = {
+  "droit-public": "Droit public",
+  economie: "Économie et politiques économiques",
+};
+
 export const TYPE_ANNALE: Record<string, string> = {
   sujet: "Sujet",
   meilleure_copie: "Meilleure copie",

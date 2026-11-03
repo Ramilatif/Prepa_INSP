@@ -1,8 +1,38 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 import { api, uploadPdf, type Annale, type Card, type Copie, type FicheSummary, type Grille, type Me } from "./api";
-import { EPREUVES, TYPE_ANNALE, formatDuration, matiereLabel, statutLevel } from "./labels";
+import { EPREUVES, PARCOURS, TYPE_ANNALE, formatDuration, matiereLabel, statutLevel } from "./labels";
+
+/** Cours rédigés, classés par parcours puis par ordre de lecture. */
+export function Cours() {
+  const [list, setList] = useState<FicheSummary[]>([]);
+  useEffect(() => {
+    api<FicheSummary[]>("/fiches?type=cours").then(setList).catch(() => setList([]));
+  }, []);
+  const parcours = [...new Set(list.map((c) => c.parcours ?? "autres"))];
+  return (
+    <section>
+      <h1>Cours</h1>
+      <p className="muted">Chapitres rédigés à partir de sources officielles citées. Le statut de chaque cours indique son niveau de vérification.</p>
+      {list.length === 0 && <p className="muted">Aucun cours pour l'instant.</p>}
+      {parcours.map((p) => (
+        <div key={p}>
+          <h2>{PARCOURS[p] ?? p}</h2>
+          <ol>
+            {list.filter((c) => (c.parcours ?? "autres") === p).map((c) => (
+              <li key={c.slug}>
+                <Link to={`/fiches/${c.slug}`}>{c.titre.replace(/^Cours de [^:]+ : /, "")}</Link>
+                <span className={`badge level${statutLevel(c.statut)}`}>{c.statut}</span>
+              </li>
+            ))}
+          </ol>
+        </div>
+      ))}
+    </section>
+  );
+}
 
 /** Sujets complets chronométrés (format réformé), dépôt du PDF et lien vers l'auto-évaluation. */
 export function Entrainement() {
@@ -225,6 +255,7 @@ export function Fiches() {
     const p = new URLSearchParams();
     if (q) p.set("q", q);
     if (matiere) p.set("matiere", matiere);
+    p.set("type", "fiche");
     api<FicheSummary[]>(`/fiches?${p}`).then(setList).catch(() => setList([]));
   }, [q, matiere]);
   return (
@@ -272,7 +303,7 @@ export function FichePage() {
       <p className="muted">
         {matiereLabel(f.matiere)} · mise à jour {f.maj} · <span className={`badge level${statutLevel(f.statut)}`}>{f.statut}</span>
       </p>
-      <Markdown>{f.body_md}</Markdown>
+      <div className="cours"><Markdown remarkPlugins={[remarkGfm]}>{f.body_md}</Markdown></div>
       <h2>Sources</h2>
       <ul>{f.sources.map((s) => <li key={s}>{s}</li>)}</ul>
       <SignalButton type="fiche" id={f.slug} />

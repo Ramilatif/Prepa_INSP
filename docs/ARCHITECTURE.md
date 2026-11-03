@@ -59,6 +59,18 @@ identifiants TEXT UUID, booléens INTEGER 0/1), pas de syntaxe propre à SQLite 
 - Session : JSON dans `content/sessions/` (voir `2027.json`).
 - Grille : JSON dans `content/grilles/` : critères, points, éléments attendus, erreurs fréquentes, source (rapport du jury).
 
+### Cours et fiches
+
+- Deux types de contenu, même fichier Markdown et même pipeline d'import (`content/fiches/`) : la **fiche**
+  (synthèse à réviser, flashcards) et le **cours** (chapitre développé, `type: cours`).
+- Front matter additionnel pour un cours : `type: cours`, `parcours` (ex. `droit-public`), `ordre` (rang dans le parcours).
+  Colonnes `type`, `parcours`, `ordre` dans `fiches` (migration 0004). `GET /api/fiches?type=cours|fiche`.
+- Structure d'un cours : encadré « à quoi sert ce chapitre », problématique, plan annoncé, parties développées
+  avec exemples et tableaux, application à l'épreuve (méthode, pièges, ce que le jury sanctionne), « pour réviser »,
+  « pour aller plus loin », flashcards en fin de chapitre (secondaires).
+- Règle de rédaction : les cours sont rédigés à partir des seules sources officielles autorisées ; les ouvrages
+  déposés servent à la vérification (concordance) et ne sont ni recopiés ni reformulés de près.
+
 ### Annales et grilles (phase 2)
 
 - `content/annales/index.json` (généré par `tools/annales/fetch_annales.py`) : une entrée par document

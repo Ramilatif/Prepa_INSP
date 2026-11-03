@@ -50,6 +50,9 @@ export interface FicheSummary {
   maj: string;
   statut: string;
   a_verifier: boolean;
+  type: "fiche" | "cours";
+  parcours: string | null;
+  ordre: number | null;
 }
 export interface Card {
   id: string;

@@ -27,4 +27,14 @@ button.link { background: none; color: var(--accent); border: none; padding: 0; 
 .badge.warn { color: var(--warn); border-color: var(--warn); }
 .card { background: var(--card); border: 1px solid var(--line); border-radius: 6px; padding: 1.25rem; }
 .login { max-width: 22rem; margin: 15vh auto; display: flex; flex-direction: column; gap: .75rem; padding: 1rem; }
+/* Mise en page de lecture des cours : tableaux, citations, schémas. */
+.cours h1 { margin-top: 0; }
+.cours h2 { margin-top: 2.2rem; padding-bottom: .25rem; border-bottom: 1px solid var(--line); }
+.cours h3 { margin-top: 1.6rem; }
+.cours blockquote { margin: 1rem 0; padding: .5rem 1rem; border-left: 4px solid var(--accent); background: var(--card); }
+.cours table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .92em; display: block; overflow-x: auto; }
+.cours th, .cours td { border: 1px solid var(--line); padding: .4rem .6rem; text-align: left; vertical-align: top; }
+.cours th { background: var(--card); }
+.cours pre { overflow-x: auto; padding: .75rem 1rem; background: var(--card); border: 1px solid var(--line); border-radius: 4px; font-size: .85em; line-height: 1.35; }
+.cours hr { border: none; border-top: 1px solid var(--line); margin: 2rem 0; }
 @media (max-width: 600px) { body { font-size: 17px; } }

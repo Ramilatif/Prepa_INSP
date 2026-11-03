@@ -152,6 +152,7 @@ struct FicheFilter {
     q: Option<String>,
     matiere: Option<String>,
     epreuve: Option<String>,
+    r#type: Option<String>,
 }
 
 async fn list_fiches(
@@ -159,7 +160,7 @@ async fn list_fiches(
     _u: User,
     Query(f): Query<FicheFilter>,
 ) -> ApiResult<Value> {
-    let rows = sqlx::query("SELECT slug, titre, matiere, epreuves_json, updated_at, statut, a_verifier FROM fiches ORDER BY titre")
+    let rows = sqlx::query("SELECT slug, titre, matiere, epreuves_json, updated_at, statut, a_verifier, type, parcours, ordre FROM fiches ORDER BY parcours, ordre, titre")
         .fetch_all(&pool)
         .await
         .map_err(internal)?;
@@ -170,6 +171,11 @@ async fn list_fiches(
             f.matiere
                 .as_deref()
                 .is_none_or(|m| r.get::<String, _>("matiere") == m)
+        })
+        .filter(|r| {
+            f.r#type
+                .as_deref()
+                .is_none_or(|t| r.get::<String, _>("type") == t)
         })
         .filter(|r| {
             f.epreuve.as_deref().is_none_or(|e| {
@@ -189,6 +195,9 @@ async fn list_fiches(
                 "maj": r.get::<String, _>("updated_at"),
                 "statut": r.get::<String, _>("statut"),
                 "a_verifier": r.get::<i64, _>("a_verifier") != 0,
+                "type": r.get::<String, _>("type"),
+                "parcours": r.get::<Option<String>, _>("parcours"),
+                "ordre": r.get::<Option<i64>, _>("ordre"),
             })
         })
         .collect();

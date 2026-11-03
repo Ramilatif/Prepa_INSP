@@ -22,6 +22,19 @@ pub struct FrontMatter {
     pub maj: String,
     pub statut: String,
     pub sources: Vec<String>,
+    /// « fiche » (par défaut) ou « cours ».
+    #[serde(default = "default_type", rename = "type")]
+    pub kind: String,
+    /// Parcours auquel appartient un cours (ex. « droit-public »).
+    #[serde(default)]
+    pub parcours: Option<String>,
+    /// Rang du cours dans son parcours.
+    #[serde(default)]
+    pub ordre: Option<i64>,
+}
+
+fn default_type() -> String {
+    "fiche".to_string()
 }
 
 #[derive(Debug, Clone, PartialEq)]
@@ -123,6 +136,23 @@ mod tests {
         assert_eq!(f.flashcards.len(), 2);
         assert_eq!(f.flashcards[0].kind, "definition");
         assert_eq!(f.flashcards[1].kind, "date");
+    }
+
+    #[test]
+    fn type_par_defaut_fiche_et_cours_avec_parcours() {
+        assert_eq!(parse_fiche(OK).unwrap().meta.kind, "fiche");
+        let cours = OK.replace(
+            "statut: brouillon",
+            "statut: brouillon
+type: cours
+parcours: droit-public
+ordre: 2",
+        );
+        let m = parse_fiche(&cours).unwrap().meta;
+        assert_eq!(
+            (m.kind.as_str(), m.parcours.as_deref(), m.ordre),
+            ("cours", Some("droit-public"), Some(2))
+        );
     }
 
     #[test]

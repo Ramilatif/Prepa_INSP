@@ -54,7 +54,8 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 | Transitions                    | —       | 0        | 0                 | 0                    | 0             |
 | Thèmes de la note de réflexion | —       | 0        | 0                 | 0                    | 0             |
 
-Désaccords ouverts dans docs/VERIFICATION.md : 0
+Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
+Cours rédigés (type « cours ») : 1 (droit public : hiérarchie des normes), statut brouillon
 
 ## Annales
 
@@ -75,6 +76,8 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - 2026-10-30 — Limites du PDF : 32 Mo et 100 pages par défaut (`MAX_PDF_MB`, `MAX_PDF_PAGES`). Ces valeurs viennent de ma connaissance de l'API Claude et n'ont PAS été revérifiées en ligne : à confirmer en phase 4. Un PDF chiffré est refusé. Texte tapé et scan manuscrit sont tous deux acceptés (aucune détection de scan à ce stade).
 - 2026-10-30 — Auto-évaluation : l'utilisateur note chaque critère de la grille (0 à son poids) ; la note est arrondie au demi-point et toujours présentée comme indicative.
 
+- 2026-11-03 — Retour de l'utilisateur : il veut de vrais cours (chapitres rédigés), pas des fiches de mémorisation avec flashcards. Décision : nouveau type de contenu « cours » (voir ARCHITECTURE.md), page « Cours » dans l'appli, flashcards reléguées en fin de chapitre. Un premier chapitre modèle est écrit (hiérarchie des normes, ~3 400 mots) pour valider le format avant d'en écrire d'autres. Les fiches existantes (synthèses) sont conservées.
+
 ## Problèmes rencontrés
 
 <!-- Format : date — problème — solution ou statut -->
@@ -84,6 +87,9 @@ Désaccords ouverts dans docs/VERIFICATION.md : 0
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Cours « La hiérarchie des normes et le principe de légalité » (statut brouillon) : décisions lues sur les pages du Conseil d'État, du Conseil constitutionnel, d'EUR-Lex et de la Cour de cassation via un outil de résumé (pas en texte intégral). Éléments à documenter ou à reconfirmer : numéro de pourvoi Jacques Vabre (73-13556, relevé dans une page du Conseil constitutionnel) ; réserve de l'identité constitutionnelle (décisions postérieures à 2004, non vérifiées, signalées dans le cours) ; décisions Rouquette 1999, SNIP 2001, Fraisse 2000, Boisdet 1990, Trompier-Gravier 1944 (citées d'après les pages du Conseil d'État, sans lecture de leur texte) ; liste détaillée du bloc de constitutionnalité (principes à valeur constitutionnelle, objectifs de valeur constitutionnelle) non fournie par la source.
+- Désaccord ouvert/clos dans docs/VERIFICATION.md : date de l'arrêt de la CJUE Arcelor (Degoffe : 16 novembre 2008 ; EUR-Lex : 16 décembre 2008 → date officielle retenue).
 
 - Lot de fiches du 2026-11-03 (4 fiches : recours pour excès de pouvoir / Dame Lamotte, responsabilité de la puissance publique, déficit et dette publics 2025, politique monétaire de la BCE), statut « sources officielles vérifiées » :
   - Décisions (Lamotte, Blanco, Cames, Couitéas) lues sur les pages « Les grandes décisions depuis 1873 » du Conseil d'État ; chiffres INSEE sur la page de l'Insee Première n° 2106 (29 mai 2026) ; taux et projections sur le communiqué de la BCE du 10 septembre 2026 ; chiffres de la Cour des comptes dans le PDF local. Ces pages ont été lues via un outil de résumé, pas en texte intégral : relire les chiffres clés avant usage en copie.
