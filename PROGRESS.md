@@ -56,7 +56,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
 Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du droit public :
-- Droit constitutionnel : 2 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC)
+- Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
 - Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0
 
@@ -97,6 +97,8 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Cours « Le Président, le Gouvernement, le Parlement et la procédure législative » (brouillon) : articles lus sur le texte intégral de la Constitution (site du Conseil constitutionnel, via résumé). Définitions de science politique tirées du Rouvillois tome 1 (p. 282, 285, 316, 334 du PDF), reformulées. À compléter : article 8 alinéa 1 (fin des fonctions du Premier ministre), détails de l'article 16 (saisine du Conseil constitutionnel), analyse de la pratique (cohabitations, quinquennat) non relevée.
 
 - Cours « Les actes administratifs et le recours pour excès de pouvoir » (brouillon) : appuyé sur le Degoffe (pages 69-70, 392, 425, 437, 440, 455, 482 du PDF) et sur les pages du Conseil d'État (Duvignères, Danthony, Pariset) et de Légifrance (R. 421-1). À reconfirmer : texte complet de R. 421-5 (non relu) ; faits de l'affaire Pariset (allumettes) tirés de l'ouvrage seul, seul le principe est confirmé par le Conseil d'État ; extension du recours aux avis et recommandations des autorités de régulation (ouvrage seul) ; classification légalité externe/interne (ouvrage seul).
 - Cours « Le Conseil constitutionnel et le contrôle de constitutionnalité (DC et QPC) » (brouillon) : composition et saisine lues sur le texte de la Constitution (site du Conseil), filtrage de la QPC sur les art. 23-2 et 23-4 de l'ordonnance organique (Légifrance, via résumé), statistiques du bilan du Conseil (à revérifier : les totaux diffèrent d'un bilan à l'autre). Non vérifié : origine précise de la révision de 2008, priorité de la QPC sur les moyens de conventionnalité, portée du dernier alinéa de l'article 62.
