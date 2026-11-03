@@ -98,6 +98,13 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 
 ## Points à vérifier par l'utilisateur
 
+- Ouvrage déposé le 2026-11-03 : Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (EPUB de 51 sections, **année 2025 indiquée par l'utilisateur, non lue
+  dans le fichier**). Couvre théorie du droit constitutionnel, droits comparés, histoire constitutionnelle, Ve République (actes, acteurs, Conseil constitutionnel)
+  et droit constitutionnel européen, avec des dissertations corrigées. Recoupe et confirme le cours « hiérarchie des normes » (Sarran n° 200286 et 200287,
+  Nicolo 1989, Jacques Vabre 1975, Arcelor) et apporte l'arrêt Deprez (CE, 5 janvier 2005, n° 257341 et 257534, non relu sur source officielle) ainsi que les
+  réserves d'interprétation et l'abrogation différée (cours sur le contrôle de constitutionnalité). Les trois cours de droit constitutionnel restent en « brouillon » :
+  la concordance avec les ouvrages est maintenant possible mais n'a pas été faite affirmation par affirmation.
+
 - Ouvrages déposés le 2026-11-03 : Rouvillois, *La Ve République* (tome 2, **5e éd., 2016**, EPUB de 76 sections, complet : 
   remplace l'extrait de 45 pages), plusieurs ouvrages d'économie (Généreux ×3 extraits/ebook, Beitone sur l'économie monétaire,
   *The Globalization of the World's Economies*), Waserman *Les finances publiques aux concours* (extrait de 18 sections) et un doublon de

@@ -158,6 +158,10 @@ Le Conseil d'État juge que **la suprématie que l'article 55 confère aux engag
 
 Selon le Conseil d'État, la solution a ensuite été confirmée et étendue : refus de contrôler la conformité de la loi à la Constitution (arrêt Rouquette, 1999), extension au droit de l'Union (arrêt Syndicat national de l'industrie pharmaceutique, 2001), puis ralliement de la Cour de cassation (arrêt Fraisse, 2000) et du Conseil constitutionnel (décision du 19 novembre 2004 sur le traité établissant une Constitution pour l'Europe) [^13]. *À compléter : ces quatre décisions n'ont pas été relues dans leur texte pour ce cours.*
 
+**Une nuance importante : l'arrêt Deprez (2005).** Le manuel de Caporal-Greco rappelle que la primauté du droit externe n'est pas remise en cause par Sarran. Dans l'arrêt *Deprez et Baillard* (CE, 5 janvier 2005, n° 257341 et 257534), le Conseil d'État précise que cette primauté se traduit, dans l'ordre interne, par **une priorité d'application** du droit externe, laquelle s'exerce **sans remettre en cause la suprématie de la Constitution** [^17]. Le même manuel observe que la question de la primauté du droit de l'Union sur la norme constitutionnelle n'est « pas encore totalement clarifiée », même si l'arrêt Arcelor (2007) a semblé la résoudre [^17].
+
+> **Pour la copie** : retenez la **formule de Sarran** (« les engagements internationaux n'ont pas, dans l'ordre interne, d'autorité supérieure à celle des dispositions constitutionnelles »), puis la **nuance de Deprez** (priorité d'application du droit externe), puis la **méthode d'Arcelor** pour les actes de transposition. Cette progression en trois temps montre une maîtrise de l'évolution de la jurisprudence.
+
 > **À retenir** : le juge national voit la Constitution au sommet **de l'ordre interne**. Le droit international et le droit de l'Union revendiquent, dans leur propre ordre, leur primauté. La doctrine souligne que cette position reste en tension avec la lettre de l'article 55 [^13].
 
 ### B. Directive européenne et Constitution : la méthode de l'arrêt Arcelor (2007)
@@ -266,6 +270,7 @@ Face à une mesure projetée, posez-vous dans l'ordre :
 **Pour aller plus loin**
 - Bibliographie de l'INSP, rubrique droit public : Brunet, Hamon, Troper, *Droit constitutionnel*, 46e éd., LGDJ, 2025 ; Dumont, Sirinelli, *Droit administratif*, 16e éd., Lefebvre Dalloz, 2025 ; Puigserver, Stirn, *Le droit de l'administration*, 5e éd., LGDJ, 2023.
 - Concordance partielle avec l'ouvrage déposé de Degoffe, *Droit administratif* : Sarran (p. 118), Aramu (p. 221), Arcelor (p. 131-132) ; numéros de page du fichier PDF. Cet ouvrage date l'arrêt de la CJUE du « 16 novembre 2008 » : la date officielle du **16 décembre 2008** est retenue (voir `docs/VERIFICATION.md`).
+- Concordance avec le manuel de Caporal-Greco (voir note [^17]) : Sarran (avec les numéros 200286 et 200287), Nicolo (1989, jusque-là prééminence de la loi postérieure), Jacques Vabre (juge judiciaire dès 1975) et Arcelor (méthode en deux temps) sont confirmés.
 - Fiches liées : « Le contrôle de constitutionnalité des lois », « Domaine de la loi et du règlement, procédure législative et article 49-3 », « Le recours pour excès de pouvoir et l'arrêt Dame Lamotte ».
 
 [^1]: Conseil constitutionnel, « Le bloc de constitutionnalité », https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite (consulté le 2026-11-03) : composition du bloc, Charte de l'environnement intégrée lors de la révision du 1er mars 2005, PFRLR, décision n° 77-87 DC du 23 novembre 1977.
@@ -284,6 +289,8 @@ Face à une mesure projetée, posez-vous dans l'ordre :
 [^14]: Conseil d'État, Assemblée, 8 février 2007, *Société Arcelor Atlantique et Lorraine et autres*, n° 287110, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-8-fevrier-2007-societe-arcelor-atlantique-et-lorraine-et-autres ; décision du 3 juin 2009 : n° 287110 sur ArianeWeb.
 [^15]: CJUE, grande chambre, 16 décembre 2008, *Arcelor Atlantique et Lorraine e.a.*, C-127/07, ECLI:EU:C:2008:728, https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=ecli%3AECLI%3AEU%3AC%3A2008%3A728.
 [^16]: Conseil constitutionnel, décision n° 2004-496 DC du 10 juin 2004, https://www.conseil-constitutionnel.fr/decision/2004/2004496DC.htm, et commentaire officiel.
+
+[^17]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, format EPUB ; année 2025 indiquée par l'utilisateur, non lue dans le fichier), partie 5 « Éléments de droit constitutionnel européen » (section 41 du fichier indexé) : primauté du droit de l'Union fondée sur l'article 55, retard du juge administratif (Nicolo, 1989), arrêts Sarran (n° 200286 et 200287), Deprez (CE, 5 janvier 2005, n° 257341 et 257534) et Arcelor. Texte reformulé ; la décision Deprez n'a pas été relue sur une source officielle.
 
 ## Flashcards
 

@@ -8,6 +8,14 @@
     "sha256": "1e080c5c861e7f9f0ecee7d3c8f4584f61ecbc5c34c397d4b0ad32048e0d8d8c"
   },
   {
+    "id": "ouvrages-18",
+    "type": "ouvrages",
+    "fichier": "Droit constitutionnel (Quatrième édition) (Stéphane Caporal-Greco etc.) (z-library.sk, 1lib.sk, z-lib.sk).epub",
+    "pages": 51,
+    "scan": false,
+    "sha256": "222137e65d3f0c2a8ce3289fd28f6f2ab805e99b792030ec08ea58d3c61c2b5e"
+  },
+  {
     "id": "ouvrages-8",
     "type": "ouvrages",
     "fichier": "Droit constitutionnel (Tome 1) - Fondements et pratiques (Frédéric Rouvillois) (z-library.sk, 1lib.sk, z-lib.sk).pdf",

@@ -130,6 +130,8 @@ L'**article 62** de la Constitution distingue [^1] :
 
 Les décisions du Conseil rendues sur le fondement de l'article 61 sont **définitives et obligatoires** (c'est l'une des raisons que le Conseil donne dans sa décision n° 74-54 DC, en s'appuyant sur l'article 62) [^4]. *À compléter : la portée exacte de l'autorité des décisions à l'égard des pouvoirs publics et des juridictions n'a pas été relue dans le dernier alinéa de l'article 62.*
 
+**Le Conseil, « législateur négatif » ?** Le manuel de Caporal-Greco rappelle l'image classique du juge constitutionnel comme **« législateur négatif »** (Kelsen), qui peut **abroger** une disposition mais non l'**écrire** : une « gomme » et non un « crayon » (doyen Vedel). Il nuance aussitôt : le Conseil peut en réalité **réécrire la loi** par ses **réserves d'interprétation** (il déclare la loi conforme à condition qu'elle soit comprise d'une certaine façon) et par l'**abrogation différée**, qui fonctionne comme un « pouvoir d'injonction implicite » adressé au législateur et suppose qu'il précise le droit applicable dans l'attente [^11]. L'auteur observe aussi que la QPC tend à **banaliser** le contrôle de constitutionnalité par la fréquence des décisions et que les juges judiciaire et administratif, qui apprécient le caractère sérieux de la question, sont en pratique les « juges de droit commun » de la Constitution à l'égard de tout acte autre que la loi [^11].
+
 **Un contentieux abondant.** Le Conseil publie un bilan statistique. D'après celui de juin 2026, depuis le 1er mars 2010, ses décisions en matière de QPC se répartissent en 697 conformités, 79 non-conformités partielles et 269 non-conformités totales [^10]. *Ces totaux varient selon la date et la période retenues d'un bilan à l'autre : à vérifier sur le site du Conseil avant de les citer.*
 
 > **À retenir** : les décisions de **non-conformité totale ou partielle** représentent une part notable des décisions de fond. Une QPC n'est donc pas un recours « de principe » : elle aboutit réellement, et avec un effet qui dépasse le litige à l'origine.
@@ -202,6 +204,8 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 [^8]: Conseil constitutionnel, « Que démontrer pour le renvoi d'une QPC au Conseil ? », https://qpc360.conseil-constitutionnel.fr/que-demontrer-pour-renvoi-dune-qpc-conseil-16 ; décision n° 2023-1062 QPC du 28 septembre 2023 (décision de renvoi de la Cour de cassation), https://www.conseil-constitutionnel.fr/les-decisions/decision-n-2023-1062-qpc-du-28-septembre-2023-decision-de-renvoi-cass.
 [^9]: Conseil constitutionnel, décision n° 2010-14/22 QPC du 30 juillet 2010, communiqué de presse https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2010-1422-qpc-du-30-juillet-2010-communique-de-presse et commentaire https://qpc360.conseil-constitutionnel.fr/commentaire-decision-2010-1422-qpc.
 [^10]: Conseil constitutionnel, « Bilan statistique », https://www.conseil-constitutionnel.fr/bilan-statistique (bilan à fin juin 2026, consulté le 2026-11-03) ; les totaux varient d'un bilan semestriel à l'autre.
+
+[^11]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, format EPUB ; année 2025 indiquée par l'utilisateur), partie 4, chapitre 4 « L'organe de contrôle : le Conseil constitutionnel » (section 35 du fichier indexé) : législateur négatif (Kelsen, Vedel), réserves d'interprétation, abrogation différée, QPC et filtrage par les juges. Texte reformulé ; les références doctrinales citées par l'ouvrage n'ont pas été reprises.
 
 ## Flashcards
 
