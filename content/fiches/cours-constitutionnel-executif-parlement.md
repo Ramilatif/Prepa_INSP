@@ -8,7 +8,7 @@ ordre: 3
 matiere: droit_public
 epreuves: [op_droit_public]
 maj: 2026-11-03
-statut: brouillon
+statut: concordance avec les ouvrages vérifiée
 sources:
   - Constitution du 4 octobre 1958, art. 5, 6, 8, 12, 16, 19, 20, 21, 24, 34, 37, 38, 39, 44, 45, 47, 47-1, 49, 50 (Conseil constitutionnel, texte à jour au 8 mars 2024 ; Légifrance)
   - Rouvillois, Droit constitutionnel, tome 1 « Fondements et pratiques » (ouvrage déposé), p. 282, 285, 316, 334 ; tome 2 « La Ve République », 5e éd., 2016 (ouvrage déposé)
@@ -59,7 +59,7 @@ La **responsabilité du Gouvernement devant le Parlement**, la **dissolution** e
 | Pouvoirs exceptionnels | Si les institutions sont menacées de manière grave et immédiate et que le fonctionnement régulier des pouvoirs publics est interrompu (art. 16) ; le Conseil constitutionnel peut être saisi après **trente jours** d'exercice de ces pouvoirs et se prononce aussi au terme de **soixante jours** [^4] |
 | Contreseing | Certains actes sont dispensés de contreseing du Premier ministre : ceux des articles 8 (1er alinéa), 11, 12, 16, 18, 54, 56 et 61 (art. 19) [^4] |
 
-> **À retenir** : le Président **nomme** le Premier ministre. Pour les *autres* membres du Gouvernement, c'est le Premier ministre qui **propose** leur nomination et la fin de leurs fonctions (art. 8). *À compléter : les modalités de la fin des fonctions du Premier ministre lui-même (art. 8, alinéa 1) n'ont pas été relues à la source pour ce cours.*
+> **À retenir** : le Président **nomme** le Premier ministre. Pour les *autres* membres du Gouvernement, c'est le Premier ministre qui **propose** leur nomination et la fin de leurs fonctions (art. 8). Quant à la fin des fonctions du Premier ministre lui-même, l'alinéa 1 de l'article 8 prévoit que le Président y met fin « sur la présentation par celui-ci de la démission du gouvernement » (citation reproduite par Rouvillois) : la démission vient du Premier ministre, ce qui est cohérent avec l'article 50 [^14].
 
 > **Piège** : ne mélangez pas la **dissolution** (art. 12, pouvoir du Président, avec consultation) et la **motion de censure** (art. 49-50, initiative des députés). L'une peut résulter de l'autre, mais ce sont des mécanismes distincts.
 
@@ -99,7 +99,7 @@ Avant de faire passer une mesure par la loi, il faut savoir si elle **doit** rel
 
 - **Initiative (art. 39)** : elle appartient **concurremment** au Premier ministre et aux membres du Parlement. Les projets de loi sont délibérés en Conseil des ministres après avis du Conseil d'État [^7].
 - **Navette (art. 45)** : un projet ou une proposition de loi est examiné **successivement dans les deux assemblées** pour aboutir à un texte **identique** [^6].
-- **Commission mixte paritaire (CMP)** : en cas de blocage, le Premier ministre peut provoquer la réunion d'une commission mixte paritaire chargée de proposer un texte [^6].
+- **Commission mixte paritaire (CMP)** : en cas de blocage, le Premier ministre peut provoquer la réunion d'une commission mixte paritaire chargée de proposer un texte [^6]. Elle est composée de **sept députés et de sept sénateurs** et propose un texte de compromis sur les dispositions faisant l'objet du désaccord [^14].
 - **Dernier mot** : si le désaccord persiste, le Gouvernement peut demander à l'**Assemblée nationale** de statuer définitivement [^6].
 
 ### C. L'habilitation à légiférer par ordonnances (art. 38)
@@ -134,7 +134,7 @@ Le Gouvernement peut, pour l'exécution de son programme, demander au Parlement 
 
 - **Alinéa 1** : après délibération du Conseil des ministres, le Premier ministre **engage la responsabilité du Gouvernement** devant l'Assemblée nationale (programme ou déclaration de politique générale) [^6].
 - **Alinéa 2 : motion de censure.** Elle doit être signée par au moins **un dixième** des députés et ne peut être adoptée qu'à la **majorité des membres composant l'Assemblée**. C'est une technique de **rationalisation** : comme il faut la majorité des membres de l'Assemblée et non des seuls votants, les abstentions profitent en pratique au Gouvernement [^6].
-- **Alinéa 3** : le Premier ministre peut engager la responsabilité du Gouvernement sur le vote d'un projet de loi de finances ou de financement de la sécurité sociale ; le texte est alors considéré comme adopté sauf si une motion de censure, déposée dans les **vingt-quatre heures**, est votée. Il peut en outre y recourir pour **un autre projet ou une proposition de loi par session** [^7] [^6].
+- **Alinéa 3** : le Premier ministre peut engager la responsabilité du Gouvernement sur le vote d'un projet de loi de finances ou de financement de la sécurité sociale ; le texte est alors considéré comme adopté sauf si une motion de censure, déposée dans les **vingt-quatre heures**, est votée. Il peut en outre y recourir pour **un autre projet ou une proposition de loi par session** [^7] [^6]. Rouvillois relève que, depuis la révision qui a limité cet usage, le procédé ne peut plus être utilisé que pour un seul texte par session, mais « éventuellement à plusieurs reprises » : les trois engagements de responsabilité suscités par la « loi Macron » en 2015 en sont l'exemple [^14].
 
 ### B. Les conséquences (art. 50)
 
@@ -188,7 +188,8 @@ Même dans le fait majoritaire, le Premier ministre domine le Gouvernement : il 
 Le manuel date de 2016 et ne couvre pas les événements ultérieurs. Voici ce que disent les sources officielles.
 
 - **Législatives de 2022.** Aucune force n'a obtenu la majorité absolue (289 sièges sur 577). La coalition présidentielle *Ensemble !* a obtenu 245 sièges, selon le ministère de l'Intérieur ; le Rassemblement national 89 ; la NUPES 131 selon le ministère et 133 selon le bilan de l'Assemblée nationale (les chiffres varient d'une source à l'autre) [^12]. Le Gouvernement a donc dû gouverner avec une **majorité relative**, ce qui rend le recours aux outils de rationalisation (amendements, CMP, article 49-3) plus délicat.
-- **Dissolution de 2024.** Le Président de la République a dissous l'Assemblée nationale par un décret du **9 juin 2024**, sur le fondement de l'article 12, après consultation du Premier ministre et des présidents des deux assemblées. Les élections ont eu lieu les **30 juin et 7 juillet 2024**, dans le délai de l'article 12. Le Conseil constitutionnel a jugé que le premier tour pouvait être fixé dès le vingtième jour suivant la dissolution ; il s'est déclaré incompétent pour annuler le décret de dissolution lui-même [^13].
+  Le manuel de Caporal-Greco observe qu'en l'absence de majorité absolue, le Président retrouve « un peu de marge » : il doit choisir un Premier ministre de **coalition** acceptable à la fois pour lui et pour les partis de la majorité [^15].
+- **Dissolution de 2024.** Le Président de la République a dissous l'Assemblée nationale par un décret du **9 juin 2024**, sur le fondement de l'article 12, après consultation du Premier ministre et des présidents des deux assemblées. Les élections ont eu lieu les **30 juin et 7 juillet 2024**, dans le délai de l'article 12. Le Conseil constitutionnel a jugé que le premier tour pouvait être fixé dès le vingtième jour suivant la dissolution ; il s'est déclaré incompétent pour annuler le décret de dissolution lui-même [^13]. À l'issue de ces élections, aucun parti ni ensemble de partis alliés n'a obtenu la majorité absolue ; selon le manuel de Caporal-Greco, les nominations successives de **Michel Barnier** puis de **François Bayrou** comme chefs du Gouvernement ne relèvent pas d'une cohabitation au sens strict, puisqu'elles procèdent de la volonté du Président, que rien n'obligeait à agir ainsi, et que ces gouvernements incluent des membres de la majorité présidentielle [^15]. *À compléter : les événements postérieurs à la parution de ce manuel (2025) n'ont pas été relevés.*
 
 > **Pour la copie** : sur la question « le Président est-il le chef du Gouvernement ? », nuancez en trois temps : le **texte** (art. 5, 20, 21) ; la **pratique du fait majoritaire** (primauté présidentielle) ; la **cohabitation** ou la **majorité relative** (retour du rôle du Gouvernement et du Parlement). Illustrez avec des faits datés (2022, 2024).
 
@@ -256,6 +257,9 @@ Le manuel date de 2016 et ne couvre pas les événements ultérieurs. Voici ce q
 [^11]: Rouvillois, tome 2, section 18 du fichier indexé : du septennat au quinquennat, révisions d'octobre 2000 et de juillet 2008.
 [^12]: Résultats des élections législatives de 2022 : ministère de l'Intérieur, https://www.archives-resultats-elections.interieur.gouv.fr/resultats/legislatives-2022/FE.php ; Assemblée nationale, bilan statistique de la XVIe législature, https://www2.assemblee-nationale.fr/static/16/statistiques/bilan_XVIe_legislature.pdf. Le seuil de 289 sièges est le calcul de la moitié de 577 plus un.
 [^13]: Décret du 9 juin 2024 portant dissolution de l'Assemblée nationale, Légifrance, https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049689651 ; Conseil constitutionnel, décision n° 2024-32 à 41 ELEC du 20 juin 2024, https://www.conseil-constitutionnel.fr/decision/2024/202432_33_34_35_36_37_38_39_40_41ELEC.htm ; décision n° 2024-42 à 53 ELEC du 26 juin 2024, https://www.conseil-constitutionnel.fr/decision/2024/202442_43_44_45_46_47_48_49_50_51_52_53ELEC.htm ; Assemblée nationale, https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/dissolution-de-l-assemblee-nationale-en-application-de-l-article-12-de-la-constitution. Résumés lus par recherche, textes complets non relus.
+
+[^14]: Rouvillois, tome 2, section 22 du fichier indexé (art. 8, alinéas 1 et 2, cités), section 23 (commission mixte paritaire de sept députés et sept sénateurs, motion de censure, 49-3 limité à un texte par session, « loi Macron » de 2015). Texte reformulé.
+[^15]: Caporal-Greco et al., 4e éd. (ouvrage déposé, EPUB), section 31 du fichier indexé : nomination du Premier ministre, confiance de l'Assemblée, cohabitations (1986, 1993, 1997), coalition en l'absence de majorité absolue, élections de 2024. Le manuel écrit « en 1993 » pour la nomination de Lionel Jospin, alors qu'il s'agit de 1997 (coquille de l'ouvrage, voir `docs/VERIFICATION.md`).
 
 ## Flashcards
 

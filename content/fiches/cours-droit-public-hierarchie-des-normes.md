@@ -8,7 +8,7 @@ ordre: 1
 matiere: droit_public
 epreuves: [op_droit_public]
 maj: 2026-11-03
-statut: brouillon
+statut: concordance avec les ouvrages vérifiée
 sources:
   - Constitution du 4 octobre 1958, art. 34, 37, 54, 55, 61, 61-1, 62, 88-1 (Légifrance et Conseil constitutionnel)
   - Conseil constitutionnel, décisions n° 71-44 DC (16 juillet 1971), n° 74-54 DC (15 janvier 1975), n° 2004-496 DC (10 juin 2004) ; pages « Le bloc de constitutionnalité » et « Comment reconnaît-elle le droit international ? »
@@ -156,7 +156,7 @@ Si l'article 55 place les traités au-dessus des lois, que se passe-t-il face à
 
 Le Conseil d'État juge que **la suprématie que l'article 55 confère aux engagements internationaux ne s'applique pas, dans l'ordre interne, aux dispositions de nature constitutionnelle**. Le juge national n'a donc pas à vérifier la conformité d'une disposition constitutionnelle à un traité. L'idée est que, dans l'ordre interne, la hiérarchie des normes **procède de la Constitution**, texte suprême dont toutes les autorités de l'État, notamment les juridictions, tirent leur pouvoir. Le Conseil ne conteste pas pour autant qu'en droit international un État ne puisse invoquer son droit interne, même constitutionnel, pour échapper à un engagement international : les deux plans coexistent [^13].
 
-Selon le Conseil d'État, la solution a ensuite été confirmée et étendue : refus de contrôler la conformité de la loi à la Constitution (arrêt Rouquette, 1999), extension au droit de l'Union (arrêt Syndicat national de l'industrie pharmaceutique, 2001), puis ralliement de la Cour de cassation (arrêt Fraisse, 2000) et du Conseil constitutionnel (décision du 19 novembre 2004 sur le traité établissant une Constitution pour l'Europe) [^13]. *À compléter : ces quatre décisions n'ont pas été relues dans leur texte pour ce cours.*
+Selon le Conseil d'État, la solution a ensuite été confirmée et étendue : refus de contrôler la conformité de la loi à la Constitution (arrêt Rouquette, 1999), extension au droit de l'Union (arrêt Syndicat national de l'industrie pharmaceutique, 2001), puis ralliement de la Cour de cassation (arrêt Fraisse, 2000) et du Conseil constitutionnel (décision du 19 novembre 2004 sur le traité établissant une Constitution pour l'Europe) [^13]. Deux de ces jalons sont confirmés par les manuels : l'arrêt *Fraisse* est un arrêt de l'assemblée plénière de la Cour de cassation du **2 juin 2000**, qui retient la même position que Sarran, et la décision du Conseil constitutionnel du 19 novembre 2004 est la décision **n° 2004-505 DC**, qui a rendu nécessaire la loi constitutionnelle du **1er mars 2005** [^19]. *À compléter : les arrêts Rouquette (1999) et Syndicat national de l'industrie pharmaceutique (2001) ne reposent que sur la page du Conseil d'État ; leur texte n'a pas été relu.*
 
 **Une nuance importante : l'arrêt Deprez (2005).** Le manuel de Caporal-Greco rappelle que la primauté du droit externe n'est pas remise en cause par Sarran. Dans l'arrêt *Deprez et Baillard* (CE, 5 janvier 2005, n° 257341 et 257534), le Conseil d'État précise que cette primauté se traduit, dans l'ordre interne, par **une priorité d'application** du droit externe, laquelle s'exerce **sans remettre en cause la suprématie de la Constitution** [^17]. Le même manuel observe que la question de la primauté du droit de l'Union sur la norme constitutionnelle n'est « pas encore totalement clarifiée », même si l'arrêt Arcelor (2007) a semblé la résoudre [^17].
 
@@ -182,7 +182,14 @@ Dans l'affaire, le principe d'égalité avait un équivalent en droit de l'Union
 
 Le Conseil constitutionnel avait posé le cadre dans sa décision **n° 2004-496 DC du 10 juin 2004** (loi pour la confiance dans l'économie numérique). Se fondant sur l'**article 88-1**, il juge que la **transposition d'une directive est une exigence constitutionnelle**. Il en tire que la transposition ne peut être empêchée que par une **disposition expresse contraire de la Constitution**, et il se refuse à contrôler les dispositions qui se bornent à tirer les conséquences nécessaires d'une directive précise et inconditionnelle. Il statue dans un délai d'un mois, ce qui l'empêche de saisir la CJUE à titre préjudiciel : cette limite explique la prudence de son contrôle [^16].
 
-*À compléter : le Conseil a, dans des décisions ultérieures, précisé la réserve des règles ou principes inhérents à l'identité constitutionnelle de la France ; ces décisions n'ont pas encore été vérifiées pour ce cours.*
+**Les précisions ultérieures.** Le manuel de Caporal-Greco résume ainsi la jurisprudence du Conseil [^18] :
+
+- il **refuse de contrôler** la constitutionnalité d'une loi dans la mesure où elle « tire les conséquences nécessaires » d'une directive (décision de 2004) ou d'un règlement européen (décision n° 2018-765 DC du 12 juin 2018), puisque la France a consenti à un ordre juridique européen (art. 88-1) ;
+- cette solution ne vaut qu'à **deux limites** : les dispositions de la directive doivent être « **inconditionnelles et précises** », et l'acte ne doit pas aller « à l'encontre d'une règle ou d'un principe **inhérent à l'identité constitutionnelle de la France** » (décision n° 2006-540 DC du 27 juillet 2006) ;
+- le Conseil se réserve le droit de censurer une disposition législative **manifestement incompatible** avec une directive ou un règlement, dans la mesure où elle serait contraire à l'exigence de transposition ou d'adaptation (décisions n° 2006-535 DC du 30 novembre 2006 et n° 2018-765 DC du 12 juin 2018) ;
+- l'**identité constitutionnelle** fonctionne comme une « réserve de souveraineté » pour des principes propres à l'ordre constitutionnel interne sans équivalent européen (la doctrine cite la laïcité) ; le Conseil en a donné un exemple ponctuel : **l'interdiction de déléguer l'exercice de la force publique à des personnes privées** (décision n° 2021-940 QPC du 15 octobre 2021, *Société Air France*) [^18].
+
+> **Piège** : ne dites pas que le Conseil constitutionnel contrôle les lois de transposition « comme les autres ». Il se limite en principe à l'exigence de transposition, sauf **manifeste incompatibilité** ou atteinte à l'**identité constitutionnelle**.
 
 ---
 
@@ -231,6 +238,8 @@ Face à une mesure projetée, posez-vous dans l'ordre :
 | 20 oct. 1989 | CE, Ass., Nicolo | Le juge administratif aussi : fin de la « loi écran » |
 | 30 oct. 1998 | CE, Ass., Sarran | La Constitution est suprême dans l'ordre interne |
 | 10 juin 2004 | CC, 2004-496 DC | Transposition des directives = exigence constitutionnelle |
+| 19 nov. 2004 | CC, 2004-505 DC | Traité établissant une Constitution pour l'Europe : révision nécessaire (loi constitutionnelle du 1er mars 2005) |
+| 27 juill. 2006 | CC, 2006-540 DC | Réserve de l'identité constitutionnelle de la France |
 | 8 févr. 2007 | CE, Ass., Arcelor | Méthode en deux temps pour un acte de transposition |
 | 16 déc. 2008 | CJUE, C-127/07 | Réponse à la question préjudicielle d'Arcelor |
 
@@ -284,13 +293,16 @@ Face à une mesure projetée, posez-vous dans l'ordre :
 [^9]: Conseil constitutionnel, décision n° 2010-14/22 QPC du 30 juillet 2010, communiqué de presse et commentaire, https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2010-1422-qpc-du-30-juillet-2010-communique-de-presse.
 [^10]: Conseil constitutionnel, décision n° 74-54 DC du 15 janvier 1975, https://www.conseil-constitutionnel.fr/decision/1975/7454DC.htm.
 [^11]: Cour de cassation, chambre mixte, 24 mai 1975, *Société des cafés Jacques Vabre* (pourvoi n° 73-13556 selon une page du Conseil constitutionnel) ; voir Conseil constitutionnel, « Rapport français », https://www.conseil-constitutionnel.fr/nouveaux-cahiers-du-conseil-constitutionnel/rapport-francais. Le texte de l'arrêt n'a pas été relu pour ce cours.
-[^12]: Conseil d'État, Assemblée, 20 octobre 1989, *Nicolo*, n° 108243, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-assemblee-20-octobre-1989-nicolo ; décision sur ArianeWeb : https://www.conseil-etat.fr/fr/arianeweb/CE/decision/1989-10-20/108243 (Rec. p. 190 ou 290 selon les sources : écart non résolu).
+[^12]: Conseil d'État, Assemblée, 20 octobre 1989, *Nicolo*, n° 108243, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-assemblee-20-octobre-1989-nicolo ; décision sur ArianeWeb : https://www.conseil-etat.fr/fr/arianeweb/CE/decision/1989-10-20/108243 (Rec. p. 190 : confirmé par Rouvillois, tome 2, qui cite « CE, Ass., 20 octobre 1989, Nicolo, R., p. 190, concl. Frydman » ; la page 290 relevée sur une autre source est donc écartée).
 [^13]: Conseil d'État, Assemblée, 30 octobre 1998, *Sarran et Levacher*, n° 200286, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-assemblee-30-octobre-1998-sarran-et-levacher ; texte : https://conseil-etat.fr/fr/arianeweb/CE/decision/1998-10-30/200286.
 [^14]: Conseil d'État, Assemblée, 8 février 2007, *Société Arcelor Atlantique et Lorraine et autres*, n° 287110, https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/conseil-d-etat-8-fevrier-2007-societe-arcelor-atlantique-et-lorraine-et-autres ; décision du 3 juin 2009 : n° 287110 sur ArianeWeb.
 [^15]: CJUE, grande chambre, 16 décembre 2008, *Arcelor Atlantique et Lorraine e.a.*, C-127/07, ECLI:EU:C:2008:728, https://eur-lex.europa.eu/legal-content/FR/ALL/?uri=ecli%3AECLI%3AEU%3AC%3A2008%3A728.
 [^16]: Conseil constitutionnel, décision n° 2004-496 DC du 10 juin 2004, https://www.conseil-constitutionnel.fr/decision/2004/2004496DC.htm, et commentaire officiel.
 
 [^17]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, format EPUB ; année 2025 indiquée par l'utilisateur, non lue dans le fichier), partie 5 « Éléments de droit constitutionnel européen » (section 41 du fichier indexé) : primauté du droit de l'Union fondée sur l'article 55, retard du juge administratif (Nicolo, 1989), arrêts Sarran (n° 200286 et 200287), Deprez (CE, 5 janvier 2005, n° 257341 et 257534) et Arcelor. Texte reformulé ; la décision Deprez n'a pas été relue sur une source officielle.
+
+[^18]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, EPUB), section 26 du fichier indexé : jurisprudence du Conseil constitutionnel sur l'intégration des actes européens (2004-496 DC, 2006-540 DC, 2006-535 DC, 2018-765 DC, 2021-940 QPC). Texte reformulé ; ces décisions n'ont pas été relues sur le site du Conseil constitutionnel.
+[^19]: Rouvillois, tome 2, sections 15 et 74 du fichier indexé (décision 2004-505 DC, loi constitutionnelle du 1er mars 2005, arrêt Fraisse du 2 juin 2000) ; Caporal-Greco, sections 26 et 41 (arrêt Fraisse, décision 2004-505 DC).
 
 ## Flashcards
 
@@ -302,3 +314,5 @@ Face à une mesure projetée, posez-vous dans l'ordre :
 - [definition] Quelles sont les conditions de la supériorité des traités sur les lois (article 55) ? :: Régulièrement ratifié ou approuvé, publié, et appliqué par l'autre partie (réciprocité), sauf pour les traités protégeant les droits fondamentaux.
 - [jurisprudence] Quel arrêt fait apparaître l'expression « principes généraux du droit » ? :: CE, Assemblée, 26 octobre 1945, Aramu.
 - [date] Date de l'arrêt Costa c/ ENEL :: 15 juillet 1964 (affaire 6/64).
+- [jurisprudence] Quelle décision fonde la réserve de l'« identité constitutionnelle de la France » ? :: La décision n° 2006-540 DC du 27 juillet 2006 : une loi de transposition ne peut aller à l'encontre d'une règle ou d'un principe inhérent à l'identité constitutionnelle de la France.
+- [jurisprudence] Que précise l'arrêt Deprez (CE, 5 janvier 2005) ? :: Que la primauté du droit externe se traduit par une priorité d'application dans l'ordre interne, sans remettre en cause la suprématie de la Constitution.

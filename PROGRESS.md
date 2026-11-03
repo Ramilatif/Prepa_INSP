@@ -46,7 +46,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 5        | 2                 | 0                    | 0             |
+| Droit public                   | —       | 8        | 2                 | 3                    | 0             |
 | Économie                       | —       | 1        | 1                 | 0                    | 0             |
 | Finances publiques             | —       | 1        | 1                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
@@ -55,7 +55,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 | Thèmes de la note de réflexion | —       | 0        | 0                 | 0                    | 0             |
 
 Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source officielle)
-Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du droit public :
+Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les cours de droit administratif restent en brouillon) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
 - Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0
@@ -97,6 +97,13 @@ Cours rédigés (type « cours »), tous en brouillon, rangés par domaine du dr
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Vérification affirmation par affirmation des trois cours de droit constitutionnel (2026-11-03) : voir docs/VERIFICATION.md (tableaux H, C, E). Statut passé à
+  « concordance avec les ouvrages vérifiée » : cela signifie que chaque affirmation importante a été confrontée à une source officielle ET aux manuels déposés
+  là où ils couvrent le sujet, pas que tout est confirmé par un manuel. Restent sans appui d'un manuel (source officielle seule) : Lamotte, Rouquette, SNIP, la décision
+  2010-14/22 QPC, le détail de l'article 12, le délai de soixante jours de l'article 16. Restent sur un manuel seul (à relire à la source) : Deprez, 2006-540 DC, 2021-940 QPC,
+  réserves d'interprétation, délai de trois mois du Conseil en QPC. Origine de la QPC dans la révision de 2008 : non retrouvée. Le statut n'est pas « relue par un humain ».
+  Dates de ces trois cours : les lectures officielles restent des résumés d'outil, pas des textes intégraux.
 
 - Ouvrage déposé le 2026-11-03 : Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (EPUB de 51 sections, **année 2025 indiquée par l'utilisateur, non lue
   dans le fichier**). Couvre théorie du droit constitutionnel, droits comparés, histoire constitutionnelle, Ve République (actes, acteurs, Conseil constitutionnel)

@@ -8,7 +8,7 @@ ordre: 2
 matiere: droit_public
 epreuves: [op_droit_public]
 maj: 2026-11-03
-statut: brouillon
+statut: concordance avec les ouvrages vérifiée
 sources:
   - Constitution du 4 octobre 1958, art. 54, 56, 61, 61-1, 62, 63 (Conseil constitutionnel, texte à jour au 8 mars 2024)
   - Ordonnance n° 58-1067 du 7 novembre 1958 portant loi organique sur le Conseil constitutionnel, art. 23-2 et 23-4 (Légifrance)
@@ -37,10 +37,12 @@ D'après l'**article 56** de la Constitution [^1] :
 
 - le Conseil comprend **neuf membres**, dont le mandat dure **neuf ans** et **n'est pas renouvelable** ;
 - il se **renouvelle par tiers tous les trois ans** ;
-- trois membres sont désignés par le **Président de la République**, trois par le **président de l'Assemblée nationale** et trois par le **président du Sénat** ; les nominations faites par les présidents des assemblées ne sont soumises qu'à l'avis de la commission permanente compétente ;
+- trois membres sont désignés par le **Président de la République**, trois par le **président de l'Assemblée nationale** et trois par le **président du Sénat** ; depuis la révision du 23 juillet 2008, les nominations du Président sont soumises à l'avis de la commission permanente compétente de chaque assemblée (article 13, alinéa 5) et ne sont pas possibles si les votes négatifs atteignent au moins les **trois cinquièmes** des suffrages exprimés dans les deux commissions ; les nominations des présidents des assemblées sont soumises au seul avis de la commission permanente de leur assemblée, avec le même seuil de trois cinquièmes [^12] ;
 - les **anciens Présidents de la République** font de droit partie à vie du Conseil, en plus des neuf membres.
 
 Une loi organique détermine les règles d'organisation et de fonctionnement du Conseil (article 63) [^1] : c'est l'**ordonnance n° 58-1067 du 7 novembre 1958**, que l'on retrouvera pour la QPC.
+
+> **Note** : aucune condition de capacité juridique, aucun diplôme n'est exigé des membres du Conseil, contrairement à la plupart des juridictions constitutionnelles étrangères ; d'après Rouvillois, environ 50 % des membres nommés depuis 1959 avaient été ministres ou parlementaires [^12]. Cela correspond à l'idée des constituants de 1958 d'un « régulateur des pouvoirs » plus que d'une cour suprême.
 
 > **À retenir** : le non-renouvellement du mandat (neuf ans, une seule fois) a pour but de préserver l'indépendance des membres, qui ne dépendent pas d'une éventuelle réélection. Le renouvellement par tiers évite un changement complet du Conseil d'un coup.
 
@@ -111,7 +113,11 @@ D'après les publications du Conseil, une question est **nouvelle** notamment si
 
 > **Pour la copie** : face à un dossier qui évoque une QPC, déroulez les trois conditions de renvoi dans l'ordre (applicable au litige ? déjà jugée ? nouvelle ou sérieuse ?) et concluez sur les chances de passage du filtre.
 
-### C. Un exemple : la garde à vue (2010)
+### C. Le jugement par le Conseil constitutionnel
+
+Une fois renvoyée, la question est jugée par le Conseil constitutionnel lui-même, qui doit statuer **dans un délai de trois mois à compter de sa saisine**. Rouvillois explique ce délai, plus long que celui du contrôle a priori, par une urgence moins forte (la loi est déjà en vigueur) et par le besoin d'une procédure plus contradictoire [^12]. Le Conseil a adopté un règlement intérieur de procédure pour la QPC (décision du 4 février 2010), que l'auteur considère comme confirmant l'existence d'un véritable procès : le Conseil est désormais formellement soumis aux exigences du procès équitable et d'un tribunal neutre et impartial [^12]. Le Conseil informe les parties à l'instance de sa saisine [^12]. *À compléter : le texte de l'article 23-10 de l'ordonnance, qui fixe ce délai, n'a pas été relu à la source officielle ; l'information vient de l'ouvrage seul.*
+
+### D. Un exemple : la garde à vue (2010)
 
 Dans sa décision **n° 2010-14/22 QPC du 30 juillet 2010**, le Conseil a jugé contraires à la Constitution les dispositions de droit commun encadrant la garde à vue (articles 62, 63, 63-1, 63-4 alinéas 1 à 6 et 77 du code de procédure pénale), en retenant notamment le principe de « rigueur nécessaire ». Il a noté que la garde à vue était devenue l'étape principale de la construction des dossiers (plus de 790 000 mesures décidées en 2009). Il a **reporté l'abrogation au 1er juillet 2011**, laissant au législateur le temps de réformer ; la loi du 14 avril 2011 relative à la garde à vue a réécrit le régime [^9].
 
@@ -147,7 +153,7 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 | Fondement | Art. 61 | Art. 61-1 |
 | Moment | Avant la promulgation | Loi déjà en vigueur, à l'occasion d'un litige |
 | Qui saisit ? | PR, PM, présidents des assemblées, 60 députés ou sénateurs (ou obligatoire) | Une partie à l'instance ; renvoi par le Conseil d'État ou la Cour de cassation |
-| Délai de décision | Un mois (huit jours en cas d'urgence) | Trois mois pour le filtre (CE / Cassation) |
+| Délai de décision | Un mois (huit jours en cas d'urgence) | Trois mois pour le filtre (CE / Cassation), puis trois mois pour le Conseil constitutionnel |
 | Effet | Pas de promulgation | Abrogation à la date fixée par la décision |
 | Exemple | 71-44 DC (1971) | 2010-14/22 QPC (2010) |
 
@@ -207,6 +213,8 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 
 [^11]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, format EPUB ; année 2025 indiquée par l'utilisateur), partie 4, chapitre 4 « L'organe de contrôle : le Conseil constitutionnel » (section 35 du fichier indexé) : législateur négatif (Kelsen, Vedel), réserves d'interprétation, abrogation différée, QPC et filtrage par les juges. Texte reformulé ; les références doctrinales citées par l'ouvrage n'ont pas été reprises.
 
+[^12]: Rouvillois, *Droit constitutionnel*, tome 2 « La Ve République », 5e éd., 2016 (ouvrage déposé, EPUB), section 28 du fichier indexé : composition du Conseil, nominations et révision de 2008, absence de condition de capacité, délai de trois mois en QPC, règlement intérieur du 4 février 2010 ; et Caporal-Greco et al., 4e éd., section 35 : désignation des membres, veto par les commissions à la majorité des trois cinquièmes. Texte reformulé.
+
 ## Flashcards
 
 - [institution] Combien de membres compte le Conseil constitutionnel et quelle est la durée de leur mandat ? :: Neuf membres, mandat de neuf ans non renouvelable, renouvellement par tiers tous les trois ans (art. 56).
@@ -214,5 +222,7 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 - [chiffre] Quel est le délai du Conseil pour statuer dans le contrôle a priori ? :: Un mois, ramené à huit jours en cas d'urgence à la demande du Gouvernement ; la saisine suspend le délai de promulgation.
 - [definition] Quelles sont les trois conditions de renvoi d'une QPC (ordonnance 58-1067, art. 23-2) ? :: La disposition est applicable au litige ; elle n'a pas déjà été déclarée conforme (sauf changement de circonstances) ; la question n'est pas dépourvue de caractère sérieux.
 - [chiffre] De combien de temps dispose le Conseil d'État ou la Cour de cassation pour décider du renvoi d'une QPC ? :: Trois mois à compter de la réception de la transmission (art. 23-4).
+- [chiffre] Dans quel délai le Conseil constitutionnel statue-t-il sur une QPC qui lui est renvoyée ? :: Trois mois à compter de sa saisine (d'après Rouvillois).
+- [definition] Comment sont nommés les membres du Conseil depuis 2008 ? :: Trois par le Président, trois par le président de l'Assemblée, trois par le président du Sénat ; la nomination est impossible si les commissions permanentes s'y opposent à la majorité des trois cinquièmes des suffrages exprimés.
 - [definition] Quel est l'effet d'une déclaration d'inconstitutionnalité sur le fondement de l'article 61-1 ? :: La disposition est abrogée à compter de la publication de la décision ou d'une date ultérieure fixée par celle-ci.
 - [jurisprudence] Quel report d'abrogation la décision 2010-14/22 QPC a-t-elle prévu pour la garde à vue ? :: Au 1er juillet 2011.
