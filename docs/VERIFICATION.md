@@ -211,11 +211,11 @@ Légende : ✓ confirmé par une source officielle ; ◐ en partie ; ✗ ouvrage
 | E6 | Protocole n° 15 : en vigueur le 1er août 2021, quatre mois pour les décisions internes à partir du 1er février 2022 | ✓ Conseil de l'Europe / greffe (via résumé) | de Ravel p. 27 ; Denizeau p. 57 | ✓ |
 | E7 | Art. 41 satisfaction équitable ; art. 43-44 renvoi devant la Grande Chambre (trois mois, collège de cinq juges) | ✓ Convention | Denizeau p. 228 | ✓ |
 | E8 | Art. 46 : force obligatoire, Comité des ministres, saisine pour interprétation et manquement (deux tiers) ; art. 47 : avis consultatifs | ✓ Convention | de Ravel p. 243, 249 ; Denizeau p. 239 | ✓ |
-| E9 | Protocole n° 16 : en vigueur depuis le 1er août 2018 pour les États qui l'ont ratifié ; la France figure parmi eux | non relue | de Ravel p. 27 ; Denizeau p. 57 | ◐ ouvrages (19 États au 1er juillet 2023 selon Denizeau, 21 selon le livre de 2024) |
-| E10 | Interprétation autonome, évolutive, globale (*Golder*, *Demir et Baykara*) | ✗ | de Ravel p. 41, 45 | ✗ |
-| E11 | Marge d'appréciation, exemple de la GPA, grille de l'article 8 § 2 | ✗ (texte de l'article 8 non relu) | de Ravel p. 133 | ✗ |
-| E12 | Quatre réunions annuelles du Comité des ministres pour surveiller l'exécution | ✗ | de Ravel p. 249 | ✗ |
+| E9 | Protocole n° 16 : en vigueur depuis le 1er août 2018 pour les États qui l'ont ratifié ; la France figure parmi eux | ✓ communiqués du greffier 2018 (12 avril, 1er août), via résumé : 10 États dont la France ; ouverture à la signature le 2 octobre 2013 | de Ravel p. 27 ; Denizeau p. 57 | ◐ ouvrages (19 États au 1er juillet 2023 selon Denizeau, 21 selon le livre de 2024) |
+| E10 | Interprétation autonome, évolutive, globale (*Golder*, *Demir et Baykara*) | ✓ Golder 1975, Tyrer 1978 § 31, Demir et Baykara GC 12 nov. 2008 (documents de la Cour, via résumé) | de Ravel p. 41, 45 | ✗ |
+| E11 | Marge d'appréciation, exemple de la GPA, grille de l'article 8 § 2 | ◐ liste des buts de l'art. 8 § 2 lue dans le texte de la Convention (PDF) ; marge d'appréciation et GPA non recoupées | de Ravel p. 133 | ◐ |
+| E12 | Quatre réunions annuelles du Comité des ministres pour surveiller l'exécution | ✓ Conseil de l'Europe (via résumé) | de Ravel p. 249 | ✗ |
 | E13 | Moreira de Azevedo (1991) : trois mois pour payer ; restitutio in integrum | ✗ | Denizeau p. 228 | ✗ |
 | E14 | KlimaSeniorinnen (GC, 9 avril 2024) : violation des art. 8 (16 voix contre 1) et 6 § 1, association admise, requérantes individuelles irrecevables | ✓ HUDOC (communiqué, via résumé) | de Ravel p. 45 (citation) | ✓ |
-| E15 | Russie : cesse d'être partie le 16 septembre 2022 | non relue | Denizeau p. 58 | ✗ |
+| E15 | Russie : cesse d'être partie le 16 septembre 2022 | ✓ Conseil de l'Europe, résolution de la Cour du 22 mars 2022 (via résumé) | Denizeau p. 58 | ✗ |
 | E16 | Ratification française le 3 mai 1974 ; caractéristiques (sans réciprocité, applicabilité directe, primauté, recours individuel) | ✗ | Denizeau (plan du manuel seul) | ✗ |
