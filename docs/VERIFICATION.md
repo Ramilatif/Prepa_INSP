@@ -6,6 +6,7 @@ ici et dans PROGRESS.md.
 
 | Date | Fiche / cours | Point | Ouvrage | Source officielle | Décision |
 |---|---|---|---|---|---|
+| 2026-11-04 | cours-protection-juridictionnelle-libertes | Date de la décision *Tliba* (vie familiale normale) | Denizeau, p. 189 : « 30 novembre 2001 » | Conseil d'État, dossier « Le juge des référés » : décision du **30 octobre 2001** (Ministre de l'intérieur c/ Mme T.) | Date officielle retenue ; erreur probable de l'ouvrage. |
 | 2026-11-04 | cours-protection-juridictionnelle-libertes | Numéro de l'ordonnance du Conseil d'État du 20 septembre 2022 (droit à un environnement équilibré, liberté fondamentale) | Denizeau, p. 190 : « n° 451291 » | Conseil d'État / Légifrance : **n° 451129** | Numéro officiel retenu ; l'écart est une coquille probable de l'ouvrage (transposition de chiffres). |
 | 2026-11-03 | cours-responsabilite-administrative | Date de la loi en cause dans l'arrêt La Fleurette | Degoffe, p. 646 : « 9 juin 1934 » | Page du Conseil d'État sur l'arrêt : « loi du **29 juin 1934** » | Date de la page du Conseil d'État retenue ; écart non expliqué par une évolution des textes (erreur probable de l'ouvrage). À confirmer par le texte de la loi sur Légifrance si possible. |
 | 2026-11-03 | cours-hierarchie-des-normes | Date de l'arrêt de la CJUE dans l'affaire Arcelor (C-127/07) | Degoffe, *Droit administratif*, p. 131 : « 16 novembre 2008 » | EUR-Lex (ECLI:EU:C:2008:728) : arrêt de la grande chambre du **16 décembre 2008** | Date officielle retenue ; l'écart ne s'explique pas par une évolution des textes mais par une erreur probable de l'ouvrage (ou de son extraction). À signaler à l'utilisateur. |
@@ -165,3 +166,31 @@ Ouvrage de base : Denizeau, *Droit des libertés fondamentales* (684 pages, édi
 | Voie de fait : trois conditions, formule du Tribunal des conflits, déclin (Eucat, Grizivatz) | non relue | p. 174-175 | ◐ ouvrage seul |
 | Liste d'ordonnances « liberté fondamentale » (Desperthes, Hyacinthe, Karamoko, etc.) | non relues (sauf l'existence de la décision Ville de Paris, n° 353172) | p. 188-189 | ◐ ouvrage seul |
 | CEDH, *Gebremedhin*, 26 avril 2007 : référé-liberté sans recours effectif pour l'asile | non relue | p. 192 | ◐ ouvrage seul |
+
+
+### Vérification affirmation par affirmation : cours « Protection juridictionnelle des libertés fondamentales » (2026-11-04)
+
+Cette vérification remplace le « premier état » ci-dessus. Légende : ✓ confirmé par une source officielle ; ◐ confirmé en partie ; ✗ ouvrage seul (non retrouvé sur une source officielle).
+
+| Id | Affirmation | Officiel | Ouvrage(s) | Verdict |
+|---|---|---|---|---|
+| L1 | Art. 66 : détention arbitraire, autorité judiciaire gardienne | ✓ CC | Denizeau p. 168, 173 | ✓ |
+| L2 | Principe de 1987 : juge administratif sauf matières réservées à l'autorité judiciaire (86-224 DC, cons. 15) | ✓ CC | Denizeau p. 168 | ✓ ; l'origine « loi du 24 mai 1872 » n'est donnée que par l'ouvrage (le lien avec la loi de 1790, ajouté par erreur dans la première rédaction, a été retiré) |
+| L3 | Propriété immobilière : rôle de l'autorité judiciaire, PFRLR (89-256 DC) | ✓ CC (cons. 23) | Denizeau p. 168, 174 | ✓ |
+| L4 | Voie de fait : définition actuelle en deux cas (TC, 17 juin 2013, *Bergoend*, n° C3911) | ✓ CE / Légifrance | Denizeau p. 174-176 (approche plus ancienne, « vision étroite ») | ✓ ; **le manuel ne donne pas la formule de 2013**, la définition du cours a été corrigée |
+| L5 | Liberté d'aller et venir hors de la liberté individuelle pour la voie de fait (TC, 12 février 2018, C4110) | ✓ Légifrance (via résumé) | — | ◐ |
+| L6 | Voie de fait : Eucat (1986), Grizivatz (1987), TC 15 déc. 2008, TC 19 nov. 2007 | ✗ | Denizeau p. 175-176 | ✗ |
+| L7 | Affaire Lambert : Cass. ass. plén., 28 juin 2019, pas de voie de fait ni art. 66 | ✗ | Denizeau p. 176 | ✗ |
+| L8 | Référé-liberté (L. 521-2) : demande justifiée par l'urgence, mesures nécessaires, atteinte grave et manifestement illégale, « dans l'exercice d'un de ses pouvoirs », 48 heures, loi du 30 juin 2000 | ✓ Légifrance (texte lu) | Denizeau p. 190-191 | ✓ |
+| L9 | Appel du référé-liberté : quinze jours, Conseil d'État, 48 heures, sans avocat obligatoire (L. 523-1, R. 523-3) | ✓ Légifrance + CE | Denizeau p. 192 | ✓ |
+| L10 | Référé-suspension (L. 521-1) : texte, urgence et doute sérieux ; dernier ressort (L. 523-1) | ✓ Légifrance (texte lu) | Degoffe p. 33 | ✓ |
+| L11 | Faible taux de réussite du référé-liberté (9 actions sur 10 rejetées) | ✗ | Denizeau p. 190 | ✗ (chiffre non daté) |
+| L12 | Ville de Paris et SEM PariSeine (CE, Sect., 16 nov. 2011, n° 353172 et 353173) : droit à la vie | ✓ CE / Légifrance | Denizeau p. 189 | ✓ |
+| L13 | *Tliba* : 30 octobre 2001 (et non novembre) | ✓ CE (dossier « juge des référés ») | Denizeau p. 189 (date erronée) | ✓ avec correction |
+| L14 | Desperthes (9 janv. 2001), Hyacinthe (12 janv. 2001) | ◐ dates des décisions anonymisées retrouvées, noms non confirmés | Denizeau p. 188-189 | ◐ |
+| L15 | Merzouk (10 avril 2001), Karamoko (10 février 2012), Ceyrat, dignité 2009, etc. | ✗ | Denizeau p. 188-192 | ✗ |
+| L16 | *Gebremedhin c. France* (CEDH, 26 avril 2007, n° 25389/05) : violation des art. 13 et 3, pas de recours suspensif de plein droit | ✓ HUDOC (via résumé) | Denizeau p. 192 | ✓ |
+| L17 | Environnement équilibré, liberté fondamentale (CE, ord., 20 sept. 2022, n° 451129) ; reprise le 18 oct. 2024 (n° 498433) | ✓ CE / Légifrance | Denizeau p. 190 (numéro erroné) | ✓ avec correction |
+| L18 | Déféré-laïcité : loi n° 2021-1109, art. 5 ; L. 2131-6 CGCT ; L. 554-3 CJA ; 48 heures ; CE, 21 juin 2022, n° 464648 | ✓ Légifrance + CE (via résumé) | Denizeau p. 192 | ✓ |
+
+Résumé : le cours conserve trois erreurs d'ouvrage corrigées (numéro 451129, date de *Tliba*, définition de la voie de fait postérieure au manuel). Restent sans source officielle lue : L6, L7, L11, L15 (références de jurisprudence et chiffres du manuel), signalés dans le texte.

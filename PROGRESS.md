@@ -46,7 +46,7 @@ Publications officielles introuvables : — (téléchargement pas encore lancé)
 
 | Matière                        | Prévues | Rédigées | Sources vérifiées | Concordance ouvrages | Relues humain |
 | ------------------------------ | ------- | -------- | ----------------- | -------------------- | ------------- |
-| Droit public                   | —       | 8        | 2                 | 5                    | 0             |
+| Droit public                   | —       | 9        | 3                 | 5                    | 0             |
 | Économie                       | —       | 1        | 1                 | 0                    | 0             |
 | Finances publiques             | —       | 1        | 1                 | 0                    | 0             |
 | Questions sociales             | —       | 0        | 0                 | 0                    | 0             |
@@ -58,7 +58,7 @@ Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source off
 Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les deux cours de droit administratif l'ont aussi depuis la vérification contre le Degoffe, voir docs/VERIFICATION.md) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
-- Libertés et droits fondamentaux : 1 (protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; brouillon) ; Droit de l'Union européenne : 0
+- Libertés et droits fondamentaux : 1 (protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; statut « sources officielles vérifiées » après la vérification du 2026-11-04, voir docs/VERIFICATION.md) ; Droit de l'Union européenne : 0
 
 ## Annales
 
@@ -97,6 +97,8 @@ Cours rédigés (type « cours »), rangés par domaine du droit public (les tro
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Vérification du cours sur la protection juridictionnelle des libertés (2026-11-04) : trois erreurs de l'ouvrage de base corrigées (numéro de l'ordonnance du 20 sept. 2022 : 451129 ; date de *Tliba* : 30 octobre 2001 ; définition de la voie de fait, restreinte par TC, 17 juin 2013, *Bergoend*, que le manuel de 2023 ne formule pas) et une erreur de ma première rédaction (origine du principe de 1987) retirée. Texte des articles L. 521-1, L. 521-2 et L. 523-1 relu sur Légifrance. Restent sur l'ouvrage seul : Eucat, Grizivatz, Lambert, Merzouk, Karamoko, Desperthes, Hyacinthe, le taux de rejet de 9 sur 10 (voir tableau L du fichier de vérification). Statut : « sources officielles vérifiées », pas « concordance avec les ouvrages » (aucun second manuel de libertés fondamentales n'est déposé pour recouper le Denizeau).
 
 - Ouvrages déposés le 2026-11-04 : *La Convention européenne des droits de l'Homme en schémas* (de Ravel d'Esclapon, Ellipses, 2024, 280 p.) et Denizeau, *Droit des libertés fondamentales* (684 p., **édition 2023 selon l'utilisateur**, non lue dans le fichier). Cours « La protection juridictionnelle des libertés fondamentales en droit interne » rédigé (brouillon) : méthode retenue pour les apports postérieurs au manuel = partie « Ce qui a changé depuis le manuel » avec sources officielles, et « à compléter » pour ce qui n'a pas été recherché (évolutions 2024-2026). Coquille du manuel : n° 451291 au lieu de 451129 (voir docs/VERIFICATION.md). Le texte intégral de L. 521-1 et L. 521-2 n'a pas été relu sur Légifrance (la page du glossaire du Conseil d'État était illisible).
 

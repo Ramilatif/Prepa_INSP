@@ -8,7 +8,7 @@ ordre: 1
 matiere: droit_public
 epreuves: [op_droit_public]
 maj: 2026-11-04
-statut: brouillon
+statut: sources officielles vérifiées
 sources:
   - Constitution du 4 octobre 1958, art. 36 et 66 (Conseil constitutionnel, texte à jour au 8 mars 2024)
   - Code de justice administrative, art. L. 521-1, L. 521-2, L. 554-3 ; code général des collectivités territoriales, art. L. 2131-6 ; loi n° 2021-1109 du 24 août 2021, art. 5 (Légifrance)
@@ -56,7 +56,7 @@ L'article 66 dispose : « Nul ne peut être arbitrairement détenu. » et confie
 
 ### B. Les matières réservées « par nature » au juge judiciaire
 
-Le Conseil constitutionnel a posé, dans sa décision du 23 janvier 1987 sur le Conseil de la concurrence (n° 86-224 DC), qu'existe un principe fondamental reconnu par les lois de la République, issu de la loi des 16 et 24 août 1790 et de celle du 24 mai 1872 : sauf pour les matières réservées par nature à l'autorité judiciaire, l'annulation ou la réformation des décisions prises par l'administration dans l'exercice de prérogatives de puissance publique relève en dernier ressort du juge administratif [^1]. Les matières **réservées par nature** au juge judiciaire sont [^1] :
+Le Conseil constitutionnel a posé, dans sa décision du 23 janvier 1987 sur le Conseil de la concurrence (n° 86-224 DC), qu'existe un principe fondamental reconnu par les lois de la République, que le manuel rattache à la loi du 24 mai 1872 : sauf pour les matières réservées par nature à l'autorité judiciaire, l'annulation ou la réformation des décisions prises par les autorités exécutives, leurs agents, les collectivités territoriales ou les organismes publics sous leur contrôle, dans l'exercice de prérogatives de puissance publique, relève en dernier ressort du juge administratif [^1] [^10]. Les matières **réservées par nature** au juge judiciaire sont [^1] :
 
 1. la **liberté individuelle** (art. 66) ;
 2. le contentieux relatif aux **atteintes à la propriété privée** : le juge judiciaire est compétent en matière d'expropriation pour cause d'utilité publique (loi du 8 mars 1810) et pour indemniser les préjudices résultant de l'**emprise irrégulière**, c'est-à-dire la dépossession illégale d'une propriété immobilière par l'administration ; le Conseil constitutionnel y voit un principe fondamental reconnu par les lois de la République (décision n° 89-256 DC du 25 juillet 1989) ;
@@ -66,17 +66,22 @@ Le Conseil constitutionnel a posé, dans sa décision du 23 janvier 1987 sur le 
 
 ### C. La voie de fait
 
-La **voie de fait** est une théorie jurisprudentielle qui permet de **disqualifier** un acte administratif pour donner **entière compétence au juge judiciaire** : le principe de séparation des autorités administratives et judiciaires ne joue plus [^1]. Selon le Tribunal des conflits, « la voie de fait administrative ne peut résulter que d'une décision ou d'une action portant atteinte à la liberté individuelle ou à la propriété privée, **manifestement insusceptible de se rattacher à l'exercice d'un pouvoir appartenant à l'administration** » [^1].
+La **voie de fait** est une théorie jurisprudentielle qui permet de **disqualifier** un acte administratif pour donner **entière compétence au juge judiciaire** : le principe de séparation des autorités administratives et judiciaires ne joue plus [^1].
 
-Trois conditions sont requises [^1] :
+**La définition actuelle (Tribunal des conflits, 17 juin 2013, *Bergoend*, n° C3911).** Cette décision a **restreint** la voie de fait en abandonnant la conception issue de la décision *Action française* (1935), selon laquelle une décision manifestement illégale pouvait suffire. Désormais, l'administration ne commet une voie de fait que dans **deux situations** [^11] :
 
-- l'administration a procédé à l'**exécution forcée** d'une décision portant une atteinte grave à une liberté fondamentale ou à une propriété privée, qui se traduit par une **emprise** (destruction de biens, violation de domicile, saisie de journaux, arrestation) ;
-- l'action administrative est **gravement illégale** ;
-- l'administration a agi **en dehors de ses pouvoirs**.
+1. l'**exécution forcée**, dans des conditions irrégulières, d'une décision, **même régulière**, portant atteinte à la **liberté individuelle** ou aboutissant à l'**extinction d'un droit de propriété** ;
+2. l'adoption d'une décision ayant ces **mêmes effets** et qui est **manifestement insusceptible de se rattacher à un pouvoir appartenant à l'administration**.
+
+Seuls ces cas justifient, par exception au principe de séparation, la compétence du juge judiciaire pour ordonner de faire cesser l'atteinte ou la réparer. Dans l'espèce, l'installation sans titre d'un poteau électrique sur un terrain privé n'a pas été regardée comme une voie de fait, car elle n'était pas manifestement étrangère à un pouvoir du gestionnaire du réseau et n'éteignait pas le droit de propriété [^11]. Le Tribunal des conflits a ensuite jugé que la **liberté d'aller et venir** n'entre pas dans la notion de liberté individuelle de l'article 66 pour caractériser une voie de fait (TC, 12 février 2018, n° C4110) [^11].
+
+*Ce que dit le manuel (édition 2023).* Il présente une approche plus ancienne en trois conditions : exécution forcée portant une atteinte grave à une liberté fondamentale ou à la propriété et se traduisant par une **emprise** (destruction de biens, violation de domicile, saisie de journaux, arrestation), action gravement illégale, administration agissant en dehors de ses pouvoirs ; il reprend la formule du Tribunal des conflits de 2008 (« manifestement insusceptible de se rattacher à l'exercice d'un pouvoir appartenant à l'administration ») et précise que le Tribunal a aujourd'hui une **vision étroite** : une simple illégalité ne suffit pas (TC, 15 décembre 2008) et le retrait de points du permis n'est pas une voie de fait (TC, 19 novembre 2007) [^1]. La définition de 2013 est plus précise et doit être préférée.
+
+> **Exemple** : dans l'affaire Vincent Lambert, les parents ont invoqué la voie de fait et l'article 66 pour saisir le juge judiciaire contre la décision d'arrêt des traitements. La Cour d'appel de Paris s'est déclarée compétente (20 mai 2019), mais l'assemblée plénière de la Cour de cassation a cassé, le 28 juin 2019, en constatant l'absence de voie de fait et l'inapplicabilité de l'article 66 (récit du manuel, références non relues) [^1].
 
 Une fois la voie de fait constituée, le juge judiciaire a **plénitude de compétence** : il apprécie la légalité des actes administratifs en cause, condamne la personne publique à réparer et peut prononcer des **injonctions assorties d'astreintes**. En période de **circonstances exceptionnelles**, l'acte n'est en principe plus qualifié de voie de fait [^1].
 
-> **Piège** : la voie de fait n'est pas une simple illégalité grave. L'acte doit être **manifestement insusceptible de se rattacher** à un pouvoir de l'administration. Le manuel souligne que la jurisprudence *Eucat* (retrait d'un passeport pour des motifs fiscaux, TC, 9 juin 1986) risquait de faire de toute illégalité une voie de fait, et que cette jurisprudence n'est plus d'actualité [^1].
+> **Piège** : la voie de fait n'est pas une simple illégalité grave. Depuis 2013, il faut une atteinte à la **liberté individuelle** ou l'**extinction d'un droit de propriété**, par exécution forcée irrégulière ou par un acte **manifestement insusceptible de se rattacher** à un pouvoir de l'administration. Le manuel souligne que la jurisprudence *Eucat* (retrait d'un passeport pour des motifs fiscaux, TC, 9 juin 1986) risquait de faire de toute illégalité une voie de fait, et que cette jurisprudence n'est plus d'actualité [^1].
 
 ### D. Pourquoi la voie de fait a décliné : l'arrivée du référé-liberté
 
@@ -92,13 +97,13 @@ Le juge administratif contrôle la légalité des actes de l'administration au r
 
 ### B. Le référé-liberté (art. L. 521-2 du code de justice administrative)
 
-> **Définition** : le **référé-liberté** permet à toute personne de demander au juge des référés d'ordonner, **dans un délai de quarante-huit heures**, **toutes mesures nécessaires** à la sauvegarde d'une **liberté fondamentale** à laquelle une personne publique ou un organisme privé gérant un service public porte **une atteinte grave et manifestement illégale** [^4] [^3].
+> **Définition** : selon l'article L. 521-2 du code de justice administrative (créé par la loi n° 2000-597 du 30 juin 2000), « saisi d'une demande en ce sens **justifiée par l'urgence**, le juge des référés peut ordonner **toutes mesures nécessaires** à la sauvegarde d'une **liberté fondamentale** à laquelle une **personne morale de droit public** ou un **organisme de droit privé chargé de la gestion d'un service public** aurait porté, **dans l'exercice d'un de ses pouvoirs**, une **atteinte grave et manifestement illégale**. Le juge des référés se prononce **dans un délai de quarante-huit heures** » [^12].
 
 **Les conditions** (cumulatives) [^4] [^3] :
 
 1. une **liberté fondamentale** est en cause ;
 2. une **atteinte grave et manifestement illégale** y est portée par une personne publique ou un organisme privé chargé d'un service public ;
-3. une **urgence particulière** justifie une mesure à très bref délai : le Conseil d'État exige des circonstances particulières, et une atteinte avérée à une liberté fondamentale ne suffit pas à elle seule à établir l'urgence [^4].
+3. une **urgence** justifie la demande : le texte exige une demande « justifiée par l'urgence » ; la jurisprudence du Conseil d'État y ajoute des circonstances particulières rendant nécessaire une mesure à très bref délai (une atteinte avérée à une liberté fondamentale ne suffit pas à elle seule à établir l'urgence), et il tient compte, pour apprécier ce qui peut être ordonné, des moyens de l'autorité compétente et de ce qu'elle a déjà fait [^4] [^8].
 
 **La procédure** [^3] :
 
@@ -111,7 +116,9 @@ Le juge administratif contrôle la légalité des actes de l'administration au r
 **Les limites** [^3] :
 
 - le juge ne peut prononcer que des **mesures provisoires** : il ne peut ni **indemniser** le préjudice ni **annuler** les mesures litigieuses (CE, ord., 10 avril 2001, *Merzouk*) ; il peut en revanche suspendre une mesure d'éloignement et ordonner une autorisation provisoire de séjour dans l'attente du jugement au fond ;
-- **appel** dans les quinze jours devant le président de la section du contentieux du Conseil d'État (ou un membre délégué), qui statue lui aussi dans les 48 heures ;
+- **appel** devant le Conseil d'État **dans les quinze jours** de la notification (art. L. 523-1) : le président de la section du contentieux (ou un conseiller délégué) statue lui aussi **dans les 48 heures** ; l'appel se fait sans avocat obligatoire (art. R. 523-3) [^12] [^8] ;
+- à l'inverse, les ordonnances du **référé-suspension** sont rendues **en dernier ressort** (art. L. 523-1) [^12] ;
+- **Strasbourg** : dans l'arrêt *Gebremedhin c. France* (26 avril 2007, n° 25389/05), la Cour européenne a constaté une violation de l'article 13 combiné avec l'article 3, faute de recours de plein droit **suspensif** en zone d'attente pour un demandeur d'asile ; elle a par la suite cité cet arrêt pour relever que la saisine du juge des référés n'est pas de plein droit suspensive [^9] ;
 - le taux de réussite est **faible** : le manuel écrit qu'en moyenne, sur 10 actions intentées, 9 sont rejetées, et que le Conseil d'État veut conserver à cette procédure son caractère exceptionnel (chiffre non daté) [^3].
 
 > **Piège** : le référé-liberté n'est pas un moyen d'obtenir réparation ou l'annulation d'une décision. Il sert à **faire cesser, en urgence et à titre provisoire, une atteinte à une liberté fondamentale**. Pour annuler, il faut un recours au fond ; pour indemniser, un recours en responsabilité.
@@ -124,13 +131,13 @@ Le juge administratif retient une conception **large** de la liberté fondamenta
 |---|---|
 | Liberté d'aller et venir | CE, ord., 9 janvier 2001, *Desperthes* |
 | Droit constitutionnel d'asile | CE, ord., 12 janvier 2001, *Hyacinthe* |
-| Droit à la vie en cas de danger caractérisé et de péril imminent | CE, Sect., 16 novembre 2011, *Ville de Paris et SEM PariSeine* |
+| Droit à la vie en cas de danger caractérisé et de péril imminent | CE, Sect., 16 novembre 2011, *Ville de Paris et SEM PariSeine*, n° 353172 et 353173 (confirmé par le Conseil d'État) |
 | Droit à l'hébergement d'urgence | CE, ord., 10 février 2012, *Karamoko* |
 | Liberté de réunion | CE, ord., 5 janvier 2007 |
 | Droit de grève | CE, ord., 15 juillet 2009 |
 | Liberté d'entreprendre | CE, ord., 8 août 2008, *Commune de Ceyrat* |
 | Principe de dignité | CE, ord., 24 juillet 2009 |
-| Droit de mener une vie familiale normale | CE, Sect., 30 novembre 2001, *Tliba* |
+| Droit de mener une vie familiale normale | CE, Sect., 30 **octobre** 2001, *Tliba* (le manuel écrit « 30 novembre » : la page du Conseil d'État sur le juge des référés donne le 30 octobre) |
 
 Le Conseil d'État recense aussi, dans sa synthèse, le droit au respect de la vie, le droit de ne pas subir de traitements inhumains ou dégradants, la liberté d'aller et venir et le droit au respect de la vie privée, y compris la protection des données personnelles [^4].
 
@@ -138,7 +145,7 @@ Le Conseil d'État recense aussi, dans sa synthèse, le droit au respect de la v
 
 ### D. Le référé-suspension (art. L. 521-1)
 
-Distinct du référé-liberté, le **référé-suspension** a été créé par la loi du 30 juin 2000 à la place du sursis à exécution. Selon l'article L. 521-1 du code de justice administrative, tel que cité par Degoffe, « quand une décision administrative, même de rejet, fait l'objet d'une requête en annulation ou en réformation, le juge des référés, saisi d'une demande en ce sens, peut ordonner la suspension de l'exécution de cette décision, ou de certains de ses effets, **lorsque l'urgence le justifie** et qu'il est fait état d'un moyen propre à créer, en l'état de l'instruction, **un doute sérieux** quant à la légalité de la décision » [^5]. Il doit être **lié à une requête en annulation ou en réformation** ; l'ordonnance du président du tribunal administratif est rendue en dernier ressort, avec possibilité de pourvoi en cassation [^5].
+Distinct du référé-liberté, le **référé-suspension** a été créé par la loi du 30 juin 2000 à la place du sursis à exécution. Selon l'article L. 521-1 du code de justice administrative, tel que cité par Degoffe, « quand une décision administrative, même de rejet, fait l'objet d'une requête en annulation ou en réformation, le juge des référés, saisi d'une demande en ce sens, peut ordonner la suspension de l'exécution de cette décision, ou de certains de ses effets, **lorsque l'urgence le justifie** et qu'il est fait état d'un moyen propre à créer, en l'état de l'instruction, **un doute sérieux** quant à la légalité de la décision » [^5]. Il doit être **lié à une requête en annulation ou en réformation** ; l'ordonnance est rendue en dernier ressort (art. L. 523-1), donc non susceptible d'appel, mais d'un pourvoi en cassation devant le Conseil d'État [^5] [^12]. Le texte de l'article L. 521-1 cité ici a été confirmé sur Légifrance.
 
 ### E. Le déféré-laïcité
 
@@ -157,7 +164,7 @@ Le manuel de Denizeau date de 2023. Voici ce qui a été vérifié sur des sourc
 
 > **Piège** : le manuel donne, pour l'ordonnance du 20 septembre 2022, le numéro « 451291 ». Le numéro officiel est **451129** (voir `docs/VERIFICATION.md`). Citez le numéro officiel.
 
-*À compléter : les évolutions législatives et jurisprudentielles de 2024 à 2026 en matière de référés et de déféré-laïcité n'ont pas été recherchées de façon exhaustive pour ce cours. Le texte intégral de l'article L. 521-2 et celui de l'article L. 521-1 n'ont pas été relus sur Légifrance ; ils reposent sur des résumés et sur la citation de Degoffe.*
+*À compléter : les évolutions législatives et jurisprudentielles de 2024 à 2026 en matière de référés et de déféré-laïcité n'ont pas été recherchées de façon exhaustive pour ce cours. Les textes des articles L. 521-1, L. 521-2 et L. 523-1 ont été relus sur Légifrance (version en vigueur au 4 novembre 2026) ; les références de jurisprudence du tableau des libertés fondamentales viennent du manuel, sauf *Ville de Paris* et *Tliba* (Conseil d'État) ; les décisions *Merzouk* et *Karamoko* n'ont pas été retrouvées sur une source officielle.*
 
 ---
 
@@ -229,11 +236,17 @@ Le manuel de Denizeau date de 2023. Voici ce qui a été vérifié sur des sourc
 [^6]: Loi n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République, art. 5, https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000043964810 ; code de justice administrative, art. L. 554-3, https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044893372 ; Conseil d'État, décision du 21 juin 2022, n° 464648, https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2022-06-21/464648 (premier recours fondé sur ce déféré, limite tenant à la laïcité et à la neutralité) ; Denizeau, p. 192. Lu par résumé de recherche.
 [^7]: Conseil d'État, « Vivre dans un environnement équilibré et respectueux de la santé reconnu liberté fondamentale », https://www.conseil-etat.fr/actualites/vivre-dans-un-environnement-equilibre-et-respectueux-de-la-sante-reconnu-liberte-fondamentale ; ordonnance du 20 septembre 2022, n° 451129, publiée au recueil Lebon, https://www.conseil-etat.fr/fr/arianeweb/CE/analyse/2022-09-20/451129 ; ordonnance du 18 octobre 2024, n° 498433, https://www.legifrance.gouv.fr/ceta/id/CETATEXT000050388842/. Le manuel (p. 190) cite le numéro « 451291 », erreur reprise dans `docs/VERIFICATION.md`.
 
+[^8]: Conseil d'État, dossier thématique « Le juge des référés », https://www.conseil-etat.fr/decisions-de-justice/jurisprudence/analyses-de-jurisprudence/dossiers-thematiques/le-juge-des-referes : référé-liberté (conditions, urgence, libertés fondamentales, 48 heures, appel dans les quinze jours sans avocat obligatoire, mesures provisoires) ; décisions *Ville de Paris* (16 novembre 2011), *Commune de Venelles* (18 janvier 2001) et décision du 30 octobre 2001 sur la vie familiale ; décision Ville de Paris, n° 353172 : https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2011-11-16/353172.
+[^9]: Cour européenne des droits de l'homme, *Gebremedhin [Gaberamadhien] c. France*, 26 avril 2007, requête n° 25389/05, https://hudoc.echr.coe.int/app/conversion/pdf/?library=ECHR&id=001-80331&filename=001-80331.pdf ; la citation ultérieure sur le caractère non suspensif du référé vient de la décision sur la recevabilité n° 44989/08. Lu par résumé de recherche.
+[^10]: Conseil constitutionnel, décision n° 86-224 DC du 23 janvier 1987, https://www.conseil-constitutionnel.fr/decision/1987/86224DC.htm (considérant 15) ; décision n° 89-256 DC du 25 juillet 1989, https://www.conseil-constitutionnel.fr/decision/1989/89256DC.htm (considérant 23, rôle de l'autorité judiciaire en matière de propriété immobilière).
+[^11]: Tribunal des conflits, 17 juin 2013, *M. Bergoend c/ Société ERDF Annecy Léman*, n° C3911, https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/tribunal-des-conflits-17-juin-2013-m.-bergoend-c-societe-erdf-annecy-leman et https://www.legifrance.gouv.fr/ceta/id/CETATEXT000027610460/ ; Tribunal des conflits, 12 février 2018, n° C4110, https://www.legifrance.gouv.fr/ceta/id/CETATEXT000036667408/. Lu par résumé de recherche.
+[^12]: Code de justice administrative, art. L. 521-1, L. 521-2 et L. 523-1, texte en vigueur au 4 novembre 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006449327 (L. 521-2) et https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000006136456/ (L. 521-1 à L. 523-1).
+
 ## Flashcards
 
 - [definition] Que dit l'article 66 de la Constitution ? :: « Nul ne peut être arbitrairement détenu » ; l'autorité judiciaire, gardienne de la liberté individuelle, assure le respect de ce principe dans les conditions prévues par la loi.
 - [definition] Quelles matières sont réservées par nature au juge judiciaire ? :: La liberté individuelle (art. 66), le contentieux des atteintes à la propriété privée (expropriation, emprise irrégulière) et l'état et la capacité des personnes.
-- [definition] Quand y a-t-il voie de fait ? :: Lorsque l'administration exécute de force une décision portant une atteinte grave à une liberté fondamentale ou à la propriété privée, avec une emprise, de manière gravement illégale et en dehors de ses pouvoirs ; l'acte doit être manifestement insusceptible de se rattacher à un pouvoir de l'administration.
+- [definition] Quand y a-t-il voie de fait depuis 2013 (TC, Bergoend) ? :: Dans deux cas : l'exécution forcée irrégulière d'une décision, même régulière, portant atteinte à la liberté individuelle ou éteignant un droit de propriété ; ou une décision ayant les mêmes effets et manifestement insusceptible de se rattacher à un pouvoir de l'administration.
 - [definition] Quelles sont les conditions du référé-liberté (L. 521-2) ? :: Une liberté fondamentale, une atteinte grave et manifestement illégale par une personne publique ou un organisme privé chargé d'un service public, et une urgence particulière.
 - [chiffre] Dans quel délai le juge statue-t-il en référé-liberté ? :: Quarante-huit heures ; l'appel se fait dans les quinze jours devant le président de la section du contentieux du Conseil d'État.
 - [definition] Que ne peut pas faire le juge du référé-liberté ? :: Annuler une décision ni indemniser un préjudice : il ne prend que des mesures provisoires (CE, ord., 10 avril 2001, Merzouk).
