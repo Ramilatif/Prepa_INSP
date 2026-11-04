@@ -233,3 +233,17 @@ Légende : ✓ confirmé par une source officielle ; ◐ en partie ; ✗ ouvrage
 | Hiérarchie des normes | SNIP, Fraisse, Jacques Vabre, Trompier-Gravier | SNIP n° 226514 (3/12/2001) ; Fraisse n° 99-60.274 ; Vabre n° 73-13.556 ; Trompier-Gravier n° 69751. *Rouquette* : toujours introuvable |
 | Responsabilité | *Époux V*, *Laruelle*, *Ax'ion*, faute lourde | 10/04/1992 n° 79027 ; 28/07/1951 ; 2/11/2005 n° 266564 ; liste complète des domaines de faute lourde non établie |
 | Actes et REP | R. 421-5, avis des régulateurs | Substance confirmée (CE 3/02/2022 n° 454046, *Czabaj* n° 387763) ; *Fairvesta* n° 368082 et *Numericable* n° 390023 |
+## Cours « Les sources des libertés fondamentales » (2026-11-04, brouillon)
+
+Pages officielles du Conseil constitutionnel lues par résumé (pas en texte intégral) : 71-44 DC, 73-51 DC, 74-54 DC, 76-75 DC, 81-132 DC, 88-244 DC, 94-343/344 DC, 99-416 DC, 2008-564 DC, 2018-717/718 QPC, 2019-823 QPC.
+
+| Affirmation du manuel (Denizeau) | Constat | Traitement |
+|---|---|---|
+| Fraternité : décision du « 7 juillet 2018 » | Page officielle : rendue publique le **6 juillet 2018** | Date officielle retenue |
+| Vie privée : n° « 76-75 DC » du 12 janvier 1977 (et « 77-75 CD » pour la liberté individuelle) | La page officielle de 76-75 DC (visite des véhicules) traite de la liberté individuelle (art. 66) et ne mentionne pas la vie privée ; « 77-75 CD » est une coquille | Vie privée rattachée à 99-416 DC (cons. 45) ; qualificatif exact de la liberté individuelle en 1977 à relire |
+| 73-51 DC : Déclaration de 1789 « explicitement citée dans les visas » | Résumé de la page : visas = « notamment son préambule » ; le cons. 2 cite le principe d'égalité « contenu dans la Déclaration de 1789 » | Formulé d'après le considérant ; à relire sur le texte intégral |
+| Définition du PFRLR attribuée à 88-244 DC | La page ne contient pas de définition générale (cons. 11-12 : condition d'un principe et refus pour l'amnistie) | Définition citée comme venant du manuel seul |
+| Arrêt CE du 21 déc. 1990 CNAFC (n° 105743) | Introuvable dans une source officielle | Manuel seul, signalé |
+| Adhésion de l'UE à la CEDH « courant 2023 ou 2024 » | Saisine de la CJUE pour avis en novembre 2025 | Mis à jour dans le cours (partie V) |
+| Proposition de loi constitutionnelle sur l'IVG « en discussion » | Loi constitutionnelle n° 2024-200 du 8 mars 2024 (art. 34) | Mis à jour ; texte non relu sur Légifrance |
+| Åkerberg Fransson, Melloni, avis 2/13, arrêts CJCE | Non relus | Manuel seul, signalé |
