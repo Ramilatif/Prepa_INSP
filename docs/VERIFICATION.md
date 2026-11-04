@@ -6,6 +6,7 @@ ici et dans PROGRESS.md.
 
 | Date | Fiche / cours | Point | Ouvrage | Source officielle | Décision |
 |---|---|---|---|---|---|
+| 2026-11-04 | cours-cedh-cour-de-strasbourg | Date d'adoption du Protocole n° 16 | de Ravel d'Esclapon, p. 27 : « adopté le 2 octobre 2018 » (alors qu'il entre en vigueur le 1er août 2018) | Denizeau p. 57 : « ouvert à la signature et à la ratification le 2 octobre 2013 » | 2013 retenu ; coquille évidente du livre de 2024. |
 | 2026-11-04 | cours-protection-juridictionnelle-libertes | Date de la décision *Tliba* (vie familiale normale) | Denizeau, p. 189 : « 30 novembre 2001 » | Conseil d'État, dossier « Le juge des référés » : décision du **30 octobre 2001** (Ministre de l'intérieur c/ Mme T.) | Date officielle retenue ; erreur probable de l'ouvrage. |
 | 2026-11-04 | cours-protection-juridictionnelle-libertes | Numéro de l'ordonnance du Conseil d'État du 20 septembre 2022 (droit à un environnement équilibré, liberté fondamentale) | Denizeau, p. 190 : « n° 451291 » | Conseil d'État / Légifrance : **n° 451129** | Numéro officiel retenu ; l'écart est une coquille probable de l'ouvrage (transposition de chiffres). |
 | 2026-11-03 | cours-responsabilite-administrative | Date de la loi en cause dans l'arrêt La Fleurette | Degoffe, p. 646 : « 9 juin 1934 » | Page du Conseil d'État sur l'arrêt : « loi du **29 juin 1934** » | Date de la page du Conseil d'État retenue ; écart non expliqué par une évolution des textes (erreur probable de l'ouvrage). À confirmer par le texte de la loi sur Légifrance si possible. |
@@ -194,3 +195,27 @@ Cette vérification remplace le « premier état » ci-dessus. Légende : ✓ co
 | L18 | Déféré-laïcité : loi n° 2021-1109, art. 5 ; L. 2131-6 CGCT ; L. 554-3 CJA ; 48 heures ; CE, 21 juin 2022, n° 464648 | ✓ Légifrance + CE (via résumé) | Denizeau p. 192 | ✓ |
 
 Résumé : le cours conserve trois erreurs d'ouvrage corrigées (numéro 451129, date de *Tliba*, définition de la voie de fait postérieure au manuel). Restent sans source officielle lue : L6, L7, L11, L15 (références de jurisprudence et chiffres du manuel), signalés dans le texte.
+
+
+### Vérification : cours « La Convention européenne des droits de l'homme et la Cour de Strasbourg » (2026-11-04)
+
+Légende : ✓ confirmé par une source officielle ; ◐ en partie ; ✗ ouvrage seul. Le texte officiel de la Convention (version incluant le Protocole n° 15) a été lu directement (PDF de la Cour, extrait avec PyMuPDF).
+
+| Id | Affirmation | Officiel | Ouvrage(s) | Verdict |
+|---|---|---|---|---|
+| E1 | Préambule : subsidiarité et marge d'appréciation, sous le contrôle de la Cour | ✓ Convention | — | ✓ |
+| E2 | Art. 1, 19, 20, 22, 23 : institution, nombre de juges, élection (liste de trois), neuf ans non rééligible, révocation aux deux tiers | ✓ Convention | — | ✓ |
+| E3 | Art. 26 : juge unique, comités de 3, chambres de 7, Grande Chambre de 17 ; juge national membre de droit | ✓ Convention | — | ✓ |
+| E4 | Art. 27 : le juge unique déclare irrecevable ou raye ; art. 33, 34 : requêtes interétatiques et individuelles | ✓ Convention | — | ✓ |
+| E5 | Art. 35 : épuisement des voies internes, quatre mois, cas d'irrecevabilité, préjudice important | ✓ Convention | de Ravel p. 257 ; Denizeau p. 218 | ✓ |
+| E6 | Protocole n° 15 : en vigueur le 1er août 2021, quatre mois pour les décisions internes à partir du 1er février 2022 | ✓ Conseil de l'Europe / greffe (via résumé) | de Ravel p. 27 ; Denizeau p. 57 | ✓ |
+| E7 | Art. 41 satisfaction équitable ; art. 43-44 renvoi devant la Grande Chambre (trois mois, collège de cinq juges) | ✓ Convention | Denizeau p. 228 | ✓ |
+| E8 | Art. 46 : force obligatoire, Comité des ministres, saisine pour interprétation et manquement (deux tiers) ; art. 47 : avis consultatifs | ✓ Convention | de Ravel p. 243, 249 ; Denizeau p. 239 | ✓ |
+| E9 | Protocole n° 16 : en vigueur depuis le 1er août 2018 pour les États qui l'ont ratifié ; la France figure parmi eux | non relue | de Ravel p. 27 ; Denizeau p. 57 | ◐ ouvrages (19 États au 1er juillet 2023 selon Denizeau, 21 selon le livre de 2024) |
+| E10 | Interprétation autonome, évolutive, globale (*Golder*, *Demir et Baykara*) | ✗ | de Ravel p. 41, 45 | ✗ |
+| E11 | Marge d'appréciation, exemple de la GPA, grille de l'article 8 § 2 | ✗ (texte de l'article 8 non relu) | de Ravel p. 133 | ✗ |
+| E12 | Quatre réunions annuelles du Comité des ministres pour surveiller l'exécution | ✗ | de Ravel p. 249 | ✗ |
+| E13 | Moreira de Azevedo (1991) : trois mois pour payer ; restitutio in integrum | ✗ | Denizeau p. 228 | ✗ |
+| E14 | KlimaSeniorinnen (GC, 9 avril 2024) : violation des art. 8 (16 voix contre 1) et 6 § 1, association admise, requérantes individuelles irrecevables | ✓ HUDOC (communiqué, via résumé) | de Ravel p. 45 (citation) | ✓ |
+| E15 | Russie : cesse d'être partie le 16 septembre 2022 | non relue | Denizeau p. 58 | ✗ |
+| E16 | Ratification française le 3 mai 1974 ; caractéristiques (sans réciprocité, applicabilité directe, primauté, recours individuel) | ✗ | Denizeau (plan du manuel seul) | ✗ |

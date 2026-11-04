@@ -58,7 +58,7 @@ Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source off
 Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les deux cours de droit administratif l'ont aussi depuis la vérification contre le Degoffe, voir docs/VERIFICATION.md) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
-- Libertés et droits fondamentaux : 1 (protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; statut « sources officielles vérifiées » après la vérification du 2026-11-04, voir docs/VERIFICATION.md) ; Droit de l'Union européenne : 0
+- Libertés et droits fondamentaux : 2 (CEDH et Cour de Strasbourg, brouillon ; protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; statut « sources officielles vérifiées » après la vérification du 2026-11-04, voir docs/VERIFICATION.md) ; Droit de l'Union européenne : 0
 
 ## Annales
 
@@ -97,6 +97,8 @@ Cours rédigés (type « cours »), rangés par domaine du droit public (les tro
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Cours « La Convention européenne des droits de l'homme et la Cour de Strasbourg » (brouillon, 2026-11-04) : articles de la Convention lus directement dans le texte officiel de la Cour (PDF extrait avec PyMuPDF, l'outil de résumé échouait). Coquille du livre de 2024 : Protocole n° 16 « adopté le 2 octobre 2018 » (2013 selon Denizeau). Interprétation, marge d'appréciation, exemple de la GPA et exécution des arrêts reposent sur les ouvrages seuls. À compléter : état de l'adhésion de l'Union, arrêts postérieurs à 2024, nombre actuel d'États ayant ratifié le Protocole n° 16. Texte intégral de KlimaSeniorinnen non relu.
 
 - Vérification du cours sur la protection juridictionnelle des libertés (2026-11-04) : trois erreurs de l'ouvrage de base corrigées (numéro de l'ordonnance du 20 sept. 2022 : 451129 ; date de *Tliba* : 30 octobre 2001 ; définition de la voie de fait, restreinte par TC, 17 juin 2013, *Bergoend*, que le manuel de 2023 ne formule pas) et une erreur de ma première rédaction (origine du principe de 1987) retirée. Texte des articles L. 521-1, L. 521-2 et L. 523-1 relu sur Légifrance. Restent sur l'ouvrage seul : Eucat, Grizivatz, Lambert, Merzouk, Karamoko, Desperthes, Hyacinthe, le taux de rejet de 9 sur 10 (voir tableau L du fichier de vérification). Statut : « sources officielles vérifiées », pas « concordance avec les ouvrages » (aucun second manuel de libertés fondamentales n'est déposé pour recouper le Denizeau).
 
