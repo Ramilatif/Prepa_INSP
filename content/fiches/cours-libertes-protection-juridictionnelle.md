@@ -77,11 +77,11 @@ Seuls ces cas justifient, par exception au principe de séparation, la compéten
 
 *Ce que dit le manuel (édition 2023).* Il présente une approche plus ancienne en trois conditions : exécution forcée portant une atteinte grave à une liberté fondamentale ou à la propriété et se traduisant par une **emprise** (destruction de biens, violation de domicile, saisie de journaux, arrestation), action gravement illégale, administration agissant en dehors de ses pouvoirs ; il reprend la formule du Tribunal des conflits de 2008 (« manifestement insusceptible de se rattacher à l'exercice d'un pouvoir appartenant à l'administration ») et précise que le Tribunal a aujourd'hui une **vision étroite** : une simple illégalité ne suffit pas (TC, 15 décembre 2008) et le retrait de points du permis n'est pas une voie de fait (TC, 19 novembre 2007) [^1]. La définition de 2013 est plus précise et doit être préférée.
 
-> **Exemple** : dans l'affaire Vincent Lambert, les parents ont invoqué la voie de fait et l'article 66 pour saisir le juge judiciaire contre la décision d'arrêt des traitements. La Cour d'appel de Paris s'est déclarée compétente (20 mai 2019), mais l'assemblée plénière de la Cour de cassation a cassé, le 28 juin 2019, en constatant l'absence de voie de fait et l'inapplicabilité de l'article 66 (récit du manuel, références non relues) [^1].
+> **Exemple** : dans l'affaire Vincent Lambert, les parents ont invoqué la voie de fait et l'article 66 pour saisir le juge judiciaire contre la décision d'arrêt des traitements. La Cour d'appel de Paris s'est déclarée compétente (20 mai 2019), mais l'assemblée plénière de la Cour de cassation a cassé, le 28 juin 2019, en constatant l'absence de voie de fait et l'inapplicabilité de l'article 66 (récit du manuel ; pourvois n° 19-17.330 et 19-17.342, cassation sans renvoi, les juridictions judiciaires étant déclarées incompétentes, d'après la page Légifrance de l'arrêt) [^1] [^13].
 
 Une fois la voie de fait constituée, le juge judiciaire a **plénitude de compétence** : il apprécie la légalité des actes administratifs en cause, condamne la personne publique à réparer et peut prononcer des **injonctions assorties d'astreintes**. En période de **circonstances exceptionnelles**, l'acte n'est en principe plus qualifié de voie de fait [^1].
 
-> **Piège** : la voie de fait n'est pas une simple illégalité grave. Depuis 2013, il faut une atteinte à la **liberté individuelle** ou l'**extinction d'un droit de propriété**, par exécution forcée irrégulière ou par un acte **manifestement insusceptible de se rattacher** à un pouvoir de l'administration. Le manuel souligne que la jurisprudence *Eucat* (retrait d'un passeport pour des motifs fiscaux, TC, 9 juin 1986) risquait de faire de toute illégalité une voie de fait, et que cette jurisprudence n'est plus d'actualité [^1].
+> **Piège** : la voie de fait n'est pas une simple illégalité grave. Depuis 2013, il faut une atteinte à la **liberté individuelle** ou l'**extinction d'un droit de propriété**, par exécution forcée irrégulière ou par un acte **manifestement insusceptible de se rattacher** à un pouvoir de l'administration. Le manuel souligne que la jurisprudence *Eucat* (retrait d'un passeport pour des motifs fiscaux, TC, 9 juin 1986, n° 02434 ; voir aussi TC, 12 janvier 1987, *Grizivatz*, n° 02450, sur le même terrain) [^13] risquait de faire de toute illégalité une voie de fait, et que cette jurisprudence n'est plus d'actualité [^1].
 
 ### D. Pourquoi la voie de fait a décliné : l'arrivée du référé-liberté
 
@@ -129,10 +129,10 @@ Le juge administratif retient une conception **large** de la liberté fondamenta
 
 | Liberté ou droit | Décision citée par le manuel |
 |---|---|
-| Liberté d'aller et venir | CE, ord., 9 janvier 2001, *Desperthes* |
-| Droit constitutionnel d'asile | CE, ord., 12 janvier 2001, *Hyacinthe* |
+| Liberté d'aller et venir | CE, ord., 9 janvier 2001, *Desperthes*, n° 228928 [^13] |
+| Droit constitutionnel d'asile | CE, ord., 12 janvier 2001, *Hyacinthe*, n° 229039 [^13] |
 | Droit à la vie en cas de danger caractérisé et de péril imminent | CE, Sect., 16 novembre 2011, *Ville de Paris et SEM PariSeine*, n° 353172 et 353173 (confirmé par le Conseil d'État) |
-| Droit à l'hébergement d'urgence | CE, ord., 10 février 2012, *Karamoko* |
+| Droit à l'hébergement d'urgence | CE, ord., 10 février 2012, M. Karamoko A., n° 356456 (l'État doit mettre en oeuvre le droit à l'hébergement d'urgence reconnu par la loi, art. L. 345-2-2 CASF) [^13] |
 | Liberté de réunion | CE, ord., 5 janvier 2007 |
 | Droit de grève | CE, ord., 15 juillet 2009 |
 | Liberté d'entreprendre | CE, ord., 8 août 2008, *Commune de Ceyrat* |
@@ -164,7 +164,7 @@ Le manuel de Denizeau date de 2023. Voici ce qui a été vérifié sur des sourc
 
 > **Piège** : le manuel donne, pour l'ordonnance du 20 septembre 2022, le numéro « 451291 ». Le numéro officiel est **451129** (voir `docs/VERIFICATION.md`). Citez le numéro officiel.
 
-*À compléter : les évolutions législatives et jurisprudentielles de 2024 à 2026 en matière de référés et de déféré-laïcité n'ont pas été recherchées de façon exhaustive pour ce cours. Les textes des articles L. 521-1, L. 521-2 et L. 523-1 ont été relus sur Légifrance (version en vigueur au 4 novembre 2026) ; les références de jurisprudence du tableau des libertés fondamentales viennent du manuel, sauf *Ville de Paris* et *Tliba* (Conseil d'État) ; les décisions *Merzouk* et *Karamoko* n'ont pas été retrouvées sur une source officielle.*
+*À compléter : les évolutions législatives et jurisprudentielles de 2024 à 2026 en matière de référés et de déféré-laïcité n'ont pas été recherchées de façon exhaustive. Textes des articles L. 521-1, L. 521-2 et L. 523-1 relus sur Légifrance (version en vigueur au 4 novembre 2026). Numéros et dates de *Desperthes*, *Hyacinthe*, *Ville de Paris*, *Tliba* et de l'ordonnance de 2022 recoupés avec la liste que publie le Conseil d'État des libertés fondamentales reconnues en référé-liberté depuis 2001 (via un relais d'avocat, la liste officielle n'ayant pas été lue directement) ; *Karamoko* lu dans le texte de l'ordonnance. Restent sur le manuel seul : *Merzouk* (10 avril 2001, introuvable), les ordonnances sans nom du tableau (5 janvier 2007, 15 juillet 2009, 24 juillet 2009, *Commune de Ceyrat*) et le taux de rejet de 9 sur 10, aucune statistique officielle de rejet n'ayant été retrouvée.*
 
 ---
 
@@ -241,6 +241,7 @@ Le manuel de Denizeau date de 2023. Voici ce qui a été vérifié sur des sourc
 [^10]: Conseil constitutionnel, décision n° 86-224 DC du 23 janvier 1987, https://www.conseil-constitutionnel.fr/decision/1987/86224DC.htm (considérant 15) ; décision n° 89-256 DC du 25 juillet 1989, https://www.conseil-constitutionnel.fr/decision/1989/89256DC.htm (considérant 23, rôle de l'autorité judiciaire en matière de propriété immobilière).
 [^11]: Tribunal des conflits, 17 juin 2013, *M. Bergoend c/ Société ERDF Annecy Léman*, n° C3911, https://conseil-etat.fr/decisions-de-justice/jurisprudence/les-grandes-decisions-depuis-1873/tribunal-des-conflits-17-juin-2013-m.-bergoend-c-societe-erdf-annecy-leman et https://www.legifrance.gouv.fr/ceta/id/CETATEXT000027610460/ ; Tribunal des conflits, 12 février 2018, n° C4110, https://www.legifrance.gouv.fr/ceta/id/CETATEXT000036667408/. Lu par résumé de recherche.
 [^12]: Code de justice administrative, art. L. 521-1, L. 521-2 et L. 523-1, texte en vigueur au 4 novembre 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006449327 (L. 521-2) et https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070933/LEGISCTA000006136456/ (L. 521-1 à L. 523-1).
+[^13]: Légifrance, Cour de cassation, assemblée plénière, 28 juin 2019, n° 19-17.330 et 19-17.342, https://www.legifrance.gouv.fr/juri/id/JURITEXT000038734348/ ; Légifrance, Tribunal des conflits, 9 juin 1986, *Eucat*, n° 02434, https://www.legifrance.gouv.fr/ceta/id/CETATEXT000007607481/ ; Tribunal des conflits, 12 janvier 1987, *Grizivatz*, n° 02450 (reproduction par la Revue générale du droit) ; Conseil d'État, liste des libertés fondamentales reconnues en référé-liberté (relayée par blog.landot-avocats.net, 17 octobre 2022) : *Desperthes* n° 228928 (9 janvier 2001), *Hyacinthe* n° 229039 (12 janvier 2001) ; Conseil d'État, juge des référés, 10 février 2012, n° 356456, ECLI:FR:CEORD:2012:356456.20120210 (texte lu). Résumés de recherche sauf *Karamoko*.
 
 ## Flashcards
 

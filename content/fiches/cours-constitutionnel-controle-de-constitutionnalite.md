@@ -93,7 +93,9 @@ Depuis la révision constitutionnelle de 2008, **à l'occasion d'une instance en
 
 > **Définition** : la **QPC** est le moyen, soulevé par un justiciable à l'occasion d'un litige, tendant à faire reconnaître qu'une disposition législative **déjà en vigueur** porte atteinte aux droits et libertés garantis par la Constitution. Elle est « prioritaire » parce qu'elle doit être examinée avant les autres moyens tirés de la conventionnalité.
 
-*À compléter : l'origine précise de la révision de 2008 (loi constitutionnelle) et l'articulation avec les moyens de conventionnalité n'ont pas été relues à la source pour ce cours.*
+**Origine.** L'article 61-1 a été inséré dans la Constitution par la **loi constitutionnelle n° 2008-724 du 23 juillet 2008** (article 29) ; ses conditions d'application sont fixées par la **loi organique n° 2009-1523 du 10 décembre 2009**, que le Conseil constitutionnel a jugée conforme, sous réserves, par sa décision n° 2009-595 DC du 3 décembre 2009 [^13].
+
+**Articulation avec la conventionnalité.** Le Conseil constitutionnel ne contrôle pas la compatibilité des lois avec les traités (décision n° 74-54 DC, reprise par la décision n° 2010-605 DC du 12 mai 2010) : ce contrôle appartient aux juges ordinaires. Le caractère « prioritaire » de la QPC a été discuté devant la Cour de justice de l'Union (renvoi de la Cour de cassation du 16 avril 2010, arrêt *Melki et Abdeli* du 22 juin 2010) ; le Conseil d'État a, le 14 mai 2010 (*Rujovic*, n° 312305), rappelé que la QPC ne l'empêche pas d'assurer l'effectivité du droit de l'Union [^13].
 
 ### B. Le filtre : les conditions du renvoi
 
@@ -134,7 +136,7 @@ L'**article 62** de la Constitution distingue [^1] :
 | Effet d'une déclaration d'inconstitutionnalité | La disposition **ne peut être promulguée ni mise en application** | La disposition est **abrogée** à compter de la publication de la décision ou d'une date ultérieure fixée par celle-ci |
 | Effets déjà produits | Sans objet (loi non entrée en vigueur) | Le Conseil détermine les conditions et limites dans lesquelles les effets produits sont susceptibles d'être remis en cause |
 
-Les décisions du Conseil rendues sur le fondement de l'article 61 sont **définitives et obligatoires** (c'est l'une des raisons que le Conseil donne dans sa décision n° 74-54 DC, en s'appuyant sur l'article 62) [^4]. *À compléter : la portée exacte de l'autorité des décisions à l'égard des pouvoirs publics et des juridictions n'a pas été relue dans le dernier alinéa de l'article 62.*
+Les décisions du Conseil rendues sur le fondement de l'article 61 sont **définitives et obligatoires** (c'est l'une des raisons que le Conseil donne dans sa décision n° 74-54 DC, en s'appuyant sur l'article 62) [^4]. Le dernier alinéa de l'article 62 (texte lu) précise que les décisions du Conseil **ne sont susceptibles d'aucun recours** et **s'imposent aux pouvoirs publics et à toutes les autorités administratives et juridictionnelles** [^14].
 
 **Le Conseil, « législateur négatif » ?** Le manuel de Caporal-Greco rappelle l'image classique du juge constitutionnel comme **« législateur négatif »** (Kelsen), qui peut **abroger** une disposition mais non l'**écrire** : une « gomme » et non un « crayon » (doyen Vedel). Il nuance aussitôt : le Conseil peut en réalité **réécrire la loi** par ses **réserves d'interprétation** (il déclare la loi conforme à condition qu'elle soit comprise d'une certaine façon) et par l'**abrogation différée**, qui fonctionne comme un « pouvoir d'injonction implicite » adressé au législateur et suppose qu'il précise le droit applicable dans l'attente [^11]. L'auteur observe aussi que la QPC tend à **banaliser** le contrôle de constitutionnalité par la fréquence des décisions et que les juges judiciaire et administratif, qui apprécient le caractère sérieux de la question, sont en pratique les « juges de droit commun » de la Constitution à l'égard de tout acte autre que la loi [^11].
 
@@ -214,6 +216,8 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 [^11]: Caporal-Greco et al., *Droit constitutionnel*, 4e éd. (ouvrage déposé, format EPUB ; année 2025 indiquée par l'utilisateur), partie 4, chapitre 4 « L'organe de contrôle : le Conseil constitutionnel » (section 35 du fichier indexé) : législateur négatif (Kelsen, Vedel), réserves d'interprétation, abrogation différée, QPC et filtrage par les juges. Texte reformulé ; les références doctrinales citées par l'ouvrage n'ont pas été reprises.
 
 [^12]: Rouvillois, *Droit constitutionnel*, tome 2 « La Ve République », 5e éd., 2016 (ouvrage déposé, EPUB), section 28 du fichier indexé : composition du Conseil, nominations et révision de 2008, absence de condition de capacité, délai de trois mois en QPC, règlement intérieur du 4 février 2010 ; et Caporal-Greco et al., 4e éd., section 35 : désignation des membres, veto par les commissions à la majorité des trois cinquièmes. Texte reformulé.
+[^13]: Loi constitutionnelle n° 2008-724 du 23 juillet 2008, art. 29 (page Assemblée nationale du projet de loi n° 1599 et copie de la loi) ; Conseil constitutionnel, décision n° 2009-595 DC du 3 décembre 2009 ; décision n° 2010-605 DC du 12 mai 2010 ; Conseil d'État, 14 mai 2010, *Rujovic*, n° 312305 ; CJUE, 22 juin 2010, *Melki et Abdeli*, C-188/10 et C-189/10 (renvoi de la Cour de cassation du 16 avril 2010). Lu par résumés de recherche, textes intégraux non relus.
+[^14]: Constitution, art. 62, texte intégral publié par le Conseil constitutionnel, lu le 2026-11-04 : https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur
 
 ## Flashcards
 
@@ -225,4 +229,4 @@ Les décisions du Conseil rendues sur le fondement de l'article 61 sont **défin
 - [chiffre] Dans quel délai le Conseil constitutionnel statue-t-il sur une QPC qui lui est renvoyée ? :: Trois mois à compter de sa saisine (d'après Rouvillois).
 - [definition] Comment sont nommés les membres du Conseil depuis 2008 ? :: Trois par le Président, trois par le président de l'Assemblée, trois par le président du Sénat ; la nomination est impossible si les commissions permanentes s'y opposent à la majorité des trois cinquièmes des suffrages exprimés.
 - [definition] Quel est l'effet d'une déclaration d'inconstitutionnalité sur le fondement de l'article 61-1 ? :: La disposition est abrogée à compter de la publication de la décision ou d'une date ultérieure fixée par celle-ci.
-- [jurisprudence] Quel report d'abrogation la décision 2010-14/22 QPC a-t-elle prévu pour la garde à vue ? :: Au 1er juillet 2011.
+- [jurisprudence] Quel report d'abrogation la décision 2010-14/22 QPC a-t-elle prévu pour la garde à vue ? :: Au 1er juillet 2011. 

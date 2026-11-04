@@ -219,3 +219,17 @@ Légende : ✓ confirmé par une source officielle ; ◐ en partie ; ✗ ouvrage
 | E14 | KlimaSeniorinnen (GC, 9 avril 2024) : violation des art. 8 (16 voix contre 1) et 6 § 1, association admise, requérantes individuelles irrecevables | ✓ HUDOC (communiqué, via résumé) | de Ravel p. 45 (citation) | ✓ |
 | E15 | Russie : cesse d'être partie le 16 septembre 2022 | ✓ Conseil de l'Europe, résolution de la Cour du 22 mars 2022 (via résumé) | Denizeau p. 58 | ✗ |
 | E16 | Ratification française le 3 mai 1974 ; caractéristiques (sans réciprocité, applicabilité directe, primauté, recours individuel) | ✗ | Denizeau (plan du manuel seul) | ✗ |
+
+## Passe « limites » du 2026-11-04 (références recoupées en ligne, lectures par résumé sauf mention)
+
+| Cours | Point | Résultat |
+|---|---|---|
+| Libertés (protection) | *Karamoko* | N° officiel **356456** (ordonnance du 10 février 2012, texte lu) ; le n° 340250 envisagé n'existe pas |
+| Libertés (protection) | *Desperthes*, *Hyacinthe* | 228928 (9/01/2001) et 229039 (12/01/2001), liste du Conseil d'État relayée par un blog d'avocats |
+| Libertés (protection) | *Eucat*, *Grizivatz*, Lambert | TC 9/06/1986 n° 02434 ; TC 12/01/1987 n° 02450 (et non 1994) ; Cass. ass. plén. 28/06/2019 n° 19-17.330 et 19-17.342 |
+| Libertés (protection) | *Merzouk*, taux de rejet 9/10 | Non retrouvés : restent sur le manuel |
+| Contrôle de constitutionnalité | Origine de la QPC, conventionnalité, art. 62 al. 3 | Loi const. 2008-724 (art. 29), LO 2009-1523, 2009-595 DC, 2010-605 DC, CE Rujovic n° 312305 ; art. 62 lu dans le texte intégral |
+| Exécutif et Parlement | Art. 8, 12, 16, délais de 30 et 60 jours | Lus dans le texte intégral : conformes au cours |
+| Hiérarchie des normes | SNIP, Fraisse, Jacques Vabre, Trompier-Gravier | SNIP n° 226514 (3/12/2001) ; Fraisse n° 99-60.274 ; Vabre n° 73-13.556 ; Trompier-Gravier n° 69751. *Rouquette* : toujours introuvable |
+| Responsabilité | *Époux V*, *Laruelle*, *Ax'ion*, faute lourde | 10/04/1992 n° 79027 ; 28/07/1951 ; 2/11/2005 n° 266564 ; liste complète des domaines de faute lourde non établie |
+| Actes et REP | R. 421-5, avis des régulateurs | Substance confirmée (CE 3/02/2022 n° 454046, *Czabaj* n° 387763) ; *Fairvesta* n° 368082 et *Numericable* n° 390023 |
