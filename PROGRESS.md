@@ -58,7 +58,7 @@ Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source off
 Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les deux cours de droit administratif l'ont aussi depuis la vérification contre le Degoffe, voir docs/VERIFICATION.md) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
-- Libertés et droits fondamentaux : 0 ; Droit de l'Union européenne : 0
+- Libertés et droits fondamentaux : 1 (protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; brouillon) ; Droit de l'Union européenne : 0
 
 ## Annales
 
@@ -97,6 +97,8 @@ Cours rédigés (type « cours »), rangés par domaine du droit public (les tro
 - 2026-10-30 — Rapport 2025, annexe « Cas pratique » : lue seulement jusqu'à la rubrique « Sur la forme » ; la suite (recommandations) n'est pas exploitée. Les rapports 2024 et les sujets 2024-2026 n'ont pas encore été exploités pour affiner les grilles (extraction des erreurs fréquentes par épreuve à compléter).
 
 ## Points à vérifier par l'utilisateur
+
+- Ouvrages déposés le 2026-11-04 : *La Convention européenne des droits de l'Homme en schémas* (de Ravel d'Esclapon, Ellipses, 2024, 280 p.) et Denizeau, *Droit des libertés fondamentales* (684 p., **édition 2023 selon l'utilisateur**, non lue dans le fichier). Cours « La protection juridictionnelle des libertés fondamentales en droit interne » rédigé (brouillon) : méthode retenue pour les apports postérieurs au manuel = partie « Ce qui a changé depuis le manuel » avec sources officielles, et « à compléter » pour ce qui n'a pas été recherché (évolutions 2024-2026). Coquille du manuel : n° 451291 au lieu de 451129 (voir docs/VERIFICATION.md). Le texte intégral de L. 521-1 et L. 521-2 n'a pas été relu sur Légifrance (la page du glossaire du Conseil d'État était illisible).
 
 - Vérification affirmation par affirmation des trois cours de droit constitutionnel (2026-11-03) : voir docs/VERIFICATION.md (tableaux H, C, E). Statut passé à
   « concordance avec les ouvrages vérifiée » : cela signifie que chaque affirmation importante a été confrontée à une source officielle ET aux manuels déposés

@@ -24,6 +24,14 @@
     "sha256": "dd9e338cb26e0951e2c7a4c8e0eb654c7ec875934594bd9b253ea6184d73d55a"
   },
   {
+    "id": "ouvrages-20",
+    "type": "ouvrages",
+    "fichier": "Droit des libertés fondamentales (Charlotte Denizeau) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
+    "pages": 684,
+    "scan": false,
+    "sha256": "8d9a925f815217dd0971fcf2c43db727702b835019f67b027b67727be250b045"
+  },
+  {
     "id": "ouvrages-7",
     "type": "ouvrages",
     "fichier": "Droit international public (Jean-Claude Zarka) (z-library.sk, 1lib.sk, z-lib.sk).pdf",
@@ -86,6 +94,14 @@
     "pages": 25,
     "scan": false,
     "sha256": "67735f7ce072cc8ac308bd2344a779a859c1d43d463c1b9179b1eee5f81aad6c"
+  },
+  {
+    "id": "ouvrages-19",
+    "type": "ouvrages",
+    "fichier": "La Convention européenne des droits de l'Homme en schémas_ A -- Manuela de Ravel D'Esclapon -- 2024 -- Editions Ellipses -- isbn13 9782340097506 -- 5a5c954e2fd594b32323fe6de69c0276 -- Anna’s Archive.pdf",
+    "pages": 280,
+    "scan": false,
+    "sha256": "f41e9d11e1fa43e3e038d48e0a6a1ac869147348463c04a92c667371f9f70bfd"
   },
   {
     "id": "ouvrages-17",

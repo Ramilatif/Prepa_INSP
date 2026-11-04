@@ -6,6 +6,7 @@ ici et dans PROGRESS.md.
 
 | Date | Fiche / cours | Point | Ouvrage | Source officielle | Décision |
 |---|---|---|---|---|---|
+| 2026-11-04 | cours-protection-juridictionnelle-libertes | Numéro de l'ordonnance du Conseil d'État du 20 septembre 2022 (droit à un environnement équilibré, liberté fondamentale) | Denizeau, p. 190 : « n° 451291 » | Conseil d'État / Légifrance : **n° 451129** | Numéro officiel retenu ; l'écart est une coquille probable de l'ouvrage (transposition de chiffres). |
 | 2026-11-03 | cours-responsabilite-administrative | Date de la loi en cause dans l'arrêt La Fleurette | Degoffe, p. 646 : « 9 juin 1934 » | Page du Conseil d'État sur l'arrêt : « loi du **29 juin 1934** » | Date de la page du Conseil d'État retenue ; écart non expliqué par une évolution des textes (erreur probable de l'ouvrage). À confirmer par le texte de la loi sur Légifrance si possible. |
 | 2026-11-03 | cours-hierarchie-des-normes | Date de l'arrêt de la CJUE dans l'affaire Arcelor (C-127/07) | Degoffe, *Droit administratif*, p. 131 : « 16 novembre 2008 » | EUR-Lex (ECLI:EU:C:2008:728) : arrêt de la grande chambre du **16 décembre 2008** | Date officielle retenue ; l'écart ne s'explique pas par une évolution des textes mais par une erreur probable de l'ouvrage (ou de son extraction). À signaler à l'utilisateur. |
 
@@ -144,3 +145,23 @@ Degoffe, *Droit administratif* (734 pages, numéros de page du fichier PDF). Lé
 
 ### Restent sans appui d'un manuel
 - Lamotte, Cames, loi du 9 avril 1898 (sources officielles seules) ; le principe de Danthony n'est qu'évoqué par l'ouvrage ; les définitions et exemples sur les délais, l'exception d'illégalité et les moyens sont soutenus par l'ouvrage seul (pas de texte officiel relu pour tous).
+
+
+## Droit des libertés fondamentales : protection juridictionnelle en droit interne (2026-11-04)
+
+Cours `cours-protection-juridictionnelle-libertes` (statut brouillon : première rédaction, vérification affirmation par affirmation à faire).
+Ouvrage de base : Denizeau, *Droit des libertés fondamentales* (684 pages, édition 2023 selon l'utilisateur). Premier état des recoupements :
+
+| Affirmation | Officiel | Denizeau | État |
+|---|---|---|---|
+| Art. 66 (détention arbitraire, autorité judiciaire gardienne) | ✓ CC (texte intégral) | p. 168, 173 | ✓ |
+| Référé-liberté : 48 heures, « toutes mesures nécessaires », atteinte grave et manifestement illégale | ✓ Légifrance (L. 521-2, via résumé) | p. 191 | ✓ |
+| Conditions détaillées, pouvoirs, appel en quinze jours, faible taux de réussite (9 sur 10 rejetées) | non relue (page du glossaire du CE illisible) | p. 190-192 | ◐ ouvrage seul |
+| Droit à un environnement équilibré, liberté fondamentale (20 sept. 2022) | ✓ CE n° 451129 | p. 190 (numéro erroné) | ✓ avec correction |
+| Même formule reprise le 18 oct. 2024 (n° 498433) | ✓ Légifrance | — | ✓ (postérieur au manuel) |
+| Référé-suspension (L. 521-1), loi du 30 juin 2000 | non relue | Degoffe p. 33 | ◐ ouvrage seul |
+| Déféré-laïcité (loi n° 2021-1109, art. 5 ; L. 2131-6 CGCT ; L. 554-3 CJA ; 48 h) | ✓ Légifrance (via résumé) | p. 192 | ✓ |
+| CE 21 juin 2022, n° 464648 (Grenoble, laïcité et non neutralité) | ✓ CE (via résumé) | — | ✓ |
+| Voie de fait : trois conditions, formule du Tribunal des conflits, déclin (Eucat, Grizivatz) | non relue | p. 174-175 | ◐ ouvrage seul |
+| Liste d'ordonnances « liberté fondamentale » (Desperthes, Hyacinthe, Karamoko, etc.) | non relues (sauf l'existence de la décision Ville de Paris, n° 353172) | p. 188-189 | ◐ ouvrage seul |
+| CEDH, *Gebremedhin*, 26 avril 2007 : référé-liberté sans recours effectif pour l'asile | non relue | p. 192 | ◐ ouvrage seul |
