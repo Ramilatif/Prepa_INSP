@@ -240,12 +240,14 @@ Pages officielles du Conseil constitutionnel lues par résumé (pas en texte int
 | Affirmation du manuel (Denizeau) | Constat | Traitement |
 |---|---|---|
 | Fraternité : décision du « 7 juillet 2018 » | Page officielle : rendue publique le **6 juillet 2018** | Date officielle retenue |
-| Vie privée : n° « 76-75 DC » du 12 janvier 1977 (et « 77-75 CD » pour la liberté individuelle) | La page officielle de 76-75 DC (visite des véhicules) traite de la liberté individuelle (art. 66) et ne mentionne pas la vie privée ; « 77-75 CD » est une coquille | Vie privée rattachée à 99-416 DC (cons. 45) ; qualificatif exact de la liberté individuelle en 1977 à relire |
-| 73-51 DC : Déclaration de 1789 « explicitement citée dans les visas » | Résumé de la page : visas = « notamment son préambule » ; le cons. 2 cite le principe d'égalité « contenu dans la Déclaration de 1789 » | Formulé d'après le considérant ; à relire sur le texte intégral |
+| Vie privée : n° « 76-75 DC » du 12 janvier 1977 (et « 77-75 CD » pour la liberté individuelle) | **Texte intégral lu** : 76-75 DC (visite des véhicules) qualifie la liberté individuelle de PFRLR (art. 66) et ne traite pas de la vie privée ; « 77-75 CD » est une coquille ; liberté de conscience = 77-87 DC du 23 novembre 1977 | Vie privée rattachée à 99-416 DC (cons. 45) ; PFRLR confirmés |
+| 73-51 DC : Déclaration de 1789 « explicitement citée dans les visas » | **Texte intégral lu** : visas « notamment son préambule et ses articles 61 et 62 », Déclaration non nommée ; elle l'est au cons. 2 | Manuel inexact sur ce point, corrigé |
 | Définition du PFRLR attribuée à 88-244 DC | La page ne contient pas de définition générale (cons. 11-12 : condition d'un principe et refus pour l'amnistie) | Définition citée comme venant du manuel seul |
 | Arrêt CE du 21 déc. 1990 CNAFC (n° 105743) | Retrouvé sur Légifrance (n° 105743, 105810-105812) : DUDH écartée (art. 55), art. 6 du Pacte examiné, lois IVG 1975 et 1979 compatibles | Confirmé |
 | Adhésion de l'UE à la CEDH « courant 2023 ou 2024 » | Saisine de la CJUE pour avis en novembre 2025 | Mis à jour dans le cours (partie V) |
 | Proposition de loi constitutionnelle sur l'IVG « en discussion » | Loi constitutionnelle n° 2024-200 du 8 mars 2024 (art. 34) | Mis à jour ; texte non relu sur Légifrance |
-| Åkerberg Fransson, Melloni | Identifiés et sens général confirmés par des études en ligne, texte non lu | Manuel + recherche |
-| Avis 2/13, arrêts CJCE anciens | Non relus | Manuel seul, signalé |
+| Åkerberg Fransson, Melloni | Communiqués officiels de la Cour (n° 19/13 et 17/13) lus en entier : confirment le manuel | Confirmé (communiqués, pas les arrêts ; EUR-Lex bloque les lectures automatiques) |
+| Avis 2/13 | Communiqué officiel n° 180/14 lu en entier : motifs détaillés | Confirmé |
+| Avis 1/25 (adhésion) | Saisine de novembre 2025 ; aucun avis trouvé au 4 novembre 2026 | À recontrôler |
+| Arrêts anciens de la CJCE (Stauder, Nold, Rutili, ERT…) | Non relus | Manuel seul, signalé |
 | 70-39 DC : référence au Préambule | Visas « notamment son préambule » confirmés | Confirmé |
