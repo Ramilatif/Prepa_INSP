@@ -58,7 +58,7 @@ Désaccords consignés dans docs/VERIFICATION.md : 1 (tranché par la source off
 Cours rédigés (type « cours »), rangés par domaine du droit public (les trois cours de droit constitutionnel ont le statut « concordance avec les ouvrages vérifiée » depuis la vérification affirmation par affirmation du 2026-11-03, voir docs/VERIFICATION.md ; les deux cours de droit administratif l'ont aussi depuis la vérification contre le Degoffe, voir docs/VERIFICATION.md) :
 - Droit constitutionnel : 3 (hiérarchie des normes et principe de légalité ; Conseil constitutionnel et contrôle de constitutionnalité DC/QPC ; Président, Gouvernement, Parlement et procédure législative)
 - Droit administratif : 2 (actes administratifs et recours pour excès de pouvoir ; responsabilité de la puissance publique)
-- Libertés et droits fondamentaux : 2 (CEDH et Cour de Strasbourg, brouillon ; protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; statut « sources officielles vérifiées » après la vérification du 2026-11-04, voir docs/VERIFICATION.md) ; Droit de l'Union européenne : 0
+- Libertés et droits fondamentaux : 3 (libertés en période exceptionnelle, brouillon, 2026-11-04 ; CEDH et Cour de Strasbourg, brouillon ; protection juridictionnelle en droit interne : juge judiciaire, voie de fait, référé-liberté, référé-suspension, déféré-laïcité ; statut « sources officielles vérifiées » après la vérification du 2026-11-04, voir docs/VERIFICATION.md) ; Droit de l'Union européenne : 0
 
 ## Annales
 
