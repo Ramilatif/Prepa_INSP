@@ -10,7 +10,7 @@ epreuves: [op_droit_public]
 maj: 2026-11-04
 statut: brouillon
 sources:
-  - Convention européenne des droits de l'homme (texte officiel de la Cour, version incluant le Protocole n° 15) : préambule et art. 1, 19 à 23, 26, 32 à 35, 41, 43, 44, 46, 47
+  - Convention européenne des droits de l'homme (texte officiel de la Cour, version incluant le Protocole n° 15), préambule et art. 1, 19 à 23, 26, 32 à 35, 41, 43, 44, 46, 47
   - Protocole n° 15 (entré en vigueur le 1er août 2021 ; délai de quatre mois à partir du 1er février 2022) ; Protocole n° 16 (en vigueur depuis le 1er août 2018 pour les États qui l'ont ratifié)
   - Cour européenne des droits de l'homme, Verein KlimaSeniorinnen Schweiz et autres c. Suisse, Grande Chambre, 9 avril 2024
   - de Ravel d'Esclapon, La Convention européenne des droits de l'Homme en schémas (Ellipses, 2024) ; Denizeau, Droit des libertés fondamentales (édition 2023 selon l'utilisateur)
